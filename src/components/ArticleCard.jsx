@@ -1,0 +1,91 @@
+import React from 'react';
+import { 
+  ArrowUpRight, 
+  Calendar, 
+  Download, 
+  Quote, 
+  FileText, 
+  Eye, 
+  Share2 
+} from 'lucide-react';
+
+export default function ArticleCard({ article, onSelect }) {
+  return (
+    <div 
+      onClick={() => onSelect(article)}
+      className="article-card group bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 flex flex-col justify-between cursor-pointer transform hover:-translate-y-1.5"
+    >
+      <div>
+        {/* Card Image Header with Category Tag */}
+        <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
+          <img 
+            src={article.image} 
+            alt={article.title} 
+            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+          
+          {/* Category Pill */}
+          <div className="absolute top-3 left-3">
+            <span className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm border backdrop-blur-md ${article.categoryColor}`}>
+              {article.category}
+            </span>
+          </div>
+
+          {/* Quick Metrics on Image */}
+          <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-[11px] font-medium">
+            <span className="flex items-center space-x-1 opacity-90">
+              <Calendar className="w-3 h-3 text-amber-400" />
+              <span>{article.date}</span>
+            </span>
+            <span className="flex items-center space-x-1 opacity-90">
+              <Quote className="w-3 h-3 text-amber-400" />
+              <span>{article.citations} Cites</span>
+            </span>
+          </div>
+        </div>
+
+        {/* Card Body */}
+        <div className="p-5 space-y-3">
+          {/* Volume / DOI snippet */}
+          <div className="flex items-center justify-between text-[11px] text-slate-400 font-mono">
+            <span>{article.volume}</span>
+            <span className="text-blue-700 font-semibold truncate max-w-[120px]">
+              DOI: {article.doi.replace('10.5281/', '')}
+            </span>
+          </div>
+
+          {/* Article Title */}
+          <h4 className="text-base font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug font-serif-title">
+            {article.title}
+          </h4>
+
+          {/* Authors */}
+          <p className="text-xs text-slate-500 line-clamp-1 font-medium">
+            {article.authors.map(a => a.name).join(', ')}
+          </p>
+
+          {/* Abstract Snippet */}
+          <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+            {article.abstract}
+          </p>
+        </div>
+      </div>
+
+      {/* Card Footer: Action Bar */}
+      <div className="px-5 pb-5 pt-2 border-t border-slate-100 flex items-center justify-between">
+        <span className="text-[11px] font-semibold text-slate-500">
+          {article.readTime}
+        </span>
+        <button 
+          className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#0f3b6c] group-hover:text-amber-600 transition-colors"
+          aria-label={`Read article: ${article.title}`}
+        >
+          <span>View Article</span>
+          <ArrowUpRight className="w-3.5 h-3.5 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+        </button>
+      </div>
+    </div>
+  );
+}
