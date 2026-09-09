@@ -1,70 +1,20 @@
-import React, { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ArrowRight, BookOpen, ChevronDown, FileText, Menu, Search, Send, ShieldCheck, Sparkles, X } from 'lucide-react';
 import { useLenis } from '../hooks/useLenis';
 import ParticlesBackground from '../components/ParticlesBackground';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import GeneralInfo from '../components/GeneralInfo';
-import FeaturedArticles from '../components/FeaturedArticles';
-import Footer from '../components/Footer';
-import ArticleModal from '../components/ArticleModal';
-import SubmitModal from '../components/SubmitModal';
-import SearchModal from '../components/SearchModal';
 
-export default function Home() {
-  // Initialize Lenis smooth scroll synchronized with GSAP
-  useLenis();
-
-  const [selectedArticle, setSelectedArticle] = useState(null);
-  const [isSubmitOpen, setIsSubmitOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-
-  return (
-    <div className="relative min-h-screen bg-[#f8fafc] text-slate-900 overflow-x-hidden font-sans">
-      {/* Dynamic Subtle Particle Network */}
-      <ParticlesBackground />
-
-      {/* Sticky Header with Navigation Dropdowns */}
-      <Header 
-        onOpenSubmit={() => setIsSubmitOpen(true)}
-        onOpenSearch={() => setIsSearchOpen(true)}
-      />
-
-      {/* Main Content Sections strictly following Wireframe structure */}
-      <main className="relative z-10">
-        {/* 1. Hero / Introductory Section */}
-        <Hero 
-          onOpenSubmit={() => setIsSubmitOpen(true)}
-          onOpenArticle={(art) => setSelectedArticle(art)}
-        />
-
-        {/* 2. General Information Section: [ Mission ] [ General Information ] [ Vision ] */}
-        <GeneralInfo />
-
-        {/* 3. Featured Articles Section: 4 Cards Responsive Grid */}
-        <FeaturedArticles 
-          onSelectArticle={(art) => setSelectedArticle(art)}
-        />
-      </main>
-
-      {/* 4. Footer Section */}
-      <Footer />
-
-      {/* Interactive Modals */}
-      <ArticleModal 
-        article={selectedArticle} 
-        onClose={() => setSelectedArticle(null)} 
-      />
-
-      <SubmitModal 
-        isOpen={isSubmitOpen} 
-        onClose={() => setIsSubmitOpen(false)} 
-      />
-
-      <SearchModal 
-        isOpen={isSearchOpen} 
-        onClose={() => setIsSearchOpen(false)}
-        onSelectArticle={(art) => setSelectedArticle(art)}
-      />
-    </div>
-  );
-}
+gsap.registerPlugin(ScrollTrigger);
+const papers=[['FEATURED PAPER','Designing Resilient Systems for a Changing World','A. Morgan · R. Chen','12 min read'],['RESEARCH NOTE','The Human Side of Useful Technology','L. Okafor · M. Singh','8 min read'],['EDITOR’S CHOICE','New Pathways for Sustainable Innovation','E. Laurent · J. Park','15 min read'],['PERSPECTIVE','Where Curiosity Meets Practical Progress','S. Wright · N. Patel','10 min read']];
+const nav=[['About',['Vision & Scope','Publication Details','Editorial Board','Contact Us']],['Guidelines',['For Authors','Review Process','Ethics & Integrity']],['Papers',['Current Issues','Featured Articles','Archives']]];
+function Drop({label,items}){const [open,setOpen]=useState(false);return <div className="nav-drop" onMouseEnter={()=>setOpen(true)} onMouseLeave={()=>setOpen(false)}><button onClick={()=>setOpen(!open)}>{label}<ChevronDown size={14}/></button>{open&&<div className="drop-menu">{items.map(item=><a href="#featured" key={item}>{item}</a>)}</div>}</div>}
+export default function Home(){const root=useRef(null);const [mobile,setMobile]=useState(false);const [search,setSearch]=useState(false);useLenis();useEffect(()=>{if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const ctx=gsap.context(()=>{gsap.fromTo('.hero-in',{y:24,autoAlpha:0},{y:0,autoAlpha:1,duration:.75,stagger:.11,ease:'power3.out',clearProps:'transform'});gsap.utils.toArray('.reveal').forEach(el=>gsap.fromTo(el,{y:25,autoAlpha:0},{y:0,autoAlpha:1,duration:.65,ease:'power3.out',clearProps:'transform',scrollTrigger:{trigger:el,start:'top 88%',once:true}}));gsap.utils.toArray('.paper-grid').forEach(grid=>gsap.fromTo(grid.children,{y:22,autoAlpha:0},{y:0,autoAlpha:1,duration:.55,stagger:.09,ease:'power3.out',clearProps:'transform',scrollTrigger:{trigger:grid,start:'top 88%',once:true}}));},root);return()=>ctx.revert()},[]);return <div ref={root} className="journal"><ParticlesBackground/>
+ <header><div className="header-inner"><a className="journal-brand" href="#top"><strong>IJSPAST</strong><span>International Journal of<br/>Scientific Progress in<br/>Applied Science & Technology</span></a><nav className={mobile?'mobile-open':''}>{nav.map(([label,items])=><Drop key={label} label={label} items={items}/>)}<a href="#submit">Submit</a></nav><div className="tools"><button onClick={()=>setSearch(true)} aria-label="Search"><Search size={18}/></button><a href="#submit" className="submit-small">Submit paper</a><button className="mobile-toggle" onClick={()=>setMobile(!mobile)}>{mobile?<X/>:<Menu/>}</button></div></div></header>
+ {search&&<div className="search-layer"><button onClick={()=>setSearch(false)}><X/></button><div><span>SEARCH THE JOURNAL</span><h2>Find an article or topic.</h2><label><Search size={20}/><input autoFocus placeholder="Keywords, title, author..."/></label></div></div>}
+ <main id="top"><section className="journal-hero"><div className="wrap hero-layout"><div className="hero-copy"><p className="eyebrow hero-in">An open platform for applied ideas</p><h1 className="hero-in">International Journal of <em>Scientific Progress</em> in Applied Science & Technology</h1><div className="journal-rule hero-in"></div><p className="hero-text hero-in">IJSPAST is an independent multidisciplinary publication for original, practical, and forward-looking work. We connect rigorous ideas with the people and progress they can serve.</p><div className="hero-in hero-actions"><a href="#featured" className="gold-button">Explore featured work <ArrowRight size={16}/></a><a href="#submit" className="plain-link">Submit your work <ArrowRight size={15}/></a></div></div><div className="hero-images hero-in"><div className="image-main"><div className="image-grid"></div><BookOpen size={52}/><span>APPLIED IDEAS<br/>FORWARD</span></div><div className="image-mini"><Sparkles size={22}/><strong>Issue<br/>01</strong></div><p>VOLUME 01 · 2026</p></div></div></section>
+ <section className="info-section"><div className="wrap"><p className="section-label reveal">GENERAL INFORMATION</p><div className="info-grid"><article className="info-card reveal"><span>01</span><h2>Our Mission</h2><p>To make meaningful knowledge easier to discover, share, and put into action across disciplines.</p></article><article className="info-card primary reveal"><span>02</span><h2>About the Journal</h2><p>A thoughtful, international space for work that is original, relevant, and built to move applied science and technology forward.</p><a href="#featured">Learn about IJSPAST <ArrowRight size={15}/></a></article><article className="info-card reveal"><span>03</span><h2>Our Vision</h2><p>To cultivate a more open, connected future for progress—where useful research reaches beyond its field.</p></article></div></div></section>
+ <section id="featured" className="featured"><div className="wrap"><div className="section-heading reveal"><div><p className="section-label">LATEST FROM IJSPAST</p><h2>Featured articles.</h2></div><a className="plain-link" href="#archive">Browse all articles <ArrowRight size={15}/></a></div><div className="paper-grid">{papers.map(([type,title,authors,time],i)=><article className="paper" key={title}><div className={`paper-image image-${i+1}`}><span>{String(i+1).padStart(2,'0')}</span><div></div></div><p className="paper-type">{type}</p><h3>{title}</h3><p className="authors">{authors}</p><div className="paper-footer"><span>{time}</span><a href="#submit"><ArrowRight size={17}/></a></div></article>)}</div></div></section>
+ <section id="submit" className="callout"><div className="wrap"><div className="callout-box reveal"><div><p className="eyebrow">Contribute to the conversation</p><h2>Have an idea worth sharing?</h2><p>We welcome clear, original work from practitioners, researchers, and independent thinkers across applied science and technology.</p></div><a className="gold-button" href="mailto:editor@example.com"><Send size={16}/> Read submission guidelines</a></div></div></section></main>
+ <footer id="archive"><div className="wrap footer-grid"><div><a className="journal-brand footer-brand" href="#top"><strong>IJSPAST</strong><span>International Journal of<br/>Scientific Progress in<br/>Applied Science & Technology</span></a></div><div><h4>About</h4><a>Vision & Scope</a><a>Publication Details</a><a>Editorial Board</a><a>Contact Us</a></div><div><h4>Guidelines</h4><a>For Authors</a><a>Peer Review</a><a>Publication Ethics</a></div><div><h4>Papers</h4><a>Current Issue</a><a>Featured Articles</a><a>Archives</a></div><div><h4>Policy</h4><a>Privacy Policy</a><a>Terms of Use</a><a>Accessibility</a></div></div><div className="wrap footer-bottom">© 2026 IJSPAST. All rights reserved. <span>Built for thoughtful progress.</span></div></footer>
+ </div>}

@@ -24,12 +24,12 @@ export function useLenis() {
     // Connect Lenis to GSAP ScrollTrigger
     lenis.on('scroll', ScrollTrigger.update);
 
-    const updateTicker = (time) => {
-      lenis.raf(time * 1000);
-    };
+    const updateTicker = (time) => lenis.raf(time * 1000);
 
     gsap.ticker.add(updateTicker);
-    gsap.ticker.lagSmoothing(0);
+    // Keep GSAP's default lag smoothing: disabling it can make ScrollTrigger
+    // jump after a tab is inactive and leave animated content out of view.
+    ScrollTrigger.refresh();
 
     return () => {
       gsap.ticker.remove(updateTicker);
