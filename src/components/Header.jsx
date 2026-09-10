@@ -36,9 +36,9 @@ export default function Header({ onOpenSearch }) {
       href: "/guidelines",
       dropdown: [
         { title: "Authors Guidelines", href: "/guidelines", desc: "Preparation rules & requirements" },
-        { title: "Manuscript Template (.DOC)", href: "/template", desc: "Camera-ready typography specifications" },
-        { title: "IEEE Referencing Style", href: "/referencing-style", desc: "Citation & attribution standards" },
-        { title: "Publication Ethics & AI Policy", href: "/ethics-policy", desc: "COPE compliance & plagiarism limits" }
+        // { title: "Manuscript Template (.DOC)", href: "/template", desc: "Camera-ready typography specifications" },
+        // { title: "IEEE Referencing Style", href: "/referencing-style", desc: "Citation & attribution standards" },
+        // { title: "Publication Ethics & AI Policy", href: "/ethics-policy", desc: "COPE compliance & plagiarism limits" }
       ]
     },
     {
@@ -116,8 +116,8 @@ export default function Header({ onOpenSearch }) {
                 <Link
                   to={item.href}
                   className={`flex items-center space-x-1 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer ${location.pathname.startsWith(item.href) || activeDropdown === item.name
-                      ? 'text-[#0f4a85] bg-slate-100'
-                      : 'text-slate-700 hover:text-[#0f4a85] hover:bg-slate-50'
+                    ? 'text-[#0f4a85] bg-slate-100'
+                    : 'text-slate-700 hover:text-[#0f4a85] hover:bg-slate-50'
                     }`}
                   aria-expanded={activeDropdown === item.name}
                 >
