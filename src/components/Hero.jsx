@@ -19,51 +19,18 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
   const visualCardRef = useRef(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
+    const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-      tl.from('.hero-badge', {
-        y: -20,
-        opacity: 0,
-        duration: 0.6,
-        delay: 0.1
-      })
-      .from('.hero-headline', {
-        y: 35,
-        opacity: 0,
-        duration: 0.8,
-      }, '-=0.4')
-      .from('.hero-desc', {
-        y: 20,
-        opacity: 0,
-        duration: 0.6
-      }, '-=0.4')
-      .from('.hero-cta-btn', {
-        y: 20,
-        opacity: 0,
-        duration: 0.5,
-        stagger: 0.1
-      }, '-=0.3')
-      .from(visualCardRef.current, {
-        scale: 0.92,
-        opacity: 0,
-        duration: 0.9,
-        ease: 'back.out(1.4)'
-      }, '-=0.6')
-      .from('.hero-floating-card', {
-        y: 30,
-        opacity: 0,
-        duration: 0.6,
-        stagger: 0.15
-      }, '-=0.4')
-      .from('.hero-stat-card', {
-        y: 25,
-        opacity: 0,
-        duration: 0.5,
-        stagger: 0.08
-      }, '-=0.3');
+      tl.fromTo('.hero-badge', { y: -15, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, delay: 0.1 })
+        .fromTo('.hero-headline', { y: 25, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, '-=0.3')
+        .fromTo('.hero-desc', { y: 15, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 }, '-=0.3')
+        .fromTo('.hero-cta-btn', { y: 15, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, stagger: 0.08 }, '-=0.2')
+        .fromTo(visualCardRef.current, { scale: 0.95, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.7, ease: 'back.out(1.2)' }, '-=0.4')
+        .fromTo('.hero-floating-card', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.1 }, '-=0.3')
+        .fromTo('.hero-stat-card', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, stagger: 0.06 }, '-=0.2');
 
     }, heroRef);
 
@@ -75,9 +42,9 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
       ref={heroRef}
       className="relative pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden subtle-mesh-bg"
     >
-      {/* Ambient background glows */}
-      <div className="absolute top-1/4 left-1/10 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none -z-10 animate-pulse-subtle"></div>
-      <div className="absolute top-1/3 right-1/10 w-96 h-96 bg-amber-400/15 rounded-full blur-3xl pointer-events-none -z-10"></div>
+      {/* Ambient soft background glows without heavy overflow blur */}
+      <div className="absolute top-1/4 left-1/10 w-80 h-80 bg-blue-300/15 rounded-full blur-2xl pointer-events-none -z-10"></div>
+      <div className="absolute top-1/3 right-1/10 w-80 h-80 bg-amber-300/20 rounded-full blur-2xl pointer-events-none -z-10"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
@@ -168,13 +135,13 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
 
           {/* Right Column: Interactive Image Hover Showcase matching Wireframe */}
           <div className="lg:col-span-5 relative flex justify-center items-center">
-            {/* Ambient halo glow */}
-            <div className="absolute -inset-4 bg-gradient-to-tr from-blue-600/15 via-amber-400/20 to-blue-800/10 rounded-3xl filter blur-xl -z-10 transform rotate-1"></div>
+            {/* Soft backdrop glow */}
+            <div className="absolute -inset-2 bg-gradient-to-tr from-blue-600/10 via-amber-400/15 to-blue-800/10 rounded-3xl filter blur-lg -z-10"></div>
             
             {/* Showcase Visual Card */}
             <div 
               ref={visualCardRef}
-              className="relative w-full max-w-md bg-white rounded-2xl p-4 sm:p-5 shadow-2xl border border-slate-200/90 transition-all duration-500 hover:shadow-glass-hover group"
+              className="relative w-full max-w-md bg-white rounded-2xl p-4 sm:p-5 shadow-xl border border-slate-200/90 transition-all duration-500 hover:shadow-2xl group"
             >
               <div className="relative overflow-hidden rounded-xl bg-gradient-to-b from-[#0f3b6c] to-[#081627] text-white aspect-[4/4.8] flex flex-col justify-between p-6 shadow-inner border border-amber-400/20">
                 
@@ -208,7 +175,7 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
                     <img 
                       src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" 
                       alt="Metamaterial Absorber & 5G Wireless Research" 
-                      className="w-full h-36 object-cover transform group-hover:scale-110 transition-transform duration-700 filter brightness-95"
+                      className="w-full h-36 object-cover transform group-hover:scale-110 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent flex items-end p-3">
                       <div className="flex items-center space-x-2 text-white">
@@ -229,7 +196,7 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
                   </div>
                   <button 
                     onClick={() => onOpenGuidelines?.('guidelines')}
-                    className="px-2.5 py-1 rounded bg-amber-400 text-slate-950 font-bold hover:bg-amber-300 transition-colors"
+                    className="px-2.5 py-1 rounded bg-amber-400 text-slate-950 font-bold hover:bg-amber-300 transition-colors cursor-pointer"
                   >
                     Guidelines
                   </button>
@@ -237,7 +204,7 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
               </div>
 
               {/* Floating Badge 1 (Top Right) */}
-              <div className="hero-floating-card absolute -top-4 -right-4 sm:-right-6 bg-white/95 backdrop-blur-md rounded-xl p-3 shadow-lg border border-slate-200/90 flex items-center space-x-2.5 animate-float">
+              <div className="hero-floating-card absolute -top-4 -right-4 sm:-right-6 bg-white rounded-xl p-3 shadow-lg border border-slate-200/90 flex items-center space-x-2.5 animate-float">
                 <div className="w-9 h-9 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center font-bold">
                   <Award className="w-5 h-5" />
                 </div>
@@ -248,7 +215,7 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
               </div>
 
               {/* Floating Badge 2 (Bottom Left) */}
-              <div className="hero-floating-card absolute -bottom-4 -left-4 sm:-left-6 bg-white/95 backdrop-blur-md rounded-xl p-3 shadow-lg border border-slate-200/90 flex items-center space-x-2.5 animate-float [animation-delay:2s]">
+              <div className="hero-floating-card absolute -bottom-4 -left-4 sm:-left-6 bg-white rounded-xl p-3 shadow-lg border border-slate-200/90 flex items-center space-x-2.5 animate-float [animation-delay:2s]">
                 <div className="w-9 h-9 rounded-lg bg-blue-100 text-[#0f3b6c] flex items-center justify-center font-bold">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
@@ -269,7 +236,7 @@ export default function Hero({ onOpenContact, onOpenGuidelines }) {
             {journalInfo.stats.map((stat, idx) => (
               <div 
                 key={idx}
-                className="hero-stat-card bg-white/90 backdrop-blur-sm rounded-xl p-4 border border-slate-200/80 shadow-2xs hover:shadow-md hover:border-amber-300/80 transition-all duration-200 text-center flex flex-col items-center group"
+                className="hero-stat-card bg-white rounded-xl p-4 border border-slate-200/80 shadow-2xs hover:shadow-md hover:border-amber-300/80 transition-all duration-200 text-center flex flex-col items-center group"
               >
                 <div className="text-xl sm:text-2xl font-extrabold text-[#0f3b6c] group-hover:text-amber-600 transition-colors">
                   {stat.value}

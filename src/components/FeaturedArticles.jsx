@@ -26,37 +26,45 @@ export default function FeaturedArticles({ onSelectArticle, onOpenGuidelines }) 
     : featuredTemplateArticles.filter(art => art.category === activeCategory);
 
   useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return;
+    }
+
     const ctx = gsap.context(() => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        return;
-      }
+      gsap.fromTo('.articles-header', 
+        { y: 25, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.6,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: 'top 85%',
+            once: true
+          }
+        }
+      );
 
-      gsap.from('.articles-header', {
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: 'top 80%',
-        },
-        y: 30,
-        opacity: 0,
-        duration: 0.7,
-        ease: 'power3.out'
-      });
-
-      gsap.from('.article-card', {
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: 'top 75%',
-        },
-        y: 45,
-        opacity: 0,
-        duration: 0.7,
-        stagger: 0.12,
-        ease: 'power3.out'
-      });
+      gsap.fromTo('.article-card', 
+        { y: 30, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.6,
+          stagger: 0.1,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: 'top 80%',
+            once: true
+          }
+        }
+      );
     }, sectionRef);
 
     return () => ctx.revert();
-  }, [activeCategory]);
+  }, []);
 
   return (
     <section 

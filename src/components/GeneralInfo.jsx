@@ -48,49 +48,45 @@ export default function GeneralInfo({ onOpenGuidelines }) {
     : journalScopeTopics.filter(t => t.category === selectedCategory);
 
   useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return;
+    }
+
     const ctx = gsap.context(() => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        return;
-      }
+      gsap.fromTo('.geninfo-header', 
+        { y: 25, opacity: 0 }, 
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.6,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: 'top 85%',
+            once: true
+          }
+        }
+      );
 
-      gsap.from('.geninfo-header', {
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: 'top 80%',
-        },
-        y: 30,
-        opacity: 0,
-        duration: 0.7,
-        ease: 'power3.out'
-      });
-
-      gsap.from('.geninfo-card', {
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: 'top 75%',
-        },
-        y: 40,
-        opacity: 0,
-        duration: 0.7,
-        stagger: 0.18,
-        ease: 'power3.out'
-      });
-
-      gsap.from('.scope-badge-card', {
-        scrollTrigger: {
-          trigger: '#scope',
-          start: 'top 80%',
-        },
-        y: 20,
-        opacity: 0,
-        duration: 0.5,
-        stagger: 0.03,
-        ease: 'power3.out'
-      });
+      gsap.fromTo('.geninfo-card', 
+        { y: 30, opacity: 0 }, 
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.6,
+          stagger: 0.15,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: 'top 80%',
+            once: true
+          }
+        }
+      );
     }, sectionRef);
 
     return () => ctx.revert();
-  }, [selectedCategory]);
+  }, []);
 
   return (
     <section 
