@@ -6,7 +6,7 @@ import { Award, ShieldCheck, Building2, Globe } from 'lucide-react';
 export default function PatronsAdvisory() {
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
-      
+
       {/* Page Hero */}
       <PageHero
         title="Patrons & Advisory Leadership"
@@ -18,8 +18,8 @@ export default function PatronsAdvisory() {
         ]}
       />
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-16 text-left">
-        
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-16 text-left">
+
         {/* ================= PATRONS SECTION ================= */}
         <div className="space-y-6">
           <div className="flex items-center space-x-4">

@@ -12,7 +12,7 @@ export default function PatronsSection() {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     const ctx = gsap.context(() => {
-      gsap.fromTo('.patrons-header', 
+      gsap.fromTo('.patrons-header',
         { y: 15, opacity: 0 },
         {
           y: 0,
@@ -27,7 +27,7 @@ export default function PatronsSection() {
         }
       );
 
-      gsap.fromTo('.patron-card', 
+      gsap.fromTo('.patron-card',
         { y: 20, opacity: 0 },
         {
           y: 0,
@@ -48,16 +48,16 @@ export default function PatronsSection() {
   }, []);
 
   return (
-    <section 
+    <section
       id="patrons"
       ref={sectionRef}
       className="py-12 md:py-16 bg-transparent relative z-10 overflow-hidden"
     >
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+
         {/* ================= PATRONS SECTION ================= */}
         <div className="space-y-6">
-          
+
           {/* Section Divider Heading: Patrons */}
           <div className="patrons-header flex items-center justify-center space-x-4">
             <div className="h-px bg-slate-300/80 flex-1 max-w-[100px] sm:max-w-[180px]"></div>
@@ -101,7 +101,7 @@ export default function PatronsSection() {
 
         {/* ================= CO PATRONS SECTION ================= */}
         <div className="space-y-6">
-          
+
           {/* Section Divider Heading: Co Patrons */}
           <div className="patrons-header flex items-center justify-center space-x-4">
             <div className="h-px bg-slate-300/80 flex-1 max-w-[100px] sm:max-w-[180px]"></div>
