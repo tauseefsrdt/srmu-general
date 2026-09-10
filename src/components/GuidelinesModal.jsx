@@ -49,11 +49,11 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
         {/* Header */}
         <div className="px-6 py-4 sm:px-8 sm:py-5 border-b border-slate-100 flex items-center justify-between bg-white/95 backdrop-blur-md shrink-0">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0f3b6c] to-[#081627] text-amber-400 flex items-center justify-center font-bold shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0f4a85] to-[#081627] text-amber-400 flex items-center justify-center font-bold shadow-sm">
               <FileText className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-bold text-[#0f3b6c]">
+              <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85]">
                 Authors & Editorial Guidelines
               </h3>
               <p className="text-xs text-slate-500">
@@ -83,8 +83,8 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
               onClick={() => setActiveTab(tab.id)}
               className={`py-3 px-3 text-xs font-bold border-b-2 whitespace-nowrap transition-all cursor-pointer ${
                 activeTab === tab.id
-                  ? 'border-blue-700 text-[#0f3b6c] bg-white rounded-t-lg'
-                  : 'border-transparent text-slate-600 hover:text-[#0f3b6c]'
+                  ? 'border-blue-700 text-[#0f4a85] bg-white rounded-t-lg'
+                  : 'border-transparent text-slate-600 hover:text-[#0f4a85]'
               }`}
             >
               {tab.label}
@@ -101,7 +101,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
               <div className="bg-blue-50/60 p-4 rounded-2xl border border-blue-100 flex items-start space-x-3">
                 <Sparkles className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-bold text-[#0f3b6c] text-sm">Language & Accepted File Formats</h4>
+                  <h4 className="font-bold text-[#0f4a85] text-sm">Language & Accepted File Formats</h4>
                   <p className="text-xs text-slate-600 mt-1">
                     {authorGuidelinesData.preparation.language}
                   </p>
@@ -116,13 +116,13 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
               </div>
 
               <div className="space-y-3">
-                <h4 className="font-bold text-[#0f3b6c] text-base border-b border-slate-100 pb-2">
+                <h4 className="font-bold text-[#0f4a85] text-base border-b border-slate-100 pb-2">
                   Manuscript Section Hierarchy
                 </h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {authorGuidelinesData.manuscriptStructure.map((item, idx) => (
                     <div key={idx} className="p-4 rounded-xl bg-slate-50/80 border border-slate-200/90 space-y-1">
-                      <div className="flex items-center space-x-2 font-bold text-[#0f3b6c] text-xs">
+                      <div className="flex items-center space-x-2 font-bold text-[#0f4a85] text-xs">
                         <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-800 flex items-center justify-center text-[10px]">
                           {idx + 1}
                         </span>
@@ -141,7 +141,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
           {/* TAB 2: Template & Formatting */}
           {activeTab === 'template' && (
             <div className="space-y-6 animate-in fade-in duration-200">
-              <div className="bg-gradient-to-r from-[#0f3b6c] to-[#081627] text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
+              <div className="bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
                 <div className="space-y-1 text-center sm:text-left">
                   <h4 className="text-lg font-bold text-white">Download Standard Manuscript Template</h4>
                   <p className="text-xs text-amber-200/90">
@@ -158,7 +158,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
               </div>
 
               <div className="space-y-3">
-                <h4 className="font-bold text-[#0f3b6c] text-base border-b border-slate-100 pb-2">
+                <h4 className="font-bold text-[#0f4a85] text-base border-b border-slate-100 pb-2">
                   Typography & Spacing Specifications (Template Rules)
                 </h4>
                 <div className="overflow-x-auto">
@@ -173,7 +173,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
                     <tbody className="divide-y divide-slate-100 bg-white">
                       {templateSpecs.fontHierarchy.map((row, idx) => (
                         <tr key={idx} className="hover:bg-slate-50 transition-colors">
-                          <td className="p-3 font-semibold text-[#0f3b6c]">{row.element}</td>
+                          <td className="p-3 font-semibold text-[#0f4a85]">{row.element}</td>
                           <td className="p-3 font-mono text-slate-600">{row.font}</td>
                           <td className="p-3 text-slate-500">{row.spacing}</td>
                         </tr>
@@ -189,7 +189,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
           {activeTab === 'referencing' && (
             <div className="space-y-6 animate-in fade-in duration-200">
               <div className="space-y-2">
-                <h4 className="font-bold text-[#0f3b6c] text-base">
+                <h4 className="font-bold text-[#0f4a85] text-base">
                   {authorGuidelinesData.referencingStyle.name}
                 </h4>
                 <p className="text-xs text-slate-600 leading-relaxed">
@@ -230,7 +230,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
                     <div className="w-6 h-6 rounded-md bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xs">
                       {idx === 2 ? <Bot className="w-4 h-4" /> : <ShieldCheck className="w-4 h-4" />}
                     </div>
-                    <h4 className="font-bold text-[#0f3b6c] text-sm">
+                    <h4 className="font-bold text-[#0f4a85] text-sm">
                       {pol.title}
                     </h4>
                   </div>
@@ -277,7 +277,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
           </span>
           <button
             onClick={onClose}
-            className="px-5 py-2 rounded-xl text-xs font-bold bg-[#0f3b6c] text-white hover:bg-blue-800 transition-colors cursor-pointer"
+            className="px-5 py-2 rounded-xl text-xs font-bold bg-[#0f4a85] text-white hover:bg-blue-800 transition-colors cursor-pointer"
           >
             Close Guidelines
           </button>

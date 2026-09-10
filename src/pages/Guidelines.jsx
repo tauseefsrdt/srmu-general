@@ -65,7 +65,7 @@ export default function Guidelines() {
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               className={`py-2.5 px-4 text-xs font-bold rounded-xl transition-all cursor-pointer ${activeTab === tab.id
-                ? 'bg-[#0f3b6c] text-white shadow-xs'
+                ? 'bg-[#0f4a85] text-white shadow-xs'
                 : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                 }`}
             >
@@ -82,7 +82,7 @@ export default function Guidelines() {
                 <Sparkles className="w-3.5 h-3.5 text-amber-600" />
                 <span>General Preparation Guidance</span>
               </div>
-              <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
                 Manuscript Language & Accepted Formats
               </h3>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed max-w-3xl">
@@ -90,7 +90,7 @@ export default function Guidelines() {
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
                 {authorGuidelinesData.preparation.formats.map((fmt, i) => (
-                  <div key={i} className="flex items-center space-x-2 text-xs font-semibold bg-blue-50/80 text-[#0f3b6c] px-4 py-2 rounded-xl border border-blue-200">
+                  <div key={i} className="flex items-center space-x-2 text-xs font-semibold bg-blue-50/80 text-[#0f4a85] px-4 py-2 rounded-xl border border-blue-200">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                     <span>{fmt}</span>
                   </div>
@@ -99,13 +99,13 @@ export default function Guidelines() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-bold text-[#0f3b6c] border-b border-slate-200 pb-2">
+              <h3 className="text-xl font-bold text-[#0f4a85] border-b border-slate-200 pb-2">
                 Manuscript Section Hierarchy (Research Papers)
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {authorGuidelinesData.manuscriptStructure.map((item, idx) => (
                   <div key={idx} className="academic-card p-5 rounded-2xl bg-white space-y-2">
-                    <div className="flex items-center space-x-2 font-bold text-[#0f3b6c] text-sm">
+                    <div className="flex items-center space-x-2 font-bold text-[#0f4a85] text-sm">
                       <span className="w-6 h-6 rounded-lg bg-blue-100 text-blue-900 flex items-center justify-center text-xs">
                         {idx + 1}
                       </span>
@@ -124,9 +124,9 @@ export default function Guidelines() {
         {/* Tab 2: Template & Formatting */}
         {activeTab === 'template' && (
           <div className="space-y-8 animate-in fade-in duration-200">
-            <div className="academic-card p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#0f3b6c] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+            <div className="academic-card p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
               <div className="space-y-2 text-center sm:text-left">
-                <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">Download Camera-Ready Template (.DOC)</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">Download Camera-Ready Template (.DOC)</h3>
                 <p className="text-xs text-slate-700 max-w-xl">
                   Official reference document (`13. Template.doc`) containing exact font hierarchies, two-column layouts, table layouts, and IEEE reference stylings.
                 </p>
@@ -141,7 +141,7 @@ export default function Guidelines() {
             </div>
 
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-4">
-              <h3 className="text-lg sm:text-xl font-bold text-[#0f3b6c]">
+              <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85]">
                 Typography & Spacing Specifications (From Official Template)
               </h3>
               <div className="overflow-x-auto">
@@ -156,7 +156,7 @@ export default function Guidelines() {
                   <tbody className="divide-y divide-slate-100 bg-white">
                     {templateSpecs.fontHierarchy.map((row, idx) => (
                       <tr key={idx} className="hover:bg-slate-50 transition-colors">
-                        <td className="p-3.5 font-bold text-[#0f3b6c]">{row.element}</td>
+                        <td className="p-3.5 font-bold text-[#0f4a85]">{row.element}</td>
                         <td className="p-3.5 font-mono text-slate-700">{row.font}</td>
                         <td className="p-3.5 text-slate-500">{row.spacing}</td>
                       </tr>
@@ -172,7 +172,7 @@ export default function Guidelines() {
         {activeTab === 'referencing' && (
           <div className="space-y-8 animate-in fade-in duration-200">
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-3">
-              <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
                 {authorGuidelinesData.referencingStyle.name}
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -213,7 +213,7 @@ export default function Guidelines() {
                   <div className="w-8 h-8 rounded-xl bg-amber-100 text-amber-900 flex items-center justify-center font-bold text-xs">
                     {idx === 2 ? <Bot className="w-4 h-4" /> : <ShieldCheck className="w-4 h-4" />}
                   </div>
-                  <h4 className="font-bold text-[#0f3b6c] text-base">
+                  <h4 className="font-bold text-[#0f4a85] text-base">
                     {pol.title}
                   </h4>
                 </div>

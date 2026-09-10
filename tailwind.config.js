@@ -17,7 +17,7 @@ export default {
           600: '#0284c7',
           700: '#035d9c',
           800: '#074e82',
-          900: '#0f3b6c', // Main theme royal university navy
+          900: '#0f4a85', // Main theme royal university navy
           950: '#0b1e36', // Deep background navy
           dark: '#081627', // Deep footer navy
         },

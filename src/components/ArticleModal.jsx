@@ -64,7 +64,7 @@ export default function ArticleModal({ article, onClose }) {
         <div className="p-6 sm:p-8 space-y-6">
           
           {/* Article Title */}
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] font-serif-title leading-tight">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] font-serif-title leading-tight">
             {article.title}
           </h2>
 
@@ -87,7 +87,7 @@ export default function ArticleModal({ article, onClose }) {
           {/* DOI & Quick Info Bar */}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs bg-blue-50/60 p-3.5 rounded-xl border border-blue-100 text-slate-700">
             <div className="flex items-center space-x-2">
-              <span className="font-bold text-[#0f3b6c]">DOI:</span>
+              <span className="font-bold text-[#0f4a85]">DOI:</span>
               <a 
                 href={`https://doi.org/${article.doi}`} 
                 target="_blank" 

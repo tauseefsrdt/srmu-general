@@ -84,7 +84,7 @@ export default function PublicationDetails() {
         
         {/* Core Summary Overview Card */}
         <div className="academic-card rounded-3xl p-6 sm:p-10 text-left relative overflow-hidden bg-white">
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#0f3b6c] via-blue-600 to-amber-500"></div>
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#0f4a85] via-blue-600 to-amber-500"></div>
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-4">
@@ -92,7 +92,7 @@ export default function PublicationDetails() {
                 <ShieldCheck className="w-4 h-4 text-emerald-600" />
                 <span>Peer-Reviewed & Open Access</span>
               </div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] tracking-tight">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
                 {journalInfo.fullName} ({journalInfo.acronym})
               </h2>
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -126,7 +126,7 @@ export default function PublicationDetails() {
                 </Link>
                 <Link
                   to="/template"
-                  className="w-full inline-flex items-center justify-center space-x-2 py-2.5 px-4 rounded-xl text-xs font-semibold text-[#0f3b6c] bg-white hover:bg-slate-100 border border-slate-300 transition-all"
+                  className="w-full inline-flex items-center justify-center space-x-2 py-2.5 px-4 rounded-xl text-xs font-semibold text-[#0f4a85] bg-white hover:bg-slate-100 border border-slate-300 transition-all"
                 >
                   <Download className="w-3.5 h-3.5 text-amber-600" />
                   <span>View .DOC Template Specs</span>
@@ -139,7 +139,7 @@ export default function PublicationDetails() {
         {/* 9-Point Key Publication Metrics Grid */}
         <div className="space-y-6 text-left">
           <div className="border-b border-slate-200 pb-3">
-            <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">
+            <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
               Official Publication Specifications
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 mt-1">
@@ -155,14 +155,14 @@ export default function PublicationDetails() {
                   key={idx}
                   className="academic-card rounded-2xl p-5 flex items-start space-x-4 group"
                 >
-                  <div className="w-11 h-11 rounded-xl bg-blue-50 group-hover:bg-amber-100 text-[#0f3b6c] group-hover:text-amber-900 flex items-center justify-center shrink-0 transition-colors border border-blue-100/80">
+                  <div className="w-11 h-11 rounded-xl bg-blue-50 group-hover:bg-amber-100 text-[#0f4a85] group-hover:text-amber-900 flex items-center justify-center shrink-0 transition-colors border border-blue-100/80">
                     <IconComp className="w-5 h-5" />
                   </div>
                   <div className="space-y-1">
                     <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
                       {fact.label}
                     </span>
-                    <h4 className="text-sm font-bold text-[#0f3b6c] leading-snug">
+                    <h4 className="text-sm font-bold text-[#0f4a85] leading-snug">
                       {fact.value}
                     </h4>
                     <p className="text-xs text-slate-500 leading-normal">
@@ -178,7 +178,7 @@ export default function PublicationDetails() {
         {/* 5-Stage Editorial Peer Review Workflow */}
         <div className="space-y-6 text-left">
           <div className="border-b border-slate-200 pb-3">
-            <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">
+            <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
               Editorial & Peer Review Workflow
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 mt-1">
@@ -196,7 +196,7 @@ export default function PublicationDetails() {
                   <span className="text-xs font-mono font-extrabold text-amber-500 block">
                     STAGE {ws.step}
                   </span>
-                  <h4 className="text-sm font-bold text-[#0f3b6c] group-hover:text-blue-700 transition-colors leading-snug">
+                  <h4 className="text-sm font-bold text-[#0f4a85] group-hover:text-blue-700 transition-colors leading-snug">
                     {ws.title}
                   </h4>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -215,7 +215,7 @@ export default function PublicationDetails() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
           
           <div className="academic-card rounded-2xl p-6 space-y-3">
-            <div className="flex items-center space-x-2 font-bold text-[#0f3b6c] text-base">
+            <div className="flex items-center space-x-2 font-bold text-[#0f4a85] text-base">
               <Globe className="w-5 h-5 text-amber-500" />
               <span>Open Access & Copyright Policy</span>
             </div>
@@ -225,7 +225,7 @@ export default function PublicationDetails() {
           </div>
 
           <div className="academic-card rounded-2xl p-6 space-y-3">
-            <div className="flex items-center space-x-2 font-bold text-[#0f3b6c] text-base">
+            <div className="flex items-center space-x-2 font-bold text-[#0f4a85] text-base">
               <Building2 className="w-5 h-5 text-blue-600" />
               <span>Editorial Office & Institutional Governance</span>
             </div>

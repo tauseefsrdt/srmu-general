@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  ArrowUp, 
-  Mail, 
-  MapPin, 
-  ShieldCheck, 
-  Globe 
+import {
+  ArrowUp,
+  Mail,
+  MapPin,
+  ShieldCheck,
+  Globe
 } from 'lucide-react';
 import { journalInfo } from '../data/journalDocData';
 
@@ -57,16 +57,16 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#061220] text-slate-300 relative border-t border-slate-800">
-      
+    <footer className="bg-[#0f4a85] text-slate-300 relative border-t border-slate-800">
+
       {/* Subtle Top Accent Line */}
-      <div className="h-0.5 w-full bg-gradient-to-r from-amber-500 via-[#0f3b6c] to-amber-400"></div>
+      <div className="h-0.5 w-full bg-gradient-to-r from-amber-500 via-[#0f4a85] to-amber-400"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
-        
+
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pb-10 border-b border-slate-800/80 text-left">
-          
+
           {/* Brand & Contact (4 Columns) */}
           <div className="lg:col-span-4 space-y-4">
             <Link to="/" className="inline-flex items-center space-x-3 group">
@@ -92,11 +92,11 @@ export default function Footer() {
                 <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
                 <span className="text-slate-400 leading-snug">Lucknow-Deva Road, Barabanki, Uttar Pradesh, India</span>
               </div>
-              
+
               <div className="flex items-center space-x-2.5">
                 <Mail className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <a 
-                  href="mailto:editorial.office@ijspast.org" 
+                <a
+                  href="mailto:editorial.office@ijspast.org"
                   className="text-slate-300 hover:text-amber-400 transition-colors"
                 >
                   editorial.office@ijspast.org
@@ -120,12 +120,12 @@ export default function Footer() {
                     {section.title}
                   </h4>
                 </div>
-                
+
                 <ul className="space-y-2 text-xs text-slate-400">
                   {section.links.map((link, lIdx) => (
                     <li key={lIdx}>
-                      <Link 
-                        to={link.href} 
+                      <Link
+                        to={link.href}
                         className="hover:text-amber-400 hover:translate-x-0.5 inline-block transition-all duration-150 py-0.5 leading-snug"
                       >
                         {link.name}

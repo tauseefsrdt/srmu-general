@@ -54,7 +54,7 @@ export default function Testimonials() {
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Client Endorsements</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f3b6c] tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f4a85] tracking-tight">
             Trusted by World-Class Technology Leaders
           </h2>
           <p className="text-sm md:text-base text-slate-600 leading-relaxed">
@@ -78,7 +78,7 @@ export default function Testimonials() {
                     ))}
                   </div>
                   <div className="w-8 h-8 rounded-full bg-slate-50 text-slate-400 flex items-center justify-center">
-                    <Quote className="w-4 h-4 text-[#0f3b6c]" />
+                    <Quote className="w-4 h-4 text-[#0f4a85]" />
                   </div>
                 </div>
 
@@ -96,11 +96,11 @@ export default function Testimonials() {
                   className="w-11 h-11 rounded-full object-cover border-2 border-amber-400/60 shadow-xs"
                 />
                 <div>
-                  <h4 className="text-sm font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors">
+                  <h4 className="text-sm font-bold text-slate-900 group-hover:text-[#0f4a85] transition-colors">
                     {item.name}
                   </h4>
                   <p className="text-xs text-slate-500 font-medium">
-                    {item.role}, <span className="text-[#0f3b6c] font-semibold">{item.company}</span>
+                    {item.role}, <span className="text-[#0f4a85] font-semibold">{item.company}</span>
                   </p>
                 </div>
               </div>

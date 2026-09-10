@@ -84,7 +84,7 @@ export default function Services({ onSelectService }) {
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>End-to-End Capabilities</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f3b6c] tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f4a85] tracking-tight">
             Comprehensive Enterprise Technology Solutions
           </h2>
           <p className="text-sm md:text-base text-slate-600 leading-relaxed">
@@ -111,7 +111,7 @@ export default function Services({ onSelectService }) {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors leading-snug">
+                <h3 className="text-xl font-bold text-slate-900 group-hover:text-[#0f4a85] transition-colors leading-snug">
                   {srv.title}
                 </h3>
 
@@ -134,7 +134,7 @@ export default function Services({ onSelectService }) {
               {/* Bottom Metric & Action */}
               <div className="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
                 <div>
-                  <div className="text-sm font-extrabold text-[#0f3b6c]">
+                  <div className="text-sm font-extrabold text-[#0f4a85]">
                     {srv.metric}
                   </div>
                   <div className="text-[10px] text-slate-400 font-medium">
@@ -144,7 +144,7 @@ export default function Services({ onSelectService }) {
 
                 <button
                   onClick={() => onSelectService(srv)}
-                  className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#0f3b6c] group-hover:text-amber-600 transition-colors cursor-pointer"
+                  className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#0f4a85] group-hover:text-amber-600 transition-colors cursor-pointer"
                 >
                   <span>Inquire Solution</span>
                   <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" />

@@ -40,14 +40,14 @@ export default function About() {
         
         {/* Executive Summary Card */}
         <div className="academic-card p-6 sm:p-10 rounded-3xl bg-white space-y-6 relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#0f3b6c] via-blue-600 to-amber-500"></div>
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#0f4a85] via-blue-600 to-amber-500"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-4">
               <span className="text-xs font-bold text-blue-700 uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
                 Institutional Scholarly Journal
               </span>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] tracking-tight">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
                 {journalInfo.fullName}
               </h2>
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -101,7 +101,7 @@ export default function About() {
             <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold">
               <Target className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-bold text-[#0f3b6c]">{mission.title}</h3>
+            <h3 className="text-lg font-bold text-[#0f4a85]">{mission.title}</h3>
             <p className="text-xs text-slate-600 leading-relaxed">{mission.summary}</p>
           </div>
 
@@ -109,7 +109,7 @@ export default function About() {
             <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold">
               <Building2 className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-bold text-[#0f3b6c]">{general.title}</h3>
+            <h3 className="text-lg font-bold text-[#0f4a85]">{general.title}</h3>
             <p className="text-xs text-slate-600 leading-relaxed">{general.summary}</p>
           </div>
 
@@ -117,7 +117,7 @@ export default function About() {
             <div className="w-10 h-10 rounded-xl bg-sky-50 text-sky-700 flex items-center justify-center font-bold">
               <Compass className="w-5 h-5" />
             </div>
-            <h3 className="text-lg font-bold text-[#0f3b6c]">{vision.title}</h3>
+            <h3 className="text-lg font-bold text-[#0f4a85]">{vision.title}</h3>
             <p className="text-xs text-slate-600 leading-relaxed">{vision.summary}</p>
           </div>
         </div>

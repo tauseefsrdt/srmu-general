@@ -33,14 +33,14 @@ export default function ProjectModal({ project, onClose, onOpenContact }) {
         <div className="p-6 sm:p-8 space-y-6">
           
           {/* Title */}
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] leading-tight">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] leading-tight">
             {project.title}
           </h2>
 
           {/* Metrics Strip */}
           <div className="grid grid-cols-3 gap-3 bg-blue-50/70 p-4 rounded-2xl border border-blue-100 text-center">
             <div>
-              <div className="text-base sm:text-lg font-extrabold text-[#0f3b6c]">
+              <div className="text-base sm:text-lg font-extrabold text-[#0f4a85]">
                 {project.stats.metric1}
               </div>
               <div className="text-[10px] sm:text-xs text-slate-500 font-medium">

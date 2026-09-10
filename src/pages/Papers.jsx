@@ -57,7 +57,7 @@ export default function Papers() {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-[#0f3b6c] text-white shadow-2xs'
+                    ? 'bg-[#0f4a85] text-white shadow-2xs'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-white'
                 }`}
               >
@@ -105,7 +105,7 @@ export default function Papers() {
         {/* Template Banner */}
         <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 rounded-2xl bg-blue-50 text-[#0f3b6c] flex items-center justify-center font-bold shrink-0 border border-blue-100">
+            <div className="w-12 h-12 rounded-2xl bg-blue-50 text-[#0f4a85] flex items-center justify-center font-bold shrink-0 border border-blue-100">
               <FileText className="w-6 h-6" />
             </div>
             <div>
@@ -115,7 +115,7 @@ export default function Papers() {
           </div>
           <Link
             to="/template"
-            className="px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f3b6c] hover:bg-blue-800 transition-colors shrink-0"
+            className="px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f4a85] hover:bg-blue-800 transition-colors shrink-0"
           >
             View Template Specs
           </Link>

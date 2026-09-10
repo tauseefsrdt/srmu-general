@@ -71,7 +71,7 @@ export default function ArticleDetail() {
               </div>
 
               {/* Title */}
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-[#0f3b6c] tracking-tight leading-snug">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-[#0f4a85] tracking-tight leading-snug">
                 {article.title}
               </h2>
 
@@ -83,7 +83,7 @@ export default function ArticleDetail() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {article.authors.map((author, idx) => (
                     <div key={idx} className="p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs space-y-0.5">
-                      <span className="font-bold text-[#0f3b6c] block">{author.name}</span>
+                      <span className="font-bold text-[#0f4a85] block">{author.name}</span>
                       <span className="text-slate-500 text-[11px] flex items-center space-x-1">
                         <Building className="w-3 h-3 text-slate-400 shrink-0" />
                         <span>{author.affiliation}</span>
@@ -95,7 +95,7 @@ export default function ArticleDetail() {
 
               {/* Abstract */}
               <div className="space-y-2 pt-2 border-t border-slate-100">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-[#0f3b6c]">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-[#0f4a85]">
                   Abstract
                 </h4>
                 <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -124,7 +124,7 @@ export default function ArticleDetail() {
 
             {/* Simulated Section Content based on Template Structure */}
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-6">
-              <h3 className="text-lg font-bold text-[#0f3b6c] border-b border-slate-100 pb-3">
+              <h3 className="text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-3">
                 I. Introduction & Theoretical Model
               </h3>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -132,7 +132,7 @@ export default function ArticleDetail() {
               </p>
               <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600 space-y-2">
                 <p className="font-semibold text-slate-800">Citing this paper in IEEE standard:</p>
-                <code className="block bg-white p-3 rounded-xl border border-slate-200 text-[#0f3b6c] font-mono">
+                <code className="block bg-white p-3 rounded-xl border border-slate-200 text-[#0f4a85] font-mono">
                   {article.authors.map(a => a.name).join(', ')}, "{article.title}," IJSPAST, {article.volume}, {article.pages}, 2026. DOI: {article.doi}
                 </code>
               </div>
@@ -145,7 +145,7 @@ export default function ArticleDetail() {
             
             {/* Download & Access Card */}
             <div className="academic-card p-6 rounded-3xl bg-white space-y-4">
-              <h4 className="text-sm font-bold text-[#0f3b6c] uppercase tracking-wider">
+              <h4 className="text-sm font-bold text-[#0f4a85] uppercase tracking-wider">
                 Download & Access
               </h4>
               <button
@@ -176,7 +176,7 @@ export default function ArticleDetail() {
             <div className="p-4 rounded-2xl bg-slate-100 text-center">
               <Link
                 to="/papers"
-                className="inline-flex items-center space-x-2 text-xs font-bold text-[#0f3b6c] hover:text-blue-800 transition-colors"
+                className="inline-flex items-center space-x-2 text-xs font-bold text-[#0f4a85] hover:text-blue-800 transition-colors"
               >
                 <ArrowLeft className="w-3.5 h-3.5" />
                 <span>Back to All Publications</span>

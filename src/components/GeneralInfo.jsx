@@ -94,11 +94,11 @@ export default function GeneralInfo() {
         {/* 1. General Information Header & 3-Pillar Cards */}
         <div>
           <div className="geninfo-header text-center max-w-3xl mx-auto mb-10 space-y-2.5">
-            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-blue-50 text-[#0f3b6c] text-xs font-bold border border-blue-200">
+            <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-blue-50 text-[#0f4a85] text-xs font-bold border border-blue-200">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Foundational Journal Mandate</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
               General Information, Mission & Vision
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -117,7 +117,7 @@ export default function GeneralInfo() {
               >
                 {/* Accent Top Bar */}
                 <div className={`absolute top-0 left-6 right-6 h-1 rounded-b-full ${
-                  item.isPrimary ? 'bg-gradient-to-r from-blue-600 to-[#0f3b6c]' : 'bg-gradient-to-r from-amber-400 to-amber-600'
+                  item.isPrimary ? 'bg-gradient-to-r from-blue-600 to-[#0f4a85]' : 'bg-gradient-to-r from-amber-400 to-amber-600'
                 }`} />
 
                 <div className="space-y-4">
@@ -144,7 +144,7 @@ export default function GeneralInfo() {
                     <span className="text-[11px] font-mono font-bold text-slate-400 block mb-0.5">
                       SECTION {item.num}
                     </span>
-                    <h3 className="text-lg sm:text-xl font-bold text-[#0f3b6c] group-hover:text-blue-700 transition-colors">
+                    <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85] group-hover:text-blue-700 transition-colors">
                       {item.title}
                     </h3>
                   </div>
@@ -175,8 +175,8 @@ export default function GeneralInfo() {
                     to={item.id === 'general-info' ? '/publication-details' : '/vision-scope'}
                     className={`w-full flex items-center justify-center space-x-1.5 py-2.5 px-3.5 rounded-xl text-xs font-bold transition-all duration-200 ${
                       item.isPrimary
-                        ? 'bg-[#0f3b6c] text-white hover:bg-blue-800 shadow-xs'
-                        : 'bg-slate-50 text-[#0f3b6c] hover:bg-amber-50 hover:text-amber-800 hover:border-amber-300 border border-slate-200'
+                        ? 'bg-[#0f4a85] text-white hover:bg-blue-800 shadow-xs'
+                        : 'bg-slate-50 text-[#0f4a85] hover:bg-amber-50 hover:text-amber-800 hover:border-amber-300 border border-slate-200'
                     }`}
                   >
                     <span>Read Full {item.title} Page</span>
@@ -196,7 +196,7 @@ export default function GeneralInfo() {
               <Layers className="w-3.5 h-3.5 text-amber-600" />
               <span>Scope of the Journal</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
               23+ Interdisciplinary Submission Areas
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
@@ -211,7 +211,7 @@ export default function GeneralInfo() {
                   onClick={() => setSelectedCategory(cat)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
                     selectedCategory === cat
-                      ? 'bg-[#0f3b6c] text-white shadow-2xs'
+                      ? 'bg-[#0f4a85] text-white shadow-2xs'
                       : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 hover:border-slate-300'
                   }`}
                 >
@@ -228,11 +228,11 @@ export default function GeneralInfo() {
                 key={topic.id}
                 className="scope-badge-card bg-white p-3.5 rounded-xl border border-slate-200/90 shadow-2xs hover:shadow-sm hover:border-amber-400/80 transition-all flex items-start space-x-2.5 group"
               >
-                <div className="w-7 h-7 rounded-lg bg-blue-50 group-hover:bg-amber-100 text-[#0f3b6c] group-hover:text-amber-800 flex items-center justify-center shrink-0 transition-colors">
+                <div className="w-7 h-7 rounded-lg bg-blue-50 group-hover:bg-amber-100 text-[#0f4a85] group-hover:text-amber-800 flex items-center justify-center shrink-0 transition-colors">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-xs font-bold text-slate-800 group-hover:text-[#0f3b6c] transition-colors leading-snug">
+                  <h4 className="text-xs font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {topic.title}
                   </h4>
                   <span className="text-[10px] text-slate-400 font-medium block mt-0.5">
@@ -244,7 +244,7 @@ export default function GeneralInfo() {
           </div>
 
           {/* Callout Bar */}
-          <div className="mt-10 bg-gradient-to-r from-[#0f3b6c] to-[#081627] text-white rounded-2xl p-5 sm:p-7 flex flex-col md:flex-row items-center justify-between gap-5 shadow-lg border border-amber-400/30">
+          <div className="mt-10 bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white rounded-2xl p-5 sm:p-7 flex flex-col md:flex-row items-center justify-between gap-5 shadow-lg border border-amber-400/30">
             <div className="space-y-1 text-center md:text-left">
               <h4 className="text-sm sm:text-base font-bold text-white flex items-center justify-center md:justify-start space-x-2">
                 <ShieldCheck className="w-4 h-4 text-amber-400" />

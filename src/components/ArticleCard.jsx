@@ -53,7 +53,7 @@ export default function ArticleCard({ article, onSelect }) {
           </div>
 
           {/* Article Title */}
-          <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug">
+          <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-[#0f4a85] transition-colors line-clamp-2 leading-snug">
             {article.title}
           </h4>
 
@@ -75,7 +75,7 @@ export default function ArticleCard({ article, onSelect }) {
           {article.readTime}
         </span>
         <button 
-          className="inline-flex items-center space-x-1 text-xs font-bold text-[#0f3b6c] group-hover:text-amber-600 transition-colors cursor-pointer"
+          className="inline-flex items-center space-x-1 text-xs font-bold text-[#0f4a85] group-hover:text-amber-600 transition-colors cursor-pointer"
           aria-label={`Read article: ${article.title}`}
         >
           <span>Read Paper</span>

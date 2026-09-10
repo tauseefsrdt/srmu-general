@@ -66,7 +66,7 @@ export default function Submit() {
             <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
               <CheckCircle2 className="w-8 h-8" />
             </div>
-            <h3 className="text-2xl font-bold text-[#0f3b6c]">
+            <h3 className="text-2xl font-bold text-[#0f4a85]">
               Manuscript Successfully Submitted!
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto leading-relaxed">
@@ -75,7 +75,7 @@ export default function Submit() {
             <div className="pt-4 flex justify-center space-x-3">
               <Link
                 to="/"
-                className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f3b6c] text-white hover:bg-blue-800 transition-colors"
+                className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f4a85] text-white hover:bg-blue-800 transition-colors"
               >
                 Return to Homepage
               </Link>
@@ -98,7 +98,7 @@ export default function Submit() {
               </div>
               <Link
                 to="/template"
-                className="px-4 py-2 rounded-xl text-xs font-bold bg-white text-[#0f3b6c] border border-amber-300 hover:bg-amber-100 shrink-0 transition-colors"
+                className="px-4 py-2 rounded-xl text-xs font-bold bg-white text-[#0f4a85] border border-amber-300 hover:bg-amber-100 shrink-0 transition-colors"
               >
                 View Template
               </Link>
@@ -106,7 +106,7 @@ export default function Submit() {
 
             {/* Section 1: Corresponding Author Details */}
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-5">
-              <h3 className="text-base sm:text-lg font-bold text-[#0f3b6c] border-b border-slate-100 pb-2.5">
+              <h3 className="text-base sm:text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-2.5">
                 1. Corresponding Author Information
               </h3>
 
@@ -185,7 +185,7 @@ export default function Submit() {
 
             {/* Section 2: Manuscript Metadata */}
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-5">
-              <h3 className="text-base sm:text-lg font-bold text-[#0f3b6c] border-b border-slate-100 pb-2.5">
+              <h3 className="text-base sm:text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-2.5">
                 2. Manuscript Metadata
               </h3>
 
@@ -243,7 +243,7 @@ export default function Submit() {
 
             {/* Section 3: File Upload */}
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-4 text-xs">
-              <h3 className="text-base sm:text-lg font-bold text-[#0f3b6c] border-b border-slate-100 pb-2.5">
+              <h3 className="text-base sm:text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-2.5">
                 3. File Upload (.doc / .docx / .pdf)
               </h3>
 
@@ -256,7 +256,7 @@ export default function Submit() {
                   required
                   accept=".doc,.docx,.pdf"
                   onChange={(e) => setFormData({...formData, manuscriptFile: e.target.files[0]})}
-                  className="mt-3 text-xs text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-[#0f3b6c] file:text-white hover:file:bg-blue-800 cursor-pointer"
+                  className="mt-3 text-xs text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-[#0f4a85] file:text-white hover:file:bg-blue-800 cursor-pointer"
                 />
               </div>
             </div>

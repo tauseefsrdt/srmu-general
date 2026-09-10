@@ -59,7 +59,7 @@ export default function VisionScope() {
               </div>
               <div>
                 <span className="text-xs font-mono font-bold text-slate-400 block">OUR PURPOSE</span>
-                <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">{missionCard.title}</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">{missionCard.title}</h3>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ export default function VisionScope() {
 
           {/* Vision Card */}
           <div className="academic-card rounded-3xl p-6 sm:p-8 space-y-5 relative overflow-hidden bg-white">
-            <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full bg-gradient-to-r from-blue-600 to-[#0f3b6c]"></div>
+            <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full bg-gradient-to-r from-blue-600 to-[#0f4a85]"></div>
             
             <div className="flex items-center space-x-3">
               <div className="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200 text-blue-700 flex items-center justify-center font-bold">
@@ -91,7 +91,7 @@ export default function VisionScope() {
               </div>
               <div>
                 <span className="text-xs font-mono font-bold text-slate-400 block">SCHOLARLY FUTURE</span>
-                <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">{visionCard.title}</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">{visionCard.title}</h3>
               </div>
             </div>
 
@@ -120,11 +120,11 @@ export default function VisionScope() {
           
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-200 pb-4">
             <div>
-              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f3b6c] text-xs font-bold border border-blue-200 mb-2">
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f4a85] text-xs font-bold border border-blue-200 mb-2">
                 <Layers className="w-3.5 h-3.5 text-amber-500" />
                 <span>Extracted from Scope of the Journal.docx</span>
               </div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85]">
                 23+ Interdisciplinary Submission Areas
               </h2>
               <p className="text-xs sm:text-sm text-slate-600 mt-1">
@@ -153,7 +153,7 @@ export default function VisionScope() {
                 onClick={() => setSelectedCategory(cat)}
                 className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                   selectedCategory === cat
-                    ? 'bg-[#0f3b6c] text-white shadow-2xs'
+                    ? 'bg-[#0f4a85] text-white shadow-2xs'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-white'
                 }`}
               >
@@ -169,11 +169,11 @@ export default function VisionScope() {
                 key={topic.id}
                 className="academic-card bg-white p-4 rounded-2xl flex items-start space-x-3 group"
               >
-                <div className="w-8 h-8 rounded-xl bg-blue-50 group-hover:bg-amber-100 text-[#0f3b6c] group-hover:text-amber-800 flex items-center justify-center shrink-0 transition-colors">
+                <div className="w-8 h-8 rounded-xl bg-blue-50 group-hover:bg-amber-100 text-[#0f4a85] group-hover:text-amber-800 flex items-center justify-center shrink-0 transition-colors">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-slate-800 group-hover:text-[#0f3b6c] transition-colors leading-snug">
+                  <h4 className="text-xs font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {topic.title}
                   </h4>
                   <span className="text-[10px] text-slate-400 font-medium block mt-0.5">
@@ -193,7 +193,7 @@ export default function VisionScope() {
         </div>
 
         {/* CTA Strip */}
-        <div className="academic-card rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-[#0f3b6c] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="academic-card rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center sm:text-left">
             <h4 className="text-base sm:text-lg font-bold text-white">Have a manuscript that fits our scope?</h4>
             <p className="text-xs text-slate-300">Submit your work today for double-blind peer review and rapid international publication.</p>

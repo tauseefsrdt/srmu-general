@@ -61,13 +61,13 @@ export default function Contact() {
           <div className="lg:col-span-5 space-y-6">
             
             <div className="academic-card p-6 rounded-3xl bg-white space-y-4">
-              <h3 className="text-lg font-bold text-[#0f3b6c] border-b border-slate-100 pb-2.5">
+              <h3 className="text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-2.5">
                 Editorial Office Address
               </h3>
               
               <div className="space-y-3.5 text-xs text-slate-600">
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 rounded-xl bg-blue-50 text-[#0f3b6c] flex items-center justify-center shrink-0 border border-blue-100">
+                  <div className="w-8 h-8 rounded-xl bg-blue-50 text-[#0f4a85] flex items-center justify-center shrink-0 border border-blue-100">
                     <Building2 className="w-4 h-4" />
                   </div>
                   <div>
@@ -125,7 +125,7 @@ export default function Contact() {
           <div className="lg:col-span-7">
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-6">
               <div className="space-y-1">
-                <h3 className="text-xl font-bold text-[#0f3b6c]">
+                <h3 className="text-xl font-bold text-[#0f4a85]">
                   Send a Message to the Editorial Office
                 </h3>
                 <p className="text-xs text-slate-500">

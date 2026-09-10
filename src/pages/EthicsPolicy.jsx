@@ -37,7 +37,7 @@ export default function EthicsPolicy() {
                 <div className="w-10 h-10 rounded-2xl bg-amber-100 text-amber-900 flex items-center justify-center font-bold text-sm">
                   {idx === 2 ? <Bot className="w-5 h-5" /> : idx === 1 ? <Scale className="w-5 h-5" /> : <ShieldCheck className="w-5 h-5" />}
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold text-[#0f3b6c]">
+                <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85]">
                   {pol.title}
                 </h3>
               </div>

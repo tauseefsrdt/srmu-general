@@ -39,7 +39,7 @@ export default function Template() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 text-left">
         
         {/* Download Callout Card */}
-        <div className="academic-card p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#0f3b6c] via-[#0b284c] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+        <div className="academic-card p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#0f4a85] via-[#0b284c] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-2 text-center sm:text-left">
             <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
               Official Camera-Ready Reference File
@@ -61,7 +61,7 @@ export default function Template() {
         {/* Font & Spacing Specifications Table */}
         <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-5">
           <div className="border-b border-slate-100 pb-3">
-            <h3 className="text-lg sm:text-xl font-bold text-[#0f3b6c]">
+            <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85]">
               Typography & Spacing Specifications (From 13. Template.doc)
             </h3>
             <p className="text-xs text-slate-500 mt-1">
@@ -81,7 +81,7 @@ export default function Template() {
               <tbody className="divide-y divide-slate-100 bg-white">
                 {templateSpecs.fontHierarchy.map((row, idx) => (
                   <tr key={idx} className="hover:bg-slate-50 transition-colors">
-                    <td className="p-3.5 font-bold text-[#0f3b6c]">{row.element}</td>
+                    <td className="p-3.5 font-bold text-[#0f4a85]">{row.element}</td>
                     <td className="p-3.5 font-mono text-slate-700">{row.font}</td>
                     <td className="p-3.5 text-slate-500">{row.spacing}</td>
                   </tr>

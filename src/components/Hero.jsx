@@ -125,7 +125,7 @@ export default function Hero() {
             
             {/* Badges */}
             <div className="hero-badge flex flex-wrap items-center gap-2">
-              <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-lg bg-[#0f3b6c] text-white text-xs font-semibold shadow-xs">
+              <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-lg bg-[#0f4a85] text-white text-xs font-semibold shadow-xs">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                 <span>Peer-Reviewed Open Access</span>
               </div>
@@ -140,7 +140,7 @@ export default function Hero() {
 
             {/* Main Journal Title */}
             <div className="hero-headline space-y-2">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] font-extrabold text-[#0f3b6c] tracking-tight leading-[1.2]">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] font-extrabold text-[#0f4a85] tracking-tight leading-[1.2]">
                 International Journal of Scientific Progress in Applied Science & Technology
               </h1>
               <p className="text-sm sm:text-base font-medium text-slate-600">
@@ -151,7 +151,7 @@ export default function Hero() {
             {/* Institutional Mandate Card */}
             <div className="hero-desc space-y-3 max-w-2xl text-slate-700 text-sm leading-relaxed">
               <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-2xs space-y-1">
-                <div className="text-[11px] font-bold text-[#0f3b6c] uppercase tracking-wider">
+                <div className="text-[11px] font-bold text-[#0f4a85] uppercase tracking-wider">
                   Official Publication Mandate
                 </div>
                 <p className="text-xs sm:text-sm text-slate-700 leading-normal">
@@ -172,7 +172,7 @@ export default function Hero() {
               
               <Link
                 to="/template"
-                className="hero-cta-btn inline-flex items-center space-x-2 px-5 py-3 rounded-xl text-xs font-semibold text-[#0f3b6c] bg-white hover:bg-slate-50 border border-slate-300 shadow-2xs hover:shadow hover:border-blue-400 transition-all duration-200 cursor-pointer"
+                className="hero-cta-btn inline-flex items-center space-x-2 px-5 py-3 rounded-xl text-xs font-semibold text-[#0f4a85] bg-white hover:bg-slate-50 border border-slate-300 shadow-2xs hover:shadow hover:border-blue-400 transition-all duration-200 cursor-pointer"
               >
                 <Download className="w-4 h-4 text-amber-600" />
                 <span>Download Camera-Ready Template (.DOC)</span>
@@ -222,7 +222,7 @@ export default function Hero() {
                     <span className="text-[10px] font-bold uppercase tracking-widest text-amber-600 block">
                       {activeSlideData.category}
                     </span>
-                    <h3 className="text-sm font-bold text-[#0f3b6c] leading-snug">
+                    <h3 className="text-sm font-bold text-[#0f4a85] leading-snug">
                       Featured Publication
                     </h3>
                   </div>
@@ -298,7 +298,7 @@ export default function Hero() {
                         onClick={() => setCurrentSlide(idx)}
                         className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
                           currentSlide === idx 
-                            ? 'w-5 bg-[#0f3b6c]' 
+                            ? 'w-5 bg-[#0f4a85]' 
                             : 'w-1.5 bg-slate-300 hover:bg-slate-400'
                         }`}
                         aria-label={`Go to slide ${idx + 1}`}
@@ -308,7 +308,7 @@ export default function Hero() {
 
                   <Link
                     to="/papers"
-                    className="font-bold text-[11px] text-[#0f3b6c] hover:text-blue-800 flex items-center space-x-1 group/link"
+                    className="font-bold text-[11px] text-[#0f4a85] hover:text-blue-800 flex items-center space-x-1 group/link"
                   >
                     <span>Browse Articles</span>
                     <ArrowRight className="w-3 h-3 transform group-hover/link:translate-x-1 transition-transform" />
@@ -330,7 +330,7 @@ export default function Hero() {
 
               {/* Floating Badge 2 */}
               <div className="hero-floating-card absolute -bottom-3 -left-3 sm:-left-4 bg-white rounded-xl p-2.5 shadow-md border border-slate-200/90 flex items-center space-x-2 animate-float [animation-delay:2s]">
-                <div className="w-7 h-7 rounded-lg bg-blue-100 text-[#0f3b6c] flex items-center justify-center font-bold">
+                <div className="w-7 h-7 rounded-lg bg-blue-100 text-[#0f4a85] flex items-center justify-center font-bold">
                   <ShieldCheck className="w-3.5 h-3.5" />
                 </div>
                 <div className="text-left">
@@ -352,7 +352,7 @@ export default function Hero() {
                 key={idx}
                 className="hero-stat-card academic-card rounded-xl p-3.5 text-center flex flex-col items-center group"
               >
-                <div className="text-lg sm:text-xl font-extrabold text-[#0f3b6c] group-hover:text-amber-600 transition-colors">
+                <div className="text-lg sm:text-xl font-extrabold text-[#0f4a85] group-hover:text-amber-600 transition-colors">
                   {stat.value}
                 </div>
                 <div className="text-[11px] font-semibold text-slate-700 mt-0.5">

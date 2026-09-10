@@ -24,7 +24,7 @@ export default function PatronsAdvisory() {
         <div className="space-y-6">
           <div className="flex items-center space-x-4">
             <div className="h-px bg-slate-300 flex-1 max-w-[140px]"></div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
               Patrons
             </h2>
             <div className="h-px bg-slate-300 flex-1"></div>
@@ -45,7 +45,7 @@ export default function PatronsAdvisory() {
                     />
                   </div>
                 </div>
-                <h3 className="text-base font-bold text-[#0f3b6c] group-hover:text-blue-800 transition-colors leading-snug">
+                <h3 className="text-base font-bold text-[#0f4a85] group-hover:text-blue-800 transition-colors leading-snug">
                   {patron.name}
                 </h3>
                 <p className="text-[11px] font-mono font-semibold tracking-wider text-slate-500 uppercase mt-1">
@@ -60,7 +60,7 @@ export default function PatronsAdvisory() {
         <div className="space-y-6">
           <div className="flex items-center space-x-4">
             <div className="h-px bg-slate-300 flex-1 max-w-[140px]"></div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
               Co Patrons
             </h2>
             <div className="h-px bg-slate-300 flex-1"></div>
@@ -81,7 +81,7 @@ export default function PatronsAdvisory() {
                     />
                   </div>
                 </div>
-                <h3 className="text-base font-bold text-[#0f3b6c] group-hover:text-blue-800 transition-colors leading-snug">
+                <h3 className="text-base font-bold text-[#0f4a85] group-hover:text-blue-800 transition-colors leading-snug">
                   {copatron.name}
                 </h3>
                 <p className="text-[11px] font-mono font-semibold tracking-wider text-slate-500 uppercase mt-1">
@@ -94,7 +94,7 @@ export default function PatronsAdvisory() {
 
         {/* Advisory Governance Statement */}
         <div className="academic-card rounded-2xl p-6 bg-blue-50/60 border border-blue-200/80 space-y-2">
-          <h4 className="text-sm font-bold text-[#0f3b6c] flex items-center space-x-2">
+          <h4 className="text-sm font-bold text-[#0f4a85] flex items-center space-x-2">
             <Building2 className="w-4 h-4 text-amber-500" />
             <span>Institutional Support & Research Sponsorship</span>
           </h4>

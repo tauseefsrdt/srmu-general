@@ -65,11 +65,11 @@ export default function Projects({ onSelectProject }) {
         {/* Section Header */}
         <div className="projects-header flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="space-y-3 max-w-2xl">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f3b6c] text-xs font-bold border border-blue-200">
+            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f4a85] text-xs font-bold border border-blue-200">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Proven Business Results</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f4a85] tracking-tight">
               Featured Client Case Studies
             </h2>
             <p className="text-sm md:text-base text-slate-600">
@@ -85,7 +85,7 @@ export default function Projects({ onSelectProject }) {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-[#0f3b6c] text-white shadow-xs'
+                    ? 'bg-[#0f4a85] text-white shadow-xs'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
                 }`}
               >
@@ -136,7 +136,7 @@ export default function Projects({ onSelectProject }) {
                     {proj.client}
                   </div>
 
-                  <h3 className="text-base font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug">
+                  <h3 className="text-base font-bold text-slate-900 group-hover:text-[#0f4a85] transition-colors line-clamp-2 leading-snug">
                     {proj.title}
                   </h3>
 
@@ -152,7 +152,7 @@ export default function Projects({ onSelectProject }) {
                   {proj.stats.metric1}
                 </span>
                 <button 
-                  className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#0f3b6c] group-hover:text-amber-600 transition-colors cursor-pointer"
+                  className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#0f4a85] group-hover:text-amber-600 transition-colors cursor-pointer"
                 >
                   <span>View Case Study</span>
                   <ArrowUpRight className="w-3.5 h-3.5 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -176,7 +176,7 @@ export default function Projects({ onSelectProject }) {
             </div>
             <a
               href="#contact"
-              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f3b6c] hover:bg-blue-800 shadow-sm transition-colors shrink-0"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f4a85] hover:bg-blue-800 shadow-sm transition-colors shrink-0"
             >
               <span>Schedule Architecture Audit</span>
               <ArrowRight className="w-3.5 h-3.5" />

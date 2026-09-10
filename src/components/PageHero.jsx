@@ -20,7 +20,7 @@ export default function PageHero({
           className="w-full h-full object-cover object-center transform scale-105 filter brightness-45 contrast-125"
         />
         {/* Layered Gradient Overlays for High Contrast & SRMU Color Atmosphere */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#071526]/95 via-[#0a2540]/90 to-[#0f3b6c]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#071526]/95 via-[#0a2540]/90 to-[#0f4a85]/80"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#081627] via-transparent to-black/40"></div>
         <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#fbbf24_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
       </div>

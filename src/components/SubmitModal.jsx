@@ -93,7 +93,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
               <Send className="w-4 h-4 text-amber-700" />
             </div>
             <div>
-              <h3 className="text-base sm:text-lg font-bold text-[#0f3b6c]">
+              <h3 className="text-base sm:text-lg font-bold text-[#0f4a85]">
                 Submit Manuscript to IJSPAST
               </h3>
               <p className="text-[11px] text-slate-400">
@@ -116,7 +116,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
               <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto shadow-inner">
                 <CheckCircle className="w-10 h-10" />
               </div>
-              <h4 className="text-2xl font-bold text-[#0f3b6c] font-serif-title">
+              <h4 className="text-2xl font-bold text-[#0f4a85] font-serif-title">
                 Manuscript Received Successfully!
               </h4>
               <p className="text-sm text-slate-600 max-w-md mx-auto">
@@ -141,7 +141,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
               <div className="pt-4">
                 <button
                   onClick={handleResetAndClose}
-                  className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f3b6c] text-white hover:bg-blue-800 transition-colors cursor-pointer"
+                  className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f4a85] text-white hover:bg-blue-800 transition-colors cursor-pointer"
                 >
                   Return to Homepage
                 </button>
@@ -152,15 +152,15 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
               
               {/* Step indicator */}
               <div className="flex items-center justify-between border-b border-slate-100 pb-3 text-xs font-semibold">
-                <span className={`flex items-center space-x-1.5 ${step === 1 ? 'text-[#0f3b6c] font-bold' : 'text-slate-400'}`}>
+                <span className={`flex items-center space-x-1.5 ${step === 1 ? 'text-[#0f4a85] font-bold' : 'text-slate-400'}`}>
                   <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-[10px]">1</span>
                   <span>Author Details</span>
                 </span>
-                <span className={`flex items-center space-x-1.5 ${step === 2 ? 'text-[#0f3b6c] font-bold' : 'text-slate-400'}`}>
+                <span className={`flex items-center space-x-1.5 ${step === 2 ? 'text-[#0f4a85] font-bold' : 'text-slate-400'}`}>
                   <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-[10px]">2</span>
                   <span>Manuscript Info</span>
                 </span>
-                <span className={`flex items-center space-x-1.5 ${step === 3 ? 'text-[#0f3b6c] font-bold' : 'text-slate-400'}`}>
+                <span className={`flex items-center space-x-1.5 ${step === 3 ? 'text-[#0f4a85] font-bold' : 'text-slate-400'}`}>
                   <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-[10px]">3</span>
                   <span>File & Compliance</span>
                 </span>
@@ -355,7 +355,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
 
                   {/* Ethics Checklist confirmations */}
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2 text-xs text-slate-700">
-                    <div className="font-bold text-[#0f3b6c] flex items-center space-x-1.5">
+                    <div className="font-bold text-[#0f4a85] flex items-center space-x-1.5">
                       <ShieldCheck className="w-4 h-4 text-emerald-600" />
                       <span>Author Ethical Confirmation:</span>
                     </div>
@@ -389,7 +389,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
                   <button
                     type="button"
                     onClick={() => setStep(step + 1)}
-                    className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f3b6c] text-white hover:bg-blue-800 transition-colors cursor-pointer"
+                    className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f4a85] text-white hover:bg-blue-800 transition-colors cursor-pointer"
                   >
                     Continue
                   </button>

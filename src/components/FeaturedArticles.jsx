@@ -78,7 +78,7 @@ export default function FeaturedArticles() {
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Current Issue • Volume 01, Issue 1 (2026)</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
               Featured Research Publications
             </h2>
             <p className="text-xs sm:text-sm text-slate-600">
@@ -94,7 +94,7 @@ export default function FeaturedArticles() {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-[#0f3b6c] text-white shadow-2xs'
+                    ? 'bg-[#0f4a85] text-white shadow-2xs'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-white'
                 }`}
               >
@@ -124,7 +124,7 @@ export default function FeaturedArticles() {
         <div className="mt-12">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-5 p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-sm transition-shadow">
             <div className="flex items-center space-x-3.5 text-left">
-              <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0f3b6c] flex items-center justify-center font-bold shrink-0 border border-blue-100">
+              <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0f4a85] flex items-center justify-center font-bold shrink-0 border border-blue-100">
                 <FileText className="w-5 h-5" />
               </div>
               <div>
@@ -135,7 +135,7 @@ export default function FeaturedArticles() {
             <div className="flex items-center space-x-3 shrink-0">
               <Link
                 to="/template"
-                className="inline-flex items-center space-x-1.5 px-4.5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f3b6c] hover:bg-blue-800 shadow-xs transition-colors"
+                className="inline-flex items-center space-x-1.5 px-4.5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f4a85] hover:bg-blue-800 shadow-xs transition-colors"
               >
                 <span>View Template Specs</span>
                 <ArrowRight className="w-3.5 h-3.5" />

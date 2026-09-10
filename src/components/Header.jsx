@@ -85,13 +85,13 @@ export default function Header({ onOpenSearch }) {
           
           {/* Logo & Branding */}
           <Link to="/" className="flex items-center space-x-3 group text-left">
-            <div className="relative flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#0f3b6c] via-[#0b284c] to-[#081627] text-white shadow-md group-hover:scale-105 transition-transform duration-300 border border-amber-400/40 shrink-0">
+            <div className="relative flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#0f4a85] via-[#0b284c] to-[#081627] text-white shadow-md group-hover:scale-105 transition-transform duration-300 border border-amber-400/40 shrink-0">
               <span className="font-extrabold text-lg sm:text-xl tracking-wider text-amber-400">IJ</span>
               <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-amber-400 rounded-full border-2 border-white"></div>
             </div>
             <div className="flex flex-col">
               <div className="flex items-center space-x-2">
-                <span className="font-extrabold text-xl sm:text-2xl tracking-tight text-[#0f3b6c] group-hover:text-blue-800 transition-colors">
+                <span className="font-extrabold text-xl sm:text-2xl tracking-tight text-[#0f4a85] group-hover:text-blue-800 transition-colors">
                   {journalInfo.acronym}
                 </span>
                 <span className="text-[10px] uppercase font-bold tracking-wider bg-amber-100 text-amber-950 px-2 py-0.5 rounded-md border border-amber-300/80">
@@ -117,8 +117,8 @@ export default function Header({ onOpenSearch }) {
                   to={item.href}
                   className={`flex items-center space-x-1 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
                     location.pathname.startsWith(item.href) || activeDropdown === item.name 
-                      ? 'text-[#0f3b6c] bg-slate-100' 
-                      : 'text-slate-700 hover:text-[#0f3b6c] hover:bg-slate-50'
+                      ? 'text-[#0f4a85] bg-slate-100' 
+                      : 'text-slate-700 hover:text-[#0f4a85] hover:bg-slate-50'
                   }`}
                   aria-expanded={activeDropdown === item.name}
                 >
@@ -141,7 +141,7 @@ export default function Header({ onOpenSearch }) {
                             className="flex flex-col p-2.5 rounded-xl text-left hover:bg-blue-50/70 transition-colors group/item"
                           >
                             <div className="flex items-center justify-between">
-                              <span className="text-xs font-bold text-slate-800 group-hover/item:text-[#0f3b6c]">
+                              <span className="text-xs font-bold text-slate-800 group-hover/item:text-[#0f4a85]">
                                 {sub.title}
                               </span>
                               <ArrowRight className="w-3 h-3 opacity-0 -translate-x-1 group-hover/item:opacity-100 group-hover/item:translate-x-0 transition-all text-amber-500" />
@@ -208,7 +208,7 @@ export default function Header({ onOpenSearch }) {
         <div className="lg:hidden border-t border-slate-200 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-6 space-y-4 animate-in slide-in-from-top-2 duration-200 shadow-xl max-h-[85vh] overflow-y-auto">
           {navItems.map((item) => (
             <div key={item.name} className="border-b border-slate-100 pb-3">
-              <div className="font-bold text-sm text-[#0f3b6c] mb-2 px-2">
+              <div className="font-bold text-sm text-[#0f4a85] mb-2 px-2">
                 {item.name}
               </div>
               <div className="grid grid-cols-1 gap-1 pl-2">

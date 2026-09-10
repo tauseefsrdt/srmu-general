@@ -66,7 +66,7 @@ export default function ContactModal({ isOpen, onClose }) {
               <Send className="w-4 h-4 text-amber-700" />
             </div>
             <div>
-              <h3 className="text-base sm:text-lg font-bold text-[#0f3b6c]">
+              <h3 className="text-base sm:text-lg font-bold text-[#0f4a85]">
                 Schedule Strategic Consultation
               </h3>
               <p className="text-[11px] text-slate-400">
@@ -89,7 +89,7 @@ export default function ContactModal({ isOpen, onClose }) {
               <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto shadow-inner">
                 <CheckCircle className="w-10 h-10" />
               </div>
-              <h4 className="text-2xl font-bold text-[#0f3b6c]">
+              <h4 className="text-2xl font-bold text-[#0f4a85]">
                 Consultation Request Confirmed!
               </h4>
               <p className="text-sm text-slate-600 max-w-md mx-auto">
@@ -114,7 +114,7 @@ export default function ContactModal({ isOpen, onClose }) {
               <div className="pt-4">
                 <button
                   onClick={handleResetAndClose}
-                  className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f3b6c] text-white hover:bg-blue-800 transition-colors cursor-pointer"
+                  className="px-6 py-2.5 rounded-xl text-xs font-bold bg-[#0f4a85] text-white hover:bg-blue-800 transition-colors cursor-pointer"
                 >
                   Return to Homepage
                 </button>

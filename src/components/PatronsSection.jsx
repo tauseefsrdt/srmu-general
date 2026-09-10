@@ -61,7 +61,7 @@ export default function PatronsSection() {
           {/* Section Divider Heading: Patrons */}
           <div className="patrons-header flex items-center justify-center space-x-4">
             <div className="h-px bg-slate-300/80 flex-1 max-w-[100px] sm:max-w-[180px]"></div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f3b6c] tracking-tight text-center">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight text-center">
               Patrons
             </h2>
             <div className="h-px bg-slate-300/80 flex-1 max-w-[100px] sm:max-w-[180px]"></div>
@@ -86,7 +86,7 @@ export default function PatronsSection() {
                 </div>
 
                 {/* Name */}
-                <h3 className="text-sm sm:text-base font-bold text-[#0f3b6c] group-hover:text-blue-800 transition-colors leading-snug">
+                <h3 className="text-sm sm:text-base font-bold text-[#0f4a85] group-hover:text-blue-800 transition-colors leading-snug">
                   {patron.name}
                 </h3>
 
@@ -105,7 +105,7 @@ export default function PatronsSection() {
           {/* Section Divider Heading: Co Patrons */}
           <div className="patrons-header flex items-center justify-center space-x-4">
             <div className="h-px bg-slate-300/80 flex-1 max-w-[100px] sm:max-w-[180px]"></div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f3b6c] tracking-tight text-center">
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight text-center">
               Co Patrons
             </h2>
             <div className="h-px bg-slate-300/80 flex-1 max-w-[100px] sm:max-w-[180px]"></div>
@@ -130,7 +130,7 @@ export default function PatronsSection() {
                 </div>
 
                 {/* Name */}
-                <h3 className="text-sm sm:text-base font-bold text-[#0f3b6c] group-hover:text-blue-800 transition-colors leading-snug">
+                <h3 className="text-sm sm:text-base font-bold text-[#0f4a85] group-hover:text-blue-800 transition-colors leading-snug">
                   {copatron.name}
                 </h3>
 

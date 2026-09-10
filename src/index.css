@@ -3,7 +3,7 @@
 @layer base {
   :root {
     --navy-primary: #0a2540;
-    --navy-secondary: #0f3b6c;
+    --navy-secondary: #0f4a85;
     --navy-dark: #071526;
     --gold-accent: #f59e0b;
     --gold-light: #fef3c7;
@@ -42,8 +42,8 @@
     radial-gradient(at 15% 15%, rgba(224, 239, 254, 0.65) 0px, transparent 45%),
     radial-gradient(at 85% 15%, rgba(254, 243, 199, 0.45) 0px, transparent 45%),
     radial-gradient(at 50% 60%, rgba(240, 249, 255, 0.7) 0px, transparent 55%),
-    linear-gradient(to right, rgba(15, 59, 108, 0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(15, 59, 108, 0.02) 1px, transparent 1px);
+    linear-gradient(to right, rgba(15, 74, 133, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 74, 133, 0.02) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 100% 100%, 36px 36px, 36px 36px;
 }
 
@@ -69,7 +69,7 @@
 
 /* SRMU Navy Gradient text */
 .text-navy-gradient {
-  background: linear-gradient(135deg, #0a2540 0%, #0f3b6c 60%, #035d9c 100%);
+  background: linear-gradient(135deg, #0a2540 0%, #0f4a85 60%, #035d9c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

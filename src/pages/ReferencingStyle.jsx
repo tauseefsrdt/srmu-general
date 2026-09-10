@@ -43,7 +43,7 @@ export default function ReferencingStyle() {
             <BookOpen className="w-3.5 h-3.5 text-blue-600" />
             <span>Citation & Bibliography Rules</span>
           </div>
-          <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">
+          <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
             {authorGuidelinesData.referencingStyle.name}
           </h3>
           <p className="text-xs sm:text-sm text-slate-700 leading-relaxed max-w-3xl">
@@ -53,7 +53,7 @@ export default function ReferencingStyle() {
 
         {/* Citation Examples Grid */}
         <div className="space-y-4">
-          <h3 className="text-lg sm:text-xl font-bold text-[#0f3b6c] border-b border-slate-200 pb-2">
+          <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85] border-b border-slate-200 pb-2">
             Reference Citation Templates & Examples
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -83,7 +83,7 @@ export default function ReferencingStyle() {
         <div className="text-center pt-4">
           <Link
             to="/template"
-            className="inline-flex items-center space-x-2 px-6 py-3 rounded-xl text-xs font-bold text-white bg-[#0f3b6c] hover:bg-blue-800 transition-colors"
+            className="inline-flex items-center space-x-2 px-6 py-3 rounded-xl text-xs font-bold text-white bg-[#0f4a85] hover:bg-blue-800 transition-colors"
           >
             <FileText className="w-4 h-4" />
             <span>View Template Typography Specifications</span>
