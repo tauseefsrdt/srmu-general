@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  FileText, 
-  Download, 
-  CheckCircle2, 
-  Sparkles, 
-  BookOpen, 
-  ShieldCheck, 
-  Bot, 
-  Copy, 
-  Check, 
+import {
+  FileText,
+  Download,
+  CheckCircle2,
+  Sparkles,
+  BookOpen,
+  ShieldCheck,
+  Bot,
+  Copy,
+  Check,
   Send,
   HelpCircle,
   ExternalLink
@@ -38,7 +38,7 @@ export default function Guidelines() {
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
-      
+
       {/* Page Hero */}
       <PageHero
         title="Authors & Editorial Guidelines"
@@ -51,7 +51,7 @@ export default function Guidelines() {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 text-left">
-        
+
         {/* Navigation Tabs */}
         <div className="flex flex-wrap border-b border-slate-200 bg-white p-2 rounded-2xl shadow-2xs gap-2">
           {[
@@ -64,11 +64,10 @@ export default function Guidelines() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`py-2.5 px-4 text-xs font-bold rounded-xl transition-all cursor-pointer ${
-                activeTab === tab.id
-                  ? 'bg-[#0f3b6c] text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-              }`}
+              className={`py-2.5 px-4 text-xs font-bold rounded-xl transition-all cursor-pointer ${activeTab === tab.id
+                ? 'bg-[#0f3b6c] text-white shadow-xs'
+                : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                }`}
             >
               {tab.label}
             </button>
@@ -127,8 +126,8 @@ export default function Guidelines() {
           <div className="space-y-8 animate-in fade-in duration-200">
             <div className="academic-card p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#0f3b6c] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
               <div className="space-y-2 text-center sm:text-left">
-                <h3 className="text-xl sm:text-2xl font-bold text-white">Download Camera-Ready Template (.DOC)</h3>
-                <p className="text-xs text-slate-300 max-w-xl">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#0f3b6c]">Download Camera-Ready Template (.DOC)</h3>
+                <p className="text-xs text-slate-700 max-w-xl">
                   Official reference document (`13. Template.doc`) containing exact font hierarchies, two-column layouts, table layouts, and IEEE reference stylings.
                 </p>
               </div>
