@@ -36,7 +36,7 @@ export default function Footer({ onOpenGuidelines, onOpenContact }) {
     about: [
       { name: "Vision & Scope", href: "#scope", action: null },
       { name: "General Information", href: "#about", action: null },
-      { name: "Editorial Board & Patrons", href: "#about", action: null },
+      { name: "Editorial Board & Patrons", href: "#patrons", action: null },
       { name: "Double-Blind Review Model", href: "#about", action: () => onOpenGuidelines?.('ethics') },
       { name: "Contact & Editorial Office", href: "#contact", action: onOpenContact }
     ],
@@ -65,15 +65,15 @@ export default function Footer({ onOpenGuidelines, onOpenContact }) {
   return (
     <footer className="bg-[#081627] text-white pt-16 pb-12 border-t-4 border-amber-500 relative overflow-hidden">
       
-      {/* Ambient background glow */}
+      {/* Ambient Glow */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Newsletter & Updates Bar */}
+        {/* Top Newsletter Bar */}
         <div className="pb-12 mb-12 border-b border-slate-800 flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center lg:text-left">
-            <h3 className="text-xl font-bold text-white flex items-center justify-center lg:justify-start space-x-2">
+            <h3 className="text-lg sm:text-xl font-bold text-white flex items-center justify-center lg:justify-start space-x-2">
               <Sparkles className="w-5 h-5 text-amber-400" />
               <span>Subscribe to IJSPAST Research Alerts</span>
             </h3>
@@ -110,17 +110,17 @@ export default function Footer({ onOpenGuidelines, onOpenContact }) {
           )}
         </div>
 
-        {/* 5-Column Grid: [ Brand ] [ About ] [ Guidelines ] [ Papers ] [ Policy ] (Matching Wireframe Footer) */}
+        {/* 5-Column Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-12 border-b border-slate-800 text-left">
           
           {/* Column 1: Journal Info (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-xl bg-amber-400 text-slate-950 font-serif font-black text-xl flex items-center justify-center shadow-md">
+              <div className="w-10 h-10 rounded-xl bg-amber-400 text-slate-950 font-black text-xl flex items-center justify-center shadow-md">
                 IJ
               </div>
               <div>
-                <span className="font-serif font-black text-xl tracking-wider text-white">
+                <span className="font-black text-xl tracking-wider text-white">
                   {journalInfo.acronym}
                 </span>
                 <span className="block text-[11px] text-amber-300/90 font-medium">
@@ -215,7 +215,7 @@ export default function Footer({ onOpenGuidelines, onOpenContact }) {
                 Papers
               </h4>
             </div>
-            <ul className="space-y-2 text-slate-300 space-y-2 text-xs">
+            <ul className="space-y-2 text-slate-300 text-xs">
               {footerLinks.papers.map((link, idx) => (
                 <li key={idx}>
                   <a href={link.href} className="hover:text-amber-400 hover:translate-x-1 inline-block transition-all duration-150">
@@ -226,7 +226,7 @@ export default function Footer({ onOpenGuidelines, onOpenContact }) {
             </ul>
           </div>
 
-          {/* Column 5: Privacy / Terms / Policies (2 cols - matching Wireframe) */}
+          {/* Column 5: Policy (2 cols) */}
           <div className="lg:col-span-2 space-y-3">
             <div className="flex items-center space-x-2">
               <div className="w-1.5 h-3.5 bg-amber-400 rounded-xs"></div>
@@ -268,7 +268,7 @@ export default function Footer({ onOpenGuidelines, onOpenContact }) {
             </span>
             <button
               onClick={scrollToTop}
-              className="p-2 rounded-xl bg-slate-800 hover:bg-amber-400 hover:text-slate-950 transition-colors text-white border border-slate-700 cursor-pointer"
+              className="p-2.5 rounded-xl bg-slate-800 hover:bg-amber-400 hover:text-slate-950 transition-colors text-white border border-slate-700 cursor-pointer"
               aria-label="Back to top"
             >
               <ArrowUp className="w-4 h-4" />

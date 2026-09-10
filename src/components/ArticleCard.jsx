@@ -10,7 +10,7 @@ export default function ArticleCard({ article, onSelect }) {
   return (
     <div 
       onClick={() => onSelect(article)}
-      className="article-card group bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 flex flex-col justify-between cursor-pointer transform hover:-translate-y-1.5"
+      className="article-card group bg-white rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 flex flex-col justify-between cursor-pointer transform hover:-translate-y-1.5"
     >
       <div>
         {/* Card Image Header with Category Tag */}
@@ -18,7 +18,7 @@ export default function ArticleCard({ article, onSelect }) {
           <img 
             src={article.image} 
             alt={article.title} 
-            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
+            className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
@@ -30,7 +30,7 @@ export default function ArticleCard({ article, onSelect }) {
             </span>
           </div>
 
-          {/* Quick Metrics on Image */}
+          {/* Quick Metrics */}
           <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-[11px] font-medium">
             <span className="flex items-center space-x-1 font-semibold text-amber-300">
               <Calendar className="w-3 h-3 text-amber-400" />
@@ -44,7 +44,7 @@ export default function ArticleCard({ article, onSelect }) {
         </div>
 
         {/* Card Body */}
-        <div className="p-5 space-y-3 text-left">
+        <div className="p-5 space-y-2.5 text-left">
           {/* Volume / DOI snippet */}
           <div className="flex items-center justify-between text-[11px] text-slate-400 font-mono">
             <span>{article.volume}</span>
@@ -54,7 +54,7 @@ export default function ArticleCard({ article, onSelect }) {
           </div>
 
           {/* Article Title */}
-          <h4 className="text-base font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug font-serif-title">
+          <h4 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug">
             {article.title}
           </h4>
 
@@ -71,15 +71,15 @@ export default function ArticleCard({ article, onSelect }) {
       </div>
 
       {/* Card Footer: Action Bar */}
-      <div className="px-5 pb-5 pt-2 border-t border-slate-100 flex items-center justify-between">
+      <div className="px-5 pb-5 pt-3 border-t border-slate-100 flex items-center justify-between">
         <span className="text-[11px] font-semibold text-slate-500">
           {article.readTime}
         </span>
         <button 
-          className="inline-flex items-center space-x-1.5 text-xs font-bold text-[#0f3b6c] group-hover:text-amber-600 transition-colors cursor-pointer"
+          className="inline-flex items-center space-x-1 text-xs font-bold text-[#0f3b6c] group-hover:text-amber-600 transition-colors cursor-pointer"
           aria-label={`Read article: ${article.title}`}
         >
-          <span>View Article</span>
+          <span>Read Paper</span>
           <ArrowUpRight className="w-3.5 h-3.5 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
         </button>
       </div>
