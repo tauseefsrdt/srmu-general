@@ -2,15 +2,15 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { 
-  Target, 
-  Layers, 
-  Compass, 
-  CheckCircle2, 
-  ArrowRight, 
-  Info, 
-  BookOpen, 
-  Globe, 
+import {
+  Target,
+  Layers,
+  Compass,
+  CheckCircle2,
+  ArrowRight,
+  Info,
+  BookOpen,
+  Globe,
   ShieldCheck,
   ChevronRight,
   Sparkles
@@ -48,8 +48,8 @@ export default function GeneralInfo() {
     }
 
     const ctx = gsap.context(() => {
-      gsap.fromTo('.geninfo-header', 
-        { y: 20, opacity: 0 }, 
+      gsap.fromTo('.geninfo-header',
+        { y: 20, opacity: 0 },
         {
           y: 0,
           opacity: 1,
@@ -63,8 +63,8 @@ export default function GeneralInfo() {
         }
       );
 
-      gsap.fromTo('.geninfo-card', 
-        { y: 25, opacity: 0 }, 
+      gsap.fromTo('.geninfo-card',
+        { y: 25, opacity: 0 },
         {
           y: 0,
           opacity: 1,
@@ -84,13 +84,13 @@ export default function GeneralInfo() {
   }, []);
 
   return (
-    <section 
-      id="about" 
+    <section
+      id="about"
       ref={sectionRef}
       className="py-12 md:py-18 bg-transparent relative z-10"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         {/* 1. General Information Header & 3-Pillar Cards */}
         <div>
           <div className="geninfo-header text-center max-w-3xl mx-auto mb-10 space-y-2.5">
@@ -111,30 +111,26 @@ export default function GeneralInfo() {
             {generalInfoCards.map((item) => (
               <div
                 key={item.id}
-                className={`geninfo-card academic-card relative rounded-2xl p-6 sm:p-7 flex flex-col justify-between group ${
-                  item.isPrimary ? 'border-blue-500/50 md:-translate-y-1.5' : ''
-                }`}
+                className={`geninfo-card academic-card relative rounded-2xl p-6 sm:p-7 flex flex-col justify-between group ${item.isPrimary ? 'border-blue-500/50 md:-translate-y-1.5' : ''
+                  }`}
               >
                 {/* Accent Top Bar */}
-                <div className={`absolute top-0 left-6 right-6 h-1 rounded-b-full ${
-                  item.isPrimary ? 'bg-gradient-to-r from-blue-600 to-[#0f4a85]' : 'bg-gradient-to-r from-amber-400 to-amber-600'
-                }`} />
+                <div className={`absolute top-0 left-6 right-6 h-1 rounded-b-full ${item.isPrimary ? 'bg-gradient-to-r from-blue-600 to-[#0f4a85]' : 'bg-gradient-to-r from-amber-400 to-amber-600'
+                  }`} />
 
                 <div className="space-y-4">
                   {/* Header with Icon & Badge */}
                   <div className="flex items-center justify-between">
-                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center border shadow-2xs transition-transform duration-300 group-hover:scale-105 ${
-                      item.isPrimary 
-                        ? 'bg-blue-50 border-blue-200 text-blue-700' 
+                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center border shadow-2xs transition-transform duration-300 group-hover:scale-105 ${item.isPrimary
+                        ? 'bg-blue-50 border-blue-200 text-blue-700'
                         : 'bg-amber-50 border-amber-200 text-amber-700'
-                    }`}>
+                      }`}>
                       {getCardIcon(item.id)}
                     </div>
-                    <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border ${
-                      item.isPrimary
+                    <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border ${item.isPrimary
                         ? 'bg-blue-100 text-blue-900 border-blue-300'
                         : 'bg-slate-100 text-slate-700 border-slate-200'
-                    }`}>
+                      }`}>
                       {item.badge}
                     </span>
                   </div>
@@ -173,11 +169,10 @@ export default function GeneralInfo() {
                 <div className="pt-5 mt-5 border-t border-slate-100">
                   <Link
                     to={item.id === 'general-info' ? '/publication-details' : '/vision-scope'}
-                    className={`w-full flex items-center justify-center space-x-1.5 py-2.5 px-3.5 rounded-xl text-xs font-bold transition-all duration-200 ${
-                      item.isPrimary
+                    className={`w-full flex items-center justify-center space-x-1.5 py-2.5 px-3.5 rounded-xl text-xs font-bold transition-all duration-200 ${item.isPrimary
                         ? 'bg-[#0f4a85] text-white hover:bg-blue-800 shadow-xs'
                         : 'bg-slate-50 text-[#0f4a85] hover:bg-amber-50 hover:text-amber-800 hover:border-amber-300 border border-slate-200'
-                    }`}
+                      }`}
                   >
                     <span>Read Full {item.title} Page</span>
                     <ChevronRight className="w-3 h-3" />
@@ -209,11 +204,10 @@ export default function GeneralInfo() {
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
-                    selectedCategory === cat
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${selectedCategory === cat
                       ? 'bg-[#0f4a85] text-white shadow-2xs'
                       : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 hover:border-slate-300'
-                  }`}
+                    }`}
                 >
                   {cat}
                 </button>
@@ -244,7 +238,7 @@ export default function GeneralInfo() {
           </div>
 
           {/* Callout Bar */}
-          <div className="mt-10 bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white rounded-2xl p-5 sm:p-7 flex flex-col md:flex-row items-center justify-between gap-5 shadow-lg border border-amber-400/30">
+          <div className="mt-10 bg-gradient-to-r from-[#0f4a85] to-[#0f4a85] text-white rounded-2xl p-5 sm:p-7 flex flex-col md:flex-row items-center justify-between gap-5 shadow-lg border border-amber-400/30">
             <div className="space-y-1 text-center md:text-left">
               <h4 className="text-sm sm:text-base font-bold text-white flex items-center justify-center md:justify-start space-x-2">
                 <ShieldCheck className="w-4 h-4 text-amber-400" />

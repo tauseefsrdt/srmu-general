@@ -124,7 +124,7 @@ export default function Guidelines() {
         {/* Tab 2: Template & Formatting */}
         {activeTab === 'template' && (
           <div className="space-y-8 animate-in fade-in duration-200">
-            <div className="academic-card p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+            <div className="academic-card p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#0f4a85] to-[#0f4a85] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
               <div className="space-y-2 text-center sm:text-left">
                 <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">Download Camera-Ready Template (.DOC)</h3>
                 <p className="text-xs text-slate-700 max-w-xl">

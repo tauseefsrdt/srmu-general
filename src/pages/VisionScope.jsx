@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  Target, 
-  Layers, 
-  Compass, 
-  CheckCircle2, 
-  ArrowRight, 
-  Send, 
+import {
+  Target,
+  Layers,
+  Compass,
+  CheckCircle2,
+  ArrowRight,
+  Send,
   Sparkles,
   Search,
   Filter
@@ -25,14 +25,14 @@ export default function VisionScope() {
 
   const filteredTopics = journalScopeTopics.filter(topic => {
     const matchesCat = selectedCategory === 'All' || topic.category === selectedCategory;
-    const matchesSearch = topic.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          topic.category.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = topic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      topic.category.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCat && matchesSearch;
   });
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
-      
+
       {/* Page Hero */}
       <PageHero
         title="Vision & Scope of the Journal"
@@ -45,14 +45,14 @@ export default function VisionScope() {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-16 text-left">
-        
+
         {/* Mission & Vision 2-Column Split */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-          
+
           {/* Mission Card */}
           <div className="academic-card rounded-3xl p-6 sm:p-8 space-y-5 relative overflow-hidden bg-white">
             <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full bg-gradient-to-r from-amber-400 to-amber-600"></div>
-            
+
             <div className="flex items-center space-x-3">
               <div className="w-11 h-11 rounded-2xl bg-amber-50 border border-amber-200 text-amber-700 flex items-center justify-center font-bold">
                 <Target className="w-6 h-6" />
@@ -84,7 +84,7 @@ export default function VisionScope() {
           {/* Vision Card */}
           <div className="academic-card rounded-3xl p-6 sm:p-8 space-y-5 relative overflow-hidden bg-white">
             <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full bg-gradient-to-r from-blue-600 to-[#0f4a85]"></div>
-            
+
             <div className="flex items-center space-x-3">
               <div className="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200 text-blue-700 flex items-center justify-center font-bold">
                 <Compass className="w-6 h-6" />
@@ -117,7 +117,7 @@ export default function VisionScope() {
 
         {/* 23+ Submission Scope Interactive Section */}
         <div className="space-y-8">
-          
+
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-200 pb-4">
             <div>
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f4a85] text-xs font-bold border border-blue-200 mb-2">
@@ -151,11 +151,10 @@ export default function VisionScope() {
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
-                  selectedCategory === cat
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${selectedCategory === cat
                     ? 'bg-[#0f4a85] text-white shadow-2xs'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-white'
-                }`}
+                  }`}
               >
                 {cat}
               </button>
@@ -193,7 +192,7 @@ export default function VisionScope() {
         </div>
 
         {/* CTA Strip */}
-        <div className="academic-card rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="academic-card rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-[#0f4a85] to-[#0f4a85] text-white flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center sm:text-left">
             <h4 className="text-base sm:text-lg font-bold text-white">Have a manuscript that fits our scope?</h4>
             <p className="text-xs text-slate-300">Submit your work today for double-blind peer review and rapid international publication.</p>

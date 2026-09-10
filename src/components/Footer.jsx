@@ -65,7 +65,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
 
         {/* Main Footer Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pb-10 border-b border-slate-800/80 text-left">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pb-10 text-left">
 
           {/* Brand & Contact (4 Columns) */}
           <div className="lg:col-span-4 space-y-4">
@@ -83,14 +83,14 @@ export default function Footer() {
               </div>
             </Link>
 
-            <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
+            <p className="text-xs text-slate-100 leading-relaxed max-w-sm">
               An international, peer-reviewed, open-access journal dedicated to publishing high-quality original research and review articles across science, engineering, and emerging technologies.
             </p>
 
             <div className="space-y-2 pt-1 text-xs text-slate-300">
               <div className="flex items-start space-x-2.5">
                 <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
-                <span className="text-slate-400 leading-snug">Lucknow-Deva Road, Barabanki, Uttar Pradesh, India</span>
+                <span className="text-slate-100 leading-snug">Lucknow-Deva Road, Barabanki, Uttar Pradesh, India</span>
               </div>
 
               <div className="flex items-center space-x-2.5">
@@ -121,7 +121,7 @@ export default function Footer() {
                   </h4>
                 </div>
 
-                <ul className="space-y-2 text-xs text-slate-400">
+                <ul className="space-y-2 text-xs text-slate-100">
                   {section.links.map((link, lIdx) => (
                     <li key={lIdx}>
                       <Link
@@ -140,32 +140,7 @@ export default function Footer() {
         </div>
 
         {/* Sub-Footer */}
-        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-          <div className="text-center sm:text-left space-y-0.5">
-            <p className="text-slate-400">
-              © {new Date().getFullYear()} <strong className="text-slate-300">{journalInfo.fullName}</strong>.
-            </p>
-            <p className="text-[10px] text-slate-500">
-              Published under open-access license by Shri Ramswaroop Memorial University.
-            </p>
-          </div>
 
-          <div className="flex items-center space-x-4">
-            <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-md bg-slate-900 border border-slate-800 text-[10px] text-slate-400 font-mono">
-              <Globe className="w-3 h-3 text-emerald-400" />
-              <span>CC BY 4.0 Open Access</span>
-            </span>
-
-            <button
-              onClick={scrollToTop}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-amber-400 hover:text-slate-950 text-slate-300 border border-slate-800 transition-all cursor-pointer font-medium"
-              aria-label="Back to top"
-            >
-              <span className="text-[11px]">Back to top</span>
-              <ArrowUp className="w-3.5 h-3.5" />
-            </button>
-          </div>
-        </div>
 
       </div>
     </footer>

@@ -2,26 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Home, Sparkles, BookOpen } from 'lucide-react';
 
-export default function PageHero({ 
-  title, 
-  subtitle, 
-  badge, 
+export default function PageHero({
+  title,
+  subtitle,
+  badge,
   breadcrumbs = [],
   image = "https://images.unsplash.com/photo-1507842229451-7f01be837453?auto=format&fit=crop&w=1600&q=80"
 }) {
   return (
-    <div className="relative min-h-[500px] flex items-center pt-32 pb-20 bg-[#081627] text-white border-b border-amber-500/40 overflow-hidden">
-      
+    <div className="relative min-h-[500px] flex items-center pt-32 pb-20 bg-[#0f4a85] text-white border-b border-amber-500/40 overflow-hidden">
+
       {/* Background Hero Image with Academic Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={image} 
+        <img
+          src={image}
           alt={title}
           className="w-full h-full object-cover object-center transform scale-105 filter brightness-45 contrast-125"
         />
         {/* Layered Gradient Overlays for High Contrast & SRMU Color Atmosphere */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#071526]/95 via-[#0a2540]/90 to-[#0f4a85]/80"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-[#081627] via-transparent to-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0f4a85] via-transparent to-black/40"></div>
         <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#fbbf24_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none"></div>
       </div>
 
@@ -30,7 +30,7 @@ export default function PageHero({
       <div className="absolute bottom-0 left-10 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl pointer-events-none z-0"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-left w-full">
-        
+
         {/* Breadcrumbs with Frosted Backdrop */}
         <nav className="inline-flex items-center space-x-2 text-xs font-medium text-slate-200 mb-3.5 px-3.5 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/10" aria-label="Breadcrumb">
           <Link to="/" className="flex items-center space-x-1 hover:text-amber-400 transition-colors">

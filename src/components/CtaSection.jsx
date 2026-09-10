@@ -7,8 +7,8 @@ export default function CtaSection() {
   return (
     <section id="submit" className="py-14 md:py-18 bg-transparent relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative rounded-3xl bg-gradient-to-br from-[#081627] via-[#0b284c] to-[#0f4a85] text-white p-7 sm:p-10 lg:p-14 overflow-hidden shadow-xl border border-amber-400/30">
-          
+        <div className="relative rounded-3xl bg-gradient-to-br from-[#0f4a85] via-[#0b284c] to-[#0f4a85] text-white p-7 sm:p-10 lg:p-14 overflow-hidden shadow-xl border border-amber-400/30">
+
           {/* Subtle Ambient Glows */}
           <div className="absolute top-0 right-0 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl pointer-events-none"></div>

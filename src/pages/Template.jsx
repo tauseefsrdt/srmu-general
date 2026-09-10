@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  Download, 
-  FileText, 
-  Sparkles, 
-  CheckCircle2, 
+import {
+  Download,
+  FileText,
+  Sparkles,
+  CheckCircle2,
   Send,
   HelpCircle,
   Table
@@ -24,7 +24,7 @@ export default function Template() {
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
-      
+
       {/* Page Hero */}
       <PageHero
         title="Manuscript Camera-Ready Template (.DOC)"
@@ -37,9 +37,9 @@ export default function Template() {
       />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-12 text-left">
-        
+
         {/* Download Callout Card */}
-        <div className="academic-card p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#0f4a85] via-[#0b284c] to-[#081627] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+        <div className="academic-card p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#0f4a85] via-[#0b284c] to-[#0f4a85] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-2 text-center sm:text-left">
             <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
               Official Camera-Ready Reference File

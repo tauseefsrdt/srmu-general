@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { 
-  Sparkles, 
-  ArrowRight, 
-  FileText 
+import {
+  Sparkles,
+  ArrowRight,
+  FileText
 } from 'lucide-react';
 import { featuredTemplateArticles } from '../data/journalDocData';
 import ArticleCard from './ArticleCard';
@@ -28,8 +28,8 @@ export default function FeaturedArticles() {
     }
 
     const ctx = gsap.context(() => {
-      gsap.fromTo('.articles-header', 
-        { y: 20, opacity: 0 }, 
+      gsap.fromTo('.articles-header',
+        { y: 20, opacity: 0 },
         {
           y: 0,
           opacity: 1,
@@ -43,8 +43,8 @@ export default function FeaturedArticles() {
         }
       );
 
-      gsap.fromTo('.article-card', 
-        { y: 25, opacity: 0 }, 
+      gsap.fromTo('.article-card',
+        { y: 25, opacity: 0 },
         {
           y: 0,
           opacity: 1,
@@ -64,15 +64,15 @@ export default function FeaturedArticles() {
   }, []);
 
   return (
-    <section 
-      id="featured-articles" 
+    <section
+      id="featured-articles"
       ref={sectionRef}
       className="py-12 md:py-18 bg-transparent relative z-10"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
-        <div className="articles-header flex flex-col md:flex-row md:items-end justify-between mb-10 gap-5">
+        <div className="articles-header mb-10 gap-5">
           <div className="space-y-2.5 max-w-2xl text-left">
             <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold border border-amber-200">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
@@ -87,16 +87,15 @@ export default function FeaturedArticles() {
           </div>
 
           {/* Category Filter Pills */}
-          <div className="flex flex-wrap items-center gap-1.5 p-1 bg-slate-100/90 rounded-xl border border-slate-200/80">
+          <div className="inline-flex mt-5 flex-wrap items-center gap-1.5 p-1 bg-slate-100/90 rounded-xl border border-slate-200/80">
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
-                  activeCategory === cat
-                    ? 'bg-[#0f4a85] text-white shadow-2xs'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white'
-                }`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${activeCategory === cat
+                  ? 'bg-[#0f4a85] text-white shadow-2xs'
+                  : 'text-slate-600 hover:text-slate-900 hover:bg-white'
+                  }`}
               >
                 {cat}
               </button>
@@ -107,14 +106,14 @@ export default function FeaturedArticles() {
         {/* 4 Cards Grid with Direct Routing to Dedicated Article Pages */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
           {filteredArticles.map((article) => (
-            <Link 
-              key={article.id} 
+            <Link
+              key={article.id}
               to={`/articles/${article.id}`}
               className="block"
             >
-              <ArticleCard 
-                article={article} 
-                onSelect={() => {}}
+              <ArticleCard
+                article={article}
+                onSelect={() => { }}
               />
             </Link>
           ))}

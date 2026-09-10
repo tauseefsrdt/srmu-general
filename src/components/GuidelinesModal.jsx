@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { 
-  FileText, 
-  Download, 
-  CheckCircle2, 
-  ShieldCheck, 
-  Cpu, 
-  Layers, 
-  BookOpen, 
-  Scale, 
-  Sparkles, 
+import {
+  FileText,
+  Download,
+  CheckCircle2,
+  ShieldCheck,
+  Cpu,
+  Layers,
+  BookOpen,
+  Scale,
+  Sparkles,
   ChevronRight,
   HelpCircle,
   ExternalLink,
@@ -42,14 +42,14 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/70 backdrop-blur-md animate-in fade-in duration-200">
-      <div 
+      <div
         className="relative bg-white rounded-3xl max-w-4xl w-full max-h-[92vh] overflow-hidden shadow-2xl border border-slate-200 flex flex-col animate-in zoom-in-95 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="px-6 py-4 sm:px-8 sm:py-5 border-b border-slate-100 flex items-center justify-between bg-white/95 backdrop-blur-md shrink-0">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0f4a85] to-[#081627] text-amber-400 flex items-center justify-center font-bold shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0f4a85] to-[#0f4a85] text-amber-400 flex items-center justify-center font-bold shadow-sm">
               <FileText className="w-5 h-5" />
             </div>
             <div>
@@ -81,11 +81,10 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`py-3 px-3 text-xs font-bold border-b-2 whitespace-nowrap transition-all cursor-pointer ${
-                activeTab === tab.id
+              className={`py-3 px-3 text-xs font-bold border-b-2 whitespace-nowrap transition-all cursor-pointer ${activeTab === tab.id
                   ? 'border-blue-700 text-[#0f4a85] bg-white rounded-t-lg'
                   : 'border-transparent text-slate-600 hover:text-[#0f4a85]'
-              }`}
+                }`}
             >
               {tab.label}
             </button>
@@ -94,7 +93,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
 
         {/* Modal Scrollable Content */}
         <div className="p-6 sm:p-8 overflow-y-auto space-y-6 text-slate-700 text-sm">
-          
+
           {/* TAB 1: Preparation & Structure */}
           {activeTab === 'guidelines' && (
             <div className="space-y-6 animate-in fade-in duration-200">
@@ -141,7 +140,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
           {/* TAB 2: Template & Formatting */}
           {activeTab === 'template' && (
             <div className="space-y-6 animate-in fade-in duration-200">
-              <div className="bg-gradient-to-r from-[#0f4a85] to-[#081627] text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
+              <div className="bg-gradient-to-r from-[#0f4a85] to-[#0f4a85] text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
                 <div className="space-y-1 text-center sm:text-left">
                   <h4 className="text-lg font-bold text-white">Download Standard Manuscript Template</h4>
                   <p className="text-xs text-amber-200/90">
