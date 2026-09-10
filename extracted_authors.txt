@@ -1,0 +1,128 @@
+﻿w:rsidR="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Note: This information to be posted under Authors Guidelines
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is an international, peer-reviewed, open-access journal dedicated to publishing high-quality original research, review articles, in all areas of science, engineering, and emerging technologies.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors are encouraged to submit manuscripts that present novel contributions, practical applications, innovative methodologies, and interdisciplinary research.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120">
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Manuscript Preparation
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Manuscripts must be written in clear, concise, and grammatically correct English.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> File Format
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Submit manuscripts in:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Microsoft Word (.doc/. docx )
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> PDF (for review purposes)
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Template Format ( link for template )
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Manuscript Structure
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> The manuscript should be organized in the following order:
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Title
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> The title should be concise, informative, and accurately reflect the content of the paper.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Avoid abbreviations and unnecessary words.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Provide:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> Full name of each author
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> Affiliation
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> Department
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> Institution
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> City
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> Country
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> Email address
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="00E16059"> ORCID ID (recommended)
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Clearly identify the corresponding author.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Abstract
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> The abstract should:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Be between 150–250 words
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> State the objective
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Briefly describe methodology
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Present major findings
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Highlight the significance of the work
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> Do not include references, equations, or undefined abbreviations.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Keywords
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Provide 4–8 keywords that best describe the manuscript.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Main Text
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> For research papers, use the following structure:
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Introduction
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Literature Review
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Materials and Methods (or Methodology)
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Results
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Discussion
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Conclusion
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Future Scope (optional)
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Acknowledgements (if applicable)
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Funding Information
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Conflict of Interest
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Author Contributions (recommended)
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> References
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Alternative structures may be used where appropriate for review articles or other article types.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Figures and Tables
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Number figures and tables consecutively.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Every figure and table must have a caption.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Figures should be high resolution (minimum 300 dpi).
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Cite all figures and tables in the text.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Do not duplicate information in both tables and figures.
+w:rsidR="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120">
+w:rsidR="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120">
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Equations
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Number equations consecutively.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Use standard mathematical notation.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Define all symbols at first use.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Units
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Use the International System of Units (SI Units).
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> References
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> IJSPAST recommends the IEEE Referencing Style .
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Journal Article
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Author(s), "Title," Journal Name , vol. x, no. x, pp. xx–xx, Year.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Conference Paper
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Author(s), "Paper Title," Conference Name , Location, Year, pp. xx–xx.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Book
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Author(s), Book Title . Publisher, Year.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Website
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Author, "Title," Website, URL, Accessed Month Year.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors are responsible for ensuring the accuracy and completeness of all references.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Ethical Requirements
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors must ensure that:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> The manuscript is original.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> The work has not been published elsewhere.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> The manuscript is not under consideration by another journal.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> All sources are properly cited.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Necessary permissions have been obtained.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Human and animal studies include appropriate ethical approval, where applicable.
+w:rsidR="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120">
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Plagiarism Policy
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> All manuscripts are screened using plagiarism detection software.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> General editorial guidance:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Similarity below 1 0 % is normally acceptable after editorial assessment.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Higher similarity may require revision or rejection depending on the source and nature of the overlap.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> Plagiarism, duplicate publication, fabricated data, and falsification are considered serious ethical violations.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Artificial Intelligence (AI) Policy
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors may use AI tools for language editing or drafting assistance provided that:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors remain fully responsible for the manuscript.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> AI tools are not listed as authors.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Any required disclosure of AI use is provided in accordance with journal policy.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> All AI-generated content is carefully verified.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Peer Review
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> IJSPAST follows a Double-Blind Peer Review process.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> Each manuscript is evaluated by at least two independent reviewers.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Editorial decisions include:
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Accept
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Minor Revision
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Major Revision
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Reject
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> The Editor-in-Chief makes the final decision.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Submission Checklist
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Before submission, ensure that:
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Manuscript follows the journal template.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Title page is complete.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Abstract and keywords are included.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ References are complete and correctly formatted.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Figures and tables are properly numbered.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ All citations are included.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Conflict of interest statement is provided.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Funding information is disclosed.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Authors have approved the final manuscript.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> ✓ Similarity has been checked.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Copyright
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> Upon acceptance, authors may be required to complete the journal's copyright or licensing agreement before publication.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Open Access Policy
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> IJSPAST provides immediate open access to published articles to promote the global dissemination of scientific knowledge.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Publication Charges
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> The applicable Article Processing Charges (APCs) will be applicable as per journal Policy.
+w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Correspondence
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> All correspondence regarding manuscript submission, peer review, and publication should be addressed to the Editorial Office of the International Journal of Scientific Progress in Applied Science and Technology (IJSPSAT) through the journal's official submission system or designated editorial email.
+w:rsidR="00F85453" w:rsidRDefault="00F85453"/>

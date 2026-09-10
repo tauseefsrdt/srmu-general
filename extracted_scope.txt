@@ -1,0 +1,26 @@
+﻿w:rsidR="00BC4E2D" w:rsidRPr="00BC4E2D" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Note: This information to be posted on home page
+w:rsidR="00BC4E2D" w:rsidRPr="00BC4E2D" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Scope of the Journal
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> IJ SPAST welcomes submissions in, but not limited to, the following areas:
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Artificial Intelligence and Machine Learning
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Data Science and Big Data Analytics
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Cybersecurity and Information Security
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Internet of Things (IoT)
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Cloud and Edge Computing
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Wireless and Mobile Communication
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> 5G/6G Networks
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Computer Science and Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Electronics and Communication Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Electrical Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Mechanical Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Civil Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Chemical Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Environmental Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Renewable Energy Systems
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Robotics and Automation
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Smart Manufacturing
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Materials Science
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Biomedical Engineering
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Nanotechnology
+w:rsidR="00BC4E2D" w:rsidRPr="009D3FCC" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Applied Physics
+w:rsidR="00BC4E2D" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Applied Mathematics
+w:rsidR="00F85453" w:rsidRPr="00BC4E2D" w:rsidRDefault="00BC4E2D" w:rsidP="00BC4E2D"> Interdisciplinary Science and Engineering

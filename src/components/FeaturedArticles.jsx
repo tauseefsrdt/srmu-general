@@ -5,24 +5,25 @@ import {
   Sparkles, 
   BookOpen, 
   ArrowRight, 
-  SlidersHorizontal,
-  DownloadCloud,
-  FileCheck
+  Download,
+  FileCheck,
+  ShieldCheck,
+  FileText
 } from 'lucide-react';
-import { featuredArticles } from '../data/data';
+import { featuredTemplateArticles } from '../data/journalDocData';
 import ArticleCard from './ArticleCard';
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function FeaturedArticles({ onSelectArticle }) {
+export default function FeaturedArticles({ onSelectArticle, onOpenGuidelines }) {
   const sectionRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'AI & Robotics', 'Bioscience & Biotech', 'Materials & Energy', 'Quantum & Photonics'];
+  const categories = ['All', 'Wireless & 5G/6G', 'Energy & Materials', 'Cyber & Networks', 'Applied Physics'];
 
   const filteredArticles = activeCategory === 'All'
-    ? featuredArticles
-    : featuredArticles.filter(art => art.category.toLowerCase().includes(activeCategory.toLowerCase().slice(0, 4)));
+    ? featuredTemplateArticles
+    : featuredTemplateArticles.filter(art => art.category === activeCategory);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -67,16 +68,16 @@ export default function FeaturedArticles({ onSelectArticle }) {
         
         {/* Section Header */}
         <div className="articles-header flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-          <div className="space-y-3 max-w-2xl">
+          <div className="space-y-3 max-w-2xl text-left">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold border border-amber-200">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-              <span>Current Issue • Volume 12, Issue 4</span>
+              <span>Current Issue • Volume 01, Issue 1 (2026)</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f3b6c] tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#0f3b6c] tracking-tight font-serif-title">
               Featured Research Articles
             </h2>
             <p className="text-sm md:text-base text-slate-600">
-              Peer-reviewed high-impact papers published in the latest volume of IJSPAST. Freely available under CC BY 4.0 Open Access license.
+              Peer-reviewed high-impact papers formatted according to official IJSPAST template specifications. Published under open-access IEEE referencing standards.
             </p>
           </div>
 
@@ -98,7 +99,7 @@ export default function FeaturedArticles({ onSelectArticle }) {
           </div>
         </div>
 
-        {/* Responsive Grid: 4 Cards on Desktop (matching wireframe 4 boxes), 2 on Tablet, 1 on Mobile */}
+        {/* 4 Cards Grid - Matching Handwritten Wireframe */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
           {filteredArticles.map((article) => (
             <ArticleCard 
@@ -109,25 +110,27 @@ export default function FeaturedArticles({ onSelectArticle }) {
           ))}
         </div>
 
-        {/* View All Archives CTA */}
-        <div className="mt-14 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-slate-50 via-blue-50/50 to-slate-50 border border-slate-200/80 shadow-2xs">
-            <div className="flex items-center space-x-3 text-left">
-              <div className="w-10 h-10 rounded-xl bg-blue-100 text-[#0f3b6c] flex items-center justify-center font-bold">
-                <BookOpen className="w-5 h-5" />
+        {/* Template Download & Formatting Banner */}
+        <div className="mt-14">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-6 p-6 rounded-2xl bg-gradient-to-r from-slate-50 via-blue-50/50 to-slate-50 border border-slate-200/80 shadow-2xs">
+            <div className="flex items-center space-x-4 text-left">
+              <div className="w-12 h-12 rounded-xl bg-blue-100 text-[#0f3b6c] flex items-center justify-center font-bold shrink-0">
+                <FileText className="w-6 h-6" />
               </div>
               <div>
-                <p className="text-xs sm:text-sm font-bold text-slate-900">Looking for previous editions and archive volumes?</p>
-                <p className="text-[11px] text-slate-500">Explore over 195+ published papers spanning 2018 to 2026.</p>
+                <p className="text-sm font-bold text-slate-900">Preparing a manuscript for submission?</p>
+                <p className="text-xs text-slate-500">Download the official camera-ready reference file (`13. Template.doc`) with Helvetica & Times New Roman typography rules.</p>
               </div>
             </div>
-            <a
-              href="#archives"
-              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f3b6c] hover:bg-blue-800 shadow-sm transition-colors shrink-0"
-            >
-              <span>Explore Full Journal Archives</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </a>
+            <div className="flex items-center space-x-3 shrink-0">
+              <button
+                onClick={() => onOpenGuidelines?.('template')}
+                className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0f3b6c] hover:bg-blue-800 shadow-sm transition-colors cursor-pointer"
+              >
+                <span>View Template Specs</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            </div>
           </div>
         </div>
 
