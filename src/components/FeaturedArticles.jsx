@@ -70,14 +70,14 @@ export default function FeaturedArticles({ onSelectArticle, onOpenGuidelines }) 
     <section 
       id="featured-articles" 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-white relative"
+      className="py-16 md:py-24 bg-transparent relative z-10"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="articles-header flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="space-y-3 max-w-2xl text-left">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold border border-amber-200">
+            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50/90 text-amber-900 text-xs font-bold border border-amber-200">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Current Issue • Volume 01, Issue 1 (2026)</span>
             </div>
@@ -90,7 +90,7 @@ export default function FeaturedArticles({ onSelectArticle, onOpenGuidelines }) 
           </div>
 
           {/* Category Filter Pills */}
-          <div className="flex flex-wrap items-center gap-1.5 p-1.5 bg-slate-100/90 rounded-xl border border-slate-200/80">
+          <div className="flex flex-wrap items-center gap-1.5 p-1.5 bg-slate-100/90 backdrop-blur-xs rounded-xl border border-slate-200/80">
             {categories.map((cat) => (
               <button
                 key={cat}
@@ -98,7 +98,7 @@ export default function FeaturedArticles({ onSelectArticle, onOpenGuidelines }) 
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                   activeCategory === cat
                     ? 'bg-[#0f3b6c] text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-white/80'
                 }`}
               >
                 {cat}
@@ -120,7 +120,7 @@ export default function FeaturedArticles({ onSelectArticle, onOpenGuidelines }) 
 
         {/* Template Download & Formatting Banner */}
         <div className="mt-14">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-6 p-6 rounded-2xl bg-gradient-to-r from-slate-50 via-blue-50/50 to-slate-50 border border-slate-200/80 shadow-2xs">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-6 p-6 rounded-2xl bg-white/90 backdrop-blur-xs border border-slate-200/90 shadow-2xs">
             <div className="flex items-center space-x-4 text-left">
               <div className="w-12 h-12 rounded-xl bg-blue-100 text-[#0f3b6c] flex items-center justify-center font-bold shrink-0">
                 <FileText className="w-6 h-6" />

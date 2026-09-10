@@ -4,7 +4,7 @@ import { journalInfo } from '../data/journalDocData';
 
 export default function CtaSection({ onOpenContact, onOpenGuidelines }) {
   return (
-    <section id="submit" className="py-16 md:py-20 bg-white relative">
+    <section id="submit" className="py-16 md:py-20 bg-transparent relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative rounded-3xl bg-gradient-to-br from-[#0f3b6c] via-[#0b284c] to-[#081627] text-white p-8 sm:p-12 lg:p-16 overflow-hidden shadow-2xl border border-amber-400/30">
           

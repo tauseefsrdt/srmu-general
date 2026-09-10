@@ -92,14 +92,14 @@ export default function GeneralInfo({ onOpenGuidelines }) {
     <section 
       id="about" 
       ref={sectionRef}
-      className="py-16 md:py-24 bg-gradient-to-b from-[#f8fafc] via-slate-50 to-[#f1f5f9] relative"
+      className="py-16 md:py-24 bg-transparent relative z-10"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
         
         {/* 1. General Information Header & 3-Pillar Cards (Matching Wireframe: [ Mission ] [ General Information ] [ Vision ]) */}
         <div>
           <div className="geninfo-header text-center max-w-3xl mx-auto mb-16 space-y-3">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f3b6c] text-xs font-bold border border-blue-200">
+            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50/90 text-[#0f3b6c] text-xs font-bold border border-blue-200">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Foundational Journal Mandate</span>
             </div>
@@ -116,10 +116,10 @@ export default function GeneralInfo({ onOpenGuidelines }) {
             {generalInfoCards.map((item) => (
               <div
                 key={item.id}
-                className={`geninfo-card relative rounded-2xl p-7 transition-all duration-300 flex flex-col justify-between group ${
+                className={`geninfo-card relative rounded-2xl p-7 transition-all duration-300 flex flex-col justify-between group backdrop-blur-xs ${
                   item.isPrimary
-                    ? 'bg-white shadow-xl border-2 border-blue-600/30 hover:border-blue-600 md:-translate-y-2'
-                    : 'bg-white/95 shadow-md border border-slate-200/90 hover:border-amber-400 hover:shadow-lg'
+                    ? 'bg-white/95 shadow-xl border-2 border-blue-600/30 hover:border-blue-600 md:-translate-y-2'
+                    : 'bg-white/90 shadow-md border border-slate-200/90 hover:border-amber-400 hover:shadow-lg'
                 }`}
               >
                 {/* Accent Top Border */}
@@ -199,7 +199,7 @@ export default function GeneralInfo({ onOpenGuidelines }) {
         {/* 2. Scope of the Journal Section - Faithful representation of "Scope of the Journal.docx" */}
         <div id="scope" className="pt-6">
           <div className="text-center max-w-3xl mx-auto mb-10 space-y-3">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold border border-amber-200">
+            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50/90 text-amber-900 text-xs font-bold border border-amber-200">
               <Layers className="w-3.5 h-3.5 text-amber-600" />
               <span>Scope of the Journal</span>
             </div>
@@ -219,7 +219,7 @@ export default function GeneralInfo({ onOpenGuidelines }) {
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                     selectedCategory === cat
                       ? 'bg-[#0f3b6c] text-white shadow-xs'
-                      : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200'
+                      : 'bg-white/90 text-slate-600 hover:text-slate-900 border border-slate-200'
                   }`}
                 >
                   {cat}
@@ -233,7 +233,7 @@ export default function GeneralInfo({ onOpenGuidelines }) {
             {filteredScope.map((topic) => (
               <div
                 key={topic.id}
-                className="scope-badge-card bg-white p-4 rounded-xl border border-slate-200/90 shadow-2xs hover:shadow-md hover:border-amber-400/80 transition-all flex items-start space-x-3 group"
+                className="scope-badge-card bg-white/90 backdrop-blur-xs p-4 rounded-xl border border-slate-200/90 shadow-2xs hover:shadow-md hover:border-amber-400/80 transition-all flex items-start space-x-3 group"
               >
                 <div className="w-8 h-8 rounded-lg bg-blue-50 group-hover:bg-amber-100 text-[#0f3b6c] group-hover:text-amber-800 flex items-center justify-center shrink-0 transition-colors">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
