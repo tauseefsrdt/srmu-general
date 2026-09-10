@@ -2,15 +2,14 @@ import React from 'react';
 import { 
   ArrowUpRight, 
   Calendar, 
-  Quote, 
-  FileText
+  Quote 
 } from 'lucide-react';
 
 export default function ArticleCard({ article, onSelect }) {
   return (
     <div 
       onClick={() => onSelect(article)}
-      className="article-card group bg-white rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 flex flex-col justify-between cursor-pointer transform hover:-translate-y-1.5"
+      className="article-card group academic-card rounded-2xl overflow-hidden flex flex-col justify-between cursor-pointer"
     >
       <div>
         {/* Card Image Header with Category Tag */}
@@ -24,14 +23,14 @@ export default function ArticleCard({ article, onSelect }) {
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
           
           {/* Category Pill */}
-          <div className="absolute top-3 left-3">
-            <span className={`text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm border ${article.categoryColor}`}>
+          <div className="absolute top-2.5 left-2.5">
+            <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md shadow-2xs border ${article.categoryColor}`}>
               {article.category}
             </span>
           </div>
 
           {/* Quick Metrics */}
-          <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-[11px] font-medium">
+          <div className="absolute bottom-2 left-2.5 right-2.5 flex items-center justify-between text-white text-[10px] font-medium">
             <span className="flex items-center space-x-1 font-semibold text-amber-300">
               <Calendar className="w-3 h-3 text-amber-400" />
               <span>{article.date}</span>
@@ -44,35 +43,35 @@ export default function ArticleCard({ article, onSelect }) {
         </div>
 
         {/* Card Body */}
-        <div className="p-5 space-y-2.5 text-left">
+        <div className="p-4 space-y-2 text-left">
           {/* Volume / DOI snippet */}
-          <div className="flex items-center justify-between text-[11px] text-slate-400 font-mono">
+          <div className="flex items-center justify-between text-[10px] text-slate-400 font-mono">
             <span>{article.volume}</span>
-            <span className="text-blue-700 font-semibold truncate max-w-[130px]">
+            <span className="text-blue-700 font-semibold truncate max-w-[120px]">
               DOI: {article.doi.replace('10.1007/', '').replace('10.1038/', '').replace('10.3390/', '')}
             </span>
           </div>
 
           {/* Article Title */}
-          <h4 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug">
+          <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-[#0f3b6c] transition-colors line-clamp-2 leading-snug">
             {article.title}
           </h4>
 
           {/* Authors */}
-          <p className="text-xs text-slate-500 line-clamp-1 font-medium">
+          <p className="text-[11px] text-slate-500 line-clamp-1 font-medium">
             {article.authors.map(a => a.name).join(', ')}
           </p>
 
           {/* Abstract Snippet */}
-          <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+          <p className="text-[11px] text-slate-600 line-clamp-3 leading-relaxed">
             {article.abstract}
           </p>
         </div>
       </div>
 
       {/* Card Footer: Action Bar */}
-      <div className="px-5 pb-5 pt-3 border-t border-slate-100 flex items-center justify-between">
-        <span className="text-[11px] font-semibold text-slate-500">
+      <div className="px-4 pb-4 pt-2.5 border-t border-slate-100 flex items-center justify-between">
+        <span className="text-[10px] font-semibold text-slate-500">
           {article.readTime}
         </span>
         <button 

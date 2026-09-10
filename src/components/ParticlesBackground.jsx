@@ -4,7 +4,6 @@ export default function ParticlesBackground() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    // Check if user prefers reduced motion
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReducedMotion) return;
 
@@ -16,24 +15,23 @@ export default function ParticlesBackground() {
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
-    // Dynamic theme palette: Royal navy, sky blue, warm amber/gold
+    // Subtle academic palette: Translucent Navy and warm Gold
     const colors = [
-      'rgba(15, 59, 108, 0.55)', // Theme Navy
-      'rgba(2, 132, 199, 0.55)',  // Theme Sky Blue
-      'rgba(245, 158, 11, 0.65)', // Theme Warm Amber
-      'rgba(217, 119, 6, 0.5)'    // Theme Deep Gold
+      'rgba(15, 59, 108, 0.45)', // SRMU Navy
+      'rgba(2, 132, 199, 0.40)',  // Sky Blue
+      'rgba(245, 158, 11, 0.50)'  // Gold Accent
     ];
 
-    // Increase density for full-page coverage across viewport
-    const particleCount = window.innerWidth < 768 ? 35 : 75;
-    const maxDistance = 150;
+    // Controlled particle count so it's clean and never distracting
+    const particleCount = window.innerWidth < 768 ? 28 : 55;
+    const maxDistance = 135;
 
     const particles = Array.from({ length: particleCount }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
-      vx: (Math.random() - 0.5) * 0.65,
-      vy: (Math.random() - 0.5) * 0.65,
-      radius: Math.random() * 2.2 + 1.2,
+      vx: (Math.random() - 0.5) * 0.45,
+      vy: (Math.random() - 0.5) * 0.45,
+      radius: Math.random() * 1.8 + 1.0,
       color: colors[Math.floor(Math.random() * colors.length)],
       pulse: Math.random() * Math.PI,
     }));
@@ -63,27 +61,25 @@ export default function ParticlesBackground() {
     const render = () => {
       ctx.clearRect(0, 0, width, height);
 
-      // Update and draw particles across full visible window
       for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
 
         p.x += p.vx;
         p.y += p.vy;
-        p.pulse += 0.025;
+        p.pulse += 0.018;
 
         if (p.x < 0) p.x = width;
         if (p.x > width) p.x = 0;
         if (p.y < 0) p.y = height;
         if (p.y > height) p.y = 0;
 
-        // Draw node
-        const currentRadius = p.radius + Math.sin(p.pulse) * 0.7;
+        const currentRadius = p.radius + Math.sin(p.pulse) * 0.4;
         ctx.beginPath();
-        ctx.arc(p.x, p.y, Math.max(0.8, currentRadius), 0, Math.PI * 2);
+        ctx.arc(p.x, p.y, Math.max(0.7, currentRadius), 0, Math.PI * 2);
         ctx.fillStyle = p.color;
         ctx.fill();
 
-        // Connect nearby nodes
+        // Connect nearby nodes with ultra-subtle lines
         for (let j = i + 1; j < particles.length; j++) {
           const p2 = particles[j];
           const dx = p.x - p2.x;
@@ -91,27 +87,27 @@ export default function ParticlesBackground() {
           const dist = Math.sqrt(dx * dx + dy * dy);
 
           if (dist < maxDistance) {
-            const alpha = (1 - dist / maxDistance) * 0.28;
+            const alpha = (1 - dist / maxDistance) * 0.18;
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p2.x, p2.y);
             ctx.strokeStyle = `rgba(15, 59, 108, ${alpha})`;
-            ctx.lineWidth = 0.9;
+            ctx.lineWidth = 0.75;
             ctx.stroke();
           }
         }
 
-        // Connect to mouse interaction
+        // Subtle interactive mouse reaction
         const mdx = p.x - mouse.x;
         const mdy = p.y - mouse.y;
         const mdist = Math.sqrt(mdx * mdx + mdy * mdy);
-        if (mdist < 180) {
-          const malpha = (1 - mdist / 180) * 0.5;
+        if (mdist < 140) {
+          const malpha = (1 - mdist / 140) * 0.35;
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(mouse.x, mouse.y);
           ctx.strokeStyle = `rgba(245, 158, 11, ${malpha})`;
-          ctx.lineWidth = 1.3;
+          ctx.lineWidth = 1.0;
           ctx.stroke();
         }
       }
@@ -132,7 +128,7 @@ export default function ParticlesBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none z-0 overflow-hidden w-full h-full"
+      className="fixed inset-0 pointer-events-none z-0 overflow-hidden w-full h-full opacity-75"
       aria-hidden="true"
     />
   );

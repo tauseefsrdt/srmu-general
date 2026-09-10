@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { 
   ChevronDown, 
   Search, 
@@ -9,56 +10,57 @@ import {
   BookOpen,
   Sparkles,
   ShieldCheck,
-  FileText,
-  ExternalLink
+  FileText
 } from 'lucide-react';
 import { journalInfo } from '../data/journalDocData';
 
-export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }) {
+export default function Header({ onOpenSearch }) {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const navItems = [
     {
       name: "About",
-      href: "#about",
+      href: "/about",
       dropdown: [
-        { title: "Vision & Scope", href: "#scope", action: null, desc: "Interdisciplinary scientific domains" },
-        { title: "Publication Details", href: "#about", action: () => onOpenGuidelines?.('guidelines'), desc: "Frequency, peer review, and ethics" },
-        { title: "Patrons & Advisory", href: "#patrons", action: null, desc: "University leadership & patrons" },
-        { title: "Contact Editorial Office", href: "#contact", action: onOpenContact, desc: "Direct communication with editors" }
+        { title: "Vision & Scope", href: "/vision-scope", desc: "Interdisciplinary scientific domains" },
+        { title: "Publication Details", href: "/publication-details", desc: "Full page journal specs, frequency & peer review" },
+        { title: "Patrons & Advisory", href: "/patrons-advisory", desc: "University leadership & honorary patrons" },
+        { title: "Contact Editorial Office", href: "/contact", desc: "Direct communication with editorial desk" }
       ]
     },
     {
       name: "Guidelines",
-      href: "#guidelines",
+      href: "/guidelines",
       dropdown: [
-        { title: "Authors Guidelines", href: "#guidelines", action: () => onOpenGuidelines?.('guidelines'), desc: "Preparation rules & requirements" },
-        { title: "Manuscript Template (.DOC)", href: "#template", action: () => onOpenGuidelines?.('template'), desc: "Camera-ready typography guide" },
-        { title: "IEEE Referencing Style", href: "#referencing", action: () => onOpenGuidelines?.('referencing'), desc: "Citation & attribution standards" },
-        { title: "Publication Ethics & AI Policy", href: "#ethics", action: () => onOpenGuidelines?.('ethics'), desc: "COPE compliance & plagiarism limits" }
+        { title: "Authors Guidelines", href: "/guidelines", desc: "Preparation rules & requirements" },
+        { title: "Manuscript Template (.DOC)", href: "/template", desc: "Camera-ready typography specifications" },
+        { title: "IEEE Referencing Style", href: "/referencing-style", desc: "Citation & attribution standards" },
+        { title: "Publication Ethics & AI Policy", href: "/ethics-policy", desc: "COPE compliance & plagiarism limits" }
       ]
     },
     {
       name: "Papers",
-      href: "#featured-articles",
+      href: "/papers",
       dropdown: [
-        { title: "Current Issue (Vol. 01, 2026)", href: "#featured-articles", action: null, desc: "Latest peer-reviewed articles" },
-        { title: "Special Tracks & Archives", href: "#featured-articles", action: null, desc: "5G, Optical & Metamaterials" }
+        { title: "Current Issue (Vol. 01, 2026)", href: "/papers", desc: "Latest peer-reviewed articles" },
+        { title: "Special Tracks & Archives", href: "/papers", desc: "5G, Optical & Metamaterials" }
       ]
     }
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md shadow-xs border-b border-slate-200/90 transition-all">
+    <header className="fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-2xs transition-all">
       
       {/* Top Institutional Header Bar */}
-      <div className="bg-[#081627] text-slate-300 text-[11px] py-1.5 px-4 sm:px-6 lg:px-8 border-b border-slate-800 hidden md:block">
+      <div className="bg-[#081627] text-slate-300 text-[11px] py-1.5 px-4 sm:px-6 lg:px-8 border-b border-slate-800/80 hidden md:block">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <span className="flex items-center space-x-1 text-slate-300 font-medium">
+            <span className="flex items-center space-x-1.5 font-medium">
               <span className="text-amber-400 font-semibold">Published by:</span>
-              <span>Shri Ramswaroop Memorial University</span>
+              <span className="text-slate-200">{journalInfo.publisher}</span>
             </span>
             <span className="text-slate-600">•</span>
             <span className="flex items-center space-x-1">
@@ -67,7 +69,7 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
             </span>
           </div>
           <div className="flex items-center space-x-4">
-            <span className="inline-flex items-center space-x-1 text-emerald-400 font-semibold">
+            <span className="inline-flex items-center space-x-1.5 text-emerald-400 font-semibold">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
               <span>Double-Blind Peer Review</span>
             </span>
@@ -79,20 +81,20 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
 
       {/* Main Navigation Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-3">
+        <div className="flex items-center justify-between py-2.5 sm:py-3">
           
           {/* Logo & Branding */}
-          <a href="#" className="flex items-center space-x-3.5 group text-left">
-            <div className="relative flex items-center justify-center w-11 h-11 rounded-xl bg-gradient-to-br from-[#0f3b6c] via-[#0b284c] to-[#081627] text-white shadow-md group-hover:scale-105 transition-transform duration-300 border border-amber-400/40 shrink-0">
-              <span className="font-black text-xl tracking-wider text-amber-400">IJ</span>
-              <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-amber-400 rounded-full border-2 border-white"></div>
+          <Link to="/" className="flex items-center space-x-3 group text-left">
+            <div className="relative flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#0f3b6c] via-[#0b284c] to-[#081627] text-white shadow-md group-hover:scale-105 transition-transform duration-300 border border-amber-400/40 shrink-0">
+              <span className="font-extrabold text-lg sm:text-xl tracking-wider text-amber-400">IJ</span>
+              <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-amber-400 rounded-full border-2 border-white"></div>
             </div>
             <div className="flex flex-col">
               <div className="flex items-center space-x-2">
-                <span className="font-extrabold text-2xl tracking-tight text-[#0f3b6c] group-hover:text-blue-800 transition-colors">
+                <span className="font-extrabold text-xl sm:text-2xl tracking-tight text-[#0f3b6c] group-hover:text-blue-800 transition-colors">
                   {journalInfo.acronym}
                 </span>
-                <span className="text-[10px] uppercase font-bold tracking-wider bg-amber-100/90 text-amber-950 px-2 py-0.5 rounded-md border border-amber-300">
+                <span className="text-[10px] uppercase font-bold tracking-wider bg-amber-100 text-amber-950 px-2 py-0.5 rounded-md border border-amber-300/80">
                   Open Access
                 </span>
               </div>
@@ -100,10 +102,10 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
                 International Journal of Scientific Progress in Applied Science & Technology
               </span>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-2">
+          <nav className="hidden lg:flex items-center space-x-1.5">
             {navItems.map((item) => (
               <div 
                 key={item.name} 
@@ -111,10 +113,11 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
                 onMouseEnter={() => item.dropdown && setActiveDropdown(item.name)}
                 onMouseLeave={() => item.dropdown && setActiveDropdown(null)}
               >
-                <button 
-                  className={`flex items-center space-x-1.5 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
-                    activeDropdown === item.name 
-                      ? 'text-[#0f3b6c] bg-slate-100 shadow-2xs' 
+                <Link
+                  to={item.href}
+                  className={`flex items-center space-x-1 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                    location.pathname.startsWith(item.href) || activeDropdown === item.name 
+                      ? 'text-[#0f3b6c] bg-slate-100' 
                       : 'text-slate-700 hover:text-[#0f3b6c] hover:bg-slate-50'
                   }`}
                   aria-expanded={activeDropdown === item.name}
@@ -123,24 +126,18 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
                   <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${
                     activeDropdown === item.name ? 'rotate-180 text-amber-600' : 'text-slate-400'
                   }`} />
-                </button>
+                </Link>
 
                 {/* Dropdown Menu */}
                 {item.dropdown && activeDropdown === item.name && (
-                  <div className="absolute top-full left-0 w-64 pt-2 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
+                  <div className="absolute top-full left-0 w-72 pt-2 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
                     <div className="bg-white rounded-2xl shadow-xl border border-slate-200/90 p-2 overflow-hidden backdrop-blur-xl">
                       <div className="space-y-1">
                         {item.dropdown.map((sub, idx) => (
-                          <a
+                          <Link
                             key={idx}
-                            href={sub.href}
-                            onClick={(e) => {
-                              if (sub.action) {
-                                e.preventDefault();
-                                sub.action();
-                              }
-                              setActiveDropdown(null);
-                            }}
+                            to={sub.href}
+                            onClick={() => setActiveDropdown(null)}
                             className="flex flex-col p-2.5 rounded-xl text-left hover:bg-blue-50/70 transition-colors group/item"
                           >
                             <div className="flex items-center justify-between">
@@ -154,7 +151,7 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
                                 {sub.desc}
                               </span>
                             )}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
@@ -163,10 +160,10 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
               </div>
             ))}
 
-            {/* Quick Search */}
+            {/* Quick Search Button */}
             <button
               onClick={onOpenSearch}
-              className="flex items-center space-x-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-500 bg-slate-100 hover:bg-slate-200 hover:text-slate-800 border border-slate-200 transition-all ml-1 cursor-pointer"
+              className="flex items-center space-x-2 px-3 py-1.5 rounded-lg text-xs font-medium text-slate-500 bg-slate-100 hover:bg-slate-200 hover:text-slate-800 border border-slate-200 transition-all ml-1 cursor-pointer"
               title="Search journal scope, guidelines & articles"
             >
               <Search className="w-3.5 h-3.5 text-slate-500" />
@@ -176,17 +173,17 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
               </kbd>
             </button>
 
-            {/* Submit Button */}
-            <button
-              onClick={onOpenContact}
-              className="ml-2 inline-flex items-center space-x-1.5 px-4.5 py-2 rounded-xl text-xs font-bold text-slate-950 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-400 hover:from-amber-300 hover:to-amber-500 shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 border border-amber-400/90 cursor-pointer"
+            {/* Submit Manuscript Button */}
+            <Link
+              to="/submit"
+              className="ml-2 inline-flex items-center space-x-1.5 px-4.5 py-2 rounded-xl text-xs font-bold text-slate-950 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-400 hover:from-amber-300 hover:to-amber-500 btn-gold-shadow hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 border border-amber-400/90 cursor-pointer"
             >
               <Send className="w-3.5 h-3.5 text-slate-950" />
               <span>Submit Manuscript</span>
-            </button>
+            </Link>
           </nav>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Toggle Button */}
           <div className="flex items-center space-x-2 lg:hidden">
             <button
               onClick={onOpenSearch}
@@ -216,37 +213,29 @@ export default function Header({ onOpenContact, onOpenSearch, onOpenGuidelines }
               </div>
               <div className="grid grid-cols-1 gap-1 pl-2">
                 {item.dropdown.map((sub, idx) => (
-                  <a
+                  <Link
                     key={idx}
-                    href={sub.href}
-                    onClick={(e) => {
-                      if (sub.action) {
-                        e.preventDefault();
-                        sub.action();
-                      }
-                      setMobileMenuOpen(false);
-                    }}
+                    to={sub.href}
+                    onClick={() => setMobileMenuOpen(false)}
                     className="flex items-center justify-between py-2 px-2 rounded-lg text-xs font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-800"
                   >
                     <span>{sub.title}</span>
                     <ArrowRight className="w-3 h-3 text-slate-400" />
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
           ))}
 
           <div className="pt-2">
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenContact();
-              }}
+            <Link
+              to="/submit"
+              onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl text-sm font-bold text-slate-950 bg-gradient-to-r from-amber-400 to-amber-300 shadow-sm cursor-pointer"
             >
               <Send className="w-4 h-4 text-slate-950" />
               <span>Submit Manuscript Online</span>
-            </button>
+            </Link>
           </div>
         </div>
       )}

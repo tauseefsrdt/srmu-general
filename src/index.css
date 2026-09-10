@@ -2,13 +2,18 @@
 
 @layer base {
   :root {
-    --navy: #0f3b6c;
-    --royal: #035d9c;
-    --sky: #e0effe;
-    --gold: #f59e0b;
-    --dark-navy: #081627;
-    --ink: #0f172a;
-    --muted: #64748b;
+    --navy-primary: #0a2540;
+    --navy-secondary: #0f3b6c;
+    --navy-dark: #071526;
+    --gold-accent: #f59e0b;
+    --gold-light: #fef3c7;
+    --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #d97706 100%);
+    --surface-bg: #f8fafc;
+    --surface-card: #ffffff;
+    --ink-primary: #0f172a;
+    --ink-secondary: #475569;
+    --ink-muted: #94a3b8;
+    --border-subtle: rgba(226, 232, 240, 0.85);
   }
 
   * {
@@ -21,61 +26,66 @@
 
   body {
     margin: 0;
-    background-color: #f8fafc;
-    color: var(--ink);
-    font-family: 'Rubik', sans-serif;
+    background-color: var(--surface-bg);
+    color: var(--ink-primary);
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
   }
-
-  .font-serif-title {
-    font-family: 'Rubik', sans-serif;
-  }
 }
 
-/* Subtle background mesh gradients */
-.subtle-mesh-bg {
-  background: 
-    radial-gradient(at 10% 20%, rgba(224, 239, 254, 0.5) 0px, transparent 50%),
-    radial-gradient(at 90% 10%, rgba(254, 243, 199, 0.45) 0px, transparent 50%),
-    radial-gradient(at 50% 80%, rgba(240, 247, 255, 0.7) 0px, transparent 50%);
+/* Ambient scientific background grid & mesh */
+.scientific-grid-bg {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 15% 15%, rgba(224, 239, 254, 0.65) 0px, transparent 45%),
+    radial-gradient(at 85% 15%, rgba(254, 243, 199, 0.45) 0px, transparent 45%),
+    radial-gradient(at 50% 60%, rgba(240, 249, 255, 0.7) 0px, transparent 55%),
+    linear-gradient(to right, rgba(15, 59, 108, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 59, 108, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 36px 36px, 36px 36px;
 }
 
-/* Glassmorphism Card Style */
-.glass-card {
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(226, 232, 240, 0.85);
-  box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.05), 0 4px 6px -2px rgba(15, 23, 42, 0.02);
-}
-
-.glass-card-hover {
+/* Premium Academic Card Surface */
+.academic-card {
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 4px 20px -2px rgba(10, 37, 64, 0.04), 0 2px 6px -1px rgba(10, 37, 64, 0.02);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.glass-card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 35px -8px rgba(15, 59, 108, 0.12), 0 8px 16px -4px rgba(15, 59, 108, 0.04);
-  border-color: rgba(245, 158, 11, 0.6);
+.academic-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px -4px rgba(10, 37, 64, 0.09), 0 6px 12px -2px rgba(10, 37, 64, 0.03);
+  border-color: rgba(245, 158, 11, 0.5);
 }
 
-/* Golden Ring for leadership portraits */
-.golden-ring-glow {
+/* Subtle Golden Leadership Ring */
+.patron-gold-ring {
   background: linear-gradient(135deg, #f59e0b 0%, #fde68a 50%, #d97706 100%);
-  box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.22);
 }
 
-/* Subtle text gradient for headings */
-.text-gradient-navy {
-  background: linear-gradient(135deg, #0f3b6c 0%, #035d9c 100%);
+/* SRMU Navy Gradient text */
+.text-navy-gradient {
+  background: linear-gradient(135deg, #0a2540 0%, #0f3b6c 60%, #035d9c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/* Premium Button Shadows */
+.btn-gold-shadow {
+  box-shadow: 0 4px 14px 0 rgba(245, 158, 11, 0.35);
+}
+.btn-gold-shadow:hover {
+  box-shadow: 0 6px 20px 0 rgba(245, 158, 11, 0.45);
+}
+
 /* Smooth custom scrollbars */
 ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
