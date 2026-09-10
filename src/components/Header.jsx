@@ -172,13 +172,13 @@ export default function Header({ onOpenSearch }) {
             </button>
 
             {/* Submit Manuscript Button */}
-            <Link
+            {/* <Link
               to="/submit"
               className="ml-2 inline-flex items-center space-x-1.5 px-4.5 py-2 rounded-xl text-xs font-bold text-slate-950 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-400 hover:from-amber-300 hover:to-amber-500 btn-gold-shadow hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 border border-amber-400/90 cursor-pointer"
             >
               <Send className="w-3.5 h-3.5 text-slate-950" />
               <span>Submit Manuscript</span>
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Mobile Menu Toggle Button */}
