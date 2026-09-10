@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import GeneralInfo from '../components/GeneralInfo';
+import PatronsSection from '../components/PatronsSection';
 import FeaturedArticles from '../components/FeaturedArticles';
 import CtaSection from '../components/CtaSection';
 import Footer from '../components/Footer';
@@ -58,6 +59,9 @@ export default function Home() {
         <GeneralInfo 
           onOpenGuidelines={openGuidelinesWithTab}
         />
+
+        {/* Patrons & Co-Patrons Leadership Section (matching theme.png wireframe) */}
+        <PatronsSection />
 
         {/* 3. Featured Articles Section (4-Card Grid) */}
         <FeaturedArticles 
