@@ -41,9 +41,9 @@ export default {
         }
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
-        display: ['"Cinzel"', '"Playfair Display"', 'serif'],
+        serif: ['"Rubik"', 'sans-serif'],
+        sans: ['"Rubik"', 'sans-serif'],
+        display: ['"Rubik"', 'sans-serif'],
       },
       boxShadow: {
         'glass': '0 8px 32px 0 rgba(11, 30, 54, 0.08)',

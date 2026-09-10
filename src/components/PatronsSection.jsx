@@ -72,10 +72,10 @@ export default function PatronsSection() {
             {patronsData.patrons.map((patron) => (
               <div
                 key={patron.id}
-                className="patron-card bg-white/95 backdrop-blur-xs rounded-3xl p-8 border border-slate-200/90 shadow-md hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 flex flex-col items-center text-center group"
+                className="patron-card glass-card glass-card-hover rounded-3xl p-8 flex flex-col items-center text-center group"
               >
-                {/* Circular Portrait with Golden Outer Ring (Exact design as in image) */}
-                <div className="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full p-1.5 bg-gradient-to-tr from-amber-400 via-amber-200 to-amber-500 shadow-md group-hover:scale-105 transition-transform duration-300 mb-6">
+                {/* Circular Portrait with Golden Outer Ring & Ambient Glow */}
+                <div className="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full p-1.5 golden-ring-glow group-hover:scale-105 transition-transform duration-300 mb-6">
                   <div className="w-full h-full rounded-full overflow-hidden border-2 border-white bg-slate-100 shadow-inner">
                     <img
                       src={patron.image}
@@ -116,10 +116,10 @@ export default function PatronsSection() {
             {patronsData.coPatrons.map((copatron) => (
               <div
                 key={copatron.id}
-                className="patron-card bg-white/95 backdrop-blur-xs rounded-3xl p-8 border border-slate-200/90 shadow-md hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 flex flex-col items-center text-center group"
+                className="patron-card glass-card glass-card-hover rounded-3xl p-8 flex flex-col items-center text-center group"
               >
-                {/* Circular Portrait with Golden Outer Ring (Exact design as in image) */}
-                <div className="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full p-1.5 bg-gradient-to-tr from-amber-400 via-amber-200 to-amber-500 shadow-md group-hover:scale-105 transition-transform duration-300 mb-6">
+                {/* Circular Portrait with Golden Outer Ring & Ambient Glow */}
+                <div className="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full p-1.5 golden-ring-glow group-hover:scale-105 transition-transform duration-300 mb-6">
                   <div className="w-full h-full rounded-full overflow-hidden border-2 border-white bg-slate-100 shadow-inner">
                     <img
                       src={copatron.image}
