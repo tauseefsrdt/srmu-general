@@ -39,7 +39,7 @@ export default function Guidelines() {
         ]}
       />
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-10 text-left">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-10 text-left">
 
         {/* Journal Introduction Note Card */}
         <div className="academic-card p-6 sm:p-8 rounded-2xl bg-white border border-slate-200/90 space-y-4">
@@ -83,10 +83,17 @@ export default function Guidelines() {
               <span className="text-sm font-bold text-[#0f4a85]">Template Format </span>
               <button
                 onClick={handleDownloadTemplate}
+                className="px-6 py-3.5 rounded-xl mt-4 text-xs font-bold text-slate-950 bg-gradient-to-r from-amber-400 to-amber-300 hover:from-amber-300 hover:to-amber-500 btn-gold-shadow shrink-0 flex items-center space-x-2 cursor-pointer transition-all"
+              >
+                <Download className="w-4 h-4 text-slate-950" />
+                <span>Download .DOC Template</span>
+              </button>
+              {/* <button
+                onClick={handleDownloadTemplate}
                 className="text-sm font-semibold text-blue-700 hover:text-[#0f4a85] underline cursor-pointer inline-flex items-center gap-1"
               >
                 (link for template)
-              </button>
+              </button> */}
             </div>
           </div>
 

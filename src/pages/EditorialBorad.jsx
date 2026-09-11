@@ -43,7 +43,7 @@ function MemberAvatar({ image, name, size = "md" }) {
           <div className="w-full h-full bg-slate-100 flex items-center justify-center relative overflow-hidden">
             {/* Subtle animated shimmer */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent -translate-x-full animate-[shimmer_2s_infinite]"></div>
-            
+
             {/* Minimalist Profile Silhouette */}
             <svg
               className="w-full h-full text-slate-300 fill-current translate-y-2 scale-110"
@@ -156,7 +156,7 @@ export default function EditorialBorad() {
             <div className="h-px bg-slate-300 flex-1"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto items-stretch">
             {patrons.map((patron, idx) => (
               <div
                 key={idx}
@@ -194,7 +194,7 @@ export default function EditorialBorad() {
             <div className="h-px bg-slate-300 flex-1"></div>
           </div>
 
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="academic-card rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6 bg-white relative overflow-hidden group border-2 border-blue-100 hover:border-amber-400/80">
               <MemberAvatar image={editorInChief.image} name={editorInChief.name} size="lg" />
 
@@ -236,7 +236,7 @@ export default function EditorialBorad() {
             <div className="h-px bg-slate-300 flex-1"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto items-stretch">
             {deputyEditorsInChief.map((deputy, idx) => (
               <div
                 key={idx}

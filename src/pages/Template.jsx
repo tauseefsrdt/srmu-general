@@ -44,8 +44,8 @@ export default function Template() {
             <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
               Official Camera-Ready Reference File
             </span>
-            <h3 className="text-xl sm:text-2xl font-bold text-white">Download Standard .DOC Template</h3>
-            <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
+            <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">Download Standard .DOC Template</h3>
+            <p className="text-xs sm:text-sm text-slate-700 max-w-xl">
               Use this pre-formatted Microsoft Word file to draft your camera-ready manuscript with exact typography styles and margins.
             </p>
           </div>

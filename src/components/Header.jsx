@@ -35,11 +35,12 @@ export default function Header({ onOpenSearch }) {
       name: "Guidelines",
       href: "/guidelines",
       dropdown: [
-        { title: "Authors Guidelines", href: "/guidelines", desc: "Preparation rules & requirements" },
-        // { title: "Manuscript Template (.DOC)", href: "/template", desc: "Camera-ready typography specifications" },
-        // { title: "IEEE Referencing Style", href: "/referencing-style", desc: "Citation & attribution standards" },
-        // { title: "Publication Ethics & AI Policy", href: "/ethics-policy", desc: "COPE compliance & plagiarism limits" }
+        { title: "Authors Guidelines", href: "/guidelines", desc: "Preparation rules & requirements" }
       ]
+    },
+    {
+      name: "Template",
+      href: "/template"
     },
     {
       name: "Papers",
@@ -122,12 +123,14 @@ export default function Header({ onOpenSearch }) {
                   aria-expanded={activeDropdown === item.name}
                 >
                   <span>{item.name}</span>
-                  <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${activeDropdown === item.name ? 'rotate-180 text-amber-600' : 'text-slate-400'
-                    }`} />
+                  {item.dropdown && item.dropdown.length > 0 && (
+                    <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${activeDropdown === item.name ? 'rotate-180 text-amber-600' : 'text-slate-400'
+                      }`} />
+                  )}
                 </Link>
 
                 {/* Dropdown Menu */}
-                {item.dropdown && activeDropdown === item.name && (
+                {item.dropdown && item.dropdown.length > 0 && activeDropdown === item.name && (
                   <div className="absolute top-full left-0 w-72 pt-2 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
                     <div className="bg-white rounded-2xl shadow-xl border border-slate-200/90 p-2 overflow-hidden backdrop-blur-xl">
                       <div className="space-y-1">
@@ -203,21 +206,32 @@ export default function Header({ onOpenSearch }) {
           {navItems.map((item) => (
             <div key={item.name} className="border-b border-slate-100 pb-3">
               <div className="font-bold text-sm text-[#0f4a85] mb-2 px-2">
-                {item.name}
+                <Link
+                  to={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="hover:text-blue-800 transition-colors flex items-center justify-between"
+                >
+                  <span>{item.name}</span>
+                  {(!item.dropdown || item.dropdown.length === 0) && (
+                    <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
+                  )}
+                </Link>
               </div>
-              <div className="grid grid-cols-1 gap-1 pl-2">
-                {item.dropdown.map((sub, idx) => (
-                  <Link
-                    key={idx}
-                    to={sub.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="flex items-center justify-between py-2 px-2 rounded-lg text-xs font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-800"
-                  >
-                    <span>{sub.title}</span>
-                    <ArrowRight className="w-3 h-3 text-slate-400" />
-                  </Link>
-                ))}
-              </div>
+              {item.dropdown && item.dropdown.length > 0 && (
+                <div className="grid grid-cols-1 gap-1 pl-2">
+                  {item.dropdown.map((sub, idx) => (
+                    <Link
+                      key={idx}
+                      to={sub.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="flex items-center justify-between py-2 px-2 rounded-lg text-xs font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-800"
+                    >
+                      <span>{sub.title}</span>
+                      <ArrowRight className="w-3 h-3 text-slate-400" />
+                    </Link>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
 
