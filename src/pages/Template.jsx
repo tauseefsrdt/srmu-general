@@ -23,13 +23,13 @@ export default function Template() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f8fafc] text-slate-800">
+    <div className=" bg-[#f8fafc] text-slate-800">
 
       {/* Page Hero */}
       <PageHero
         title="Manuscript Camera-Ready Template (.DOC)"
         subtitle="Official Microsoft Word formatting template (`13. Template.doc`) with exact font hierarchies, two-column column rules, and figure/table guidelines."
-        badge="13. Template.doc"
+
         breadcrumbs={[
           { name: "Guidelines", path: "/guidelines" },
           { name: "Manuscript Template" }
@@ -41,13 +41,13 @@ export default function Template() {
         {/* Download Callout Card */}
         <div className="academic-card p-6 sm:p-10 rounded-3xl bg-gradient-to-r from-[#0f4a85] via-[#0b284c] to-[#0f4a85] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-2 text-center sm:text-left">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
+            {/* <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
               Official Camera-Ready Reference File
-            </span>
+            </span> */}
             <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">Download Standard .DOC Template</h3>
-            <p className="text-xs sm:text-sm text-slate-700 max-w-xl">
+            {/* <p className="text-xs sm:text-sm text-slate-700 max-w-xl">
               Use this pre-formatted Microsoft Word file to draft your camera-ready manuscript with exact typography styles and margins.
-            </p>
+            </p> */}
           </div>
           <button
             onClick={handleDownloadDoc}
@@ -59,10 +59,10 @@ export default function Template() {
         </div>
 
         {/* Font & Spacing Specifications Table */}
-        <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-5">
+        {/* <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-5">
           <div className="border-b border-slate-100 pb-3">
             <h3 className="text-lg sm:text-xl font-bold text-[#0f4a85]">
-              Typography & Spacing Specifications (From 13. Template.doc)
+              Typography & Spacing Specifications
             </h3>
             <p className="text-xs text-slate-500 mt-1">
               Exact font sizes, element typefaces, and paragraph spacing rules specified for camera-ready submission.
@@ -89,10 +89,10 @@ export default function Template() {
               </tbody>
             </table>
           </div>
-        </div>
+        </div> */}
 
         {/* Action Button */}
-        <div className="text-center pt-2">
+        {/* <div className="text-center pt-2">
           <Link
             to="/submit"
             className="inline-flex items-center space-x-2 px-8 py-3.5 rounded-xl text-xs font-bold text-slate-950 bg-gradient-to-r from-amber-400 to-amber-300 hover:from-amber-300 hover:to-amber-500 btn-gold-shadow transition-all"
@@ -100,7 +100,7 @@ export default function Template() {
             <Send className="w-4 h-4 text-slate-950" />
             <span>Ready? Submit Manuscript Online</span>
           </Link>
-        </div>
+        </div> */}
 
       </div>
     </div>
