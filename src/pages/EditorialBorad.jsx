@@ -1,232 +1,334 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import {
+  Crown,
+  Award,
+  Users,
   Mail,
-  MapPin,
-  Phone,
-  Send,
-  CheckCircle2,
   Building2,
   ShieldCheck,
-  Clock,
-  Sparkles
+  GraduationCap,
+  User
 } from 'lucide-react';
 import PageHero from '../components/PageHero';
-import { journalInfo } from '../data/journalDocData';
 
-export default function EditorialBorad() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    affiliation: '',
-    subject: 'General Inquiry',
-    message: ''
-  });
-  const [submitted, setSubmitted] = useState(false);
+// Real asset images
+import pankajImg from '../assets/pankaj-DsE5rnwQ.webp';
+import poojaImg from '../assets/pooja-B1uI8fBS.webp';
+import vijayTiwariImg from '../assets/vijaytiwari-DtLhXa4L.webp';
+import nabeelAhmadImg from '../assets/Nabeel-Ahmad.jpeg';
+import alkeshAgrawalImg from '../assets/Alkesh_Agrawal.webp';
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: '',
-        email: '',
-        affiliation: '',
-        subject: 'General Inquiry',
-        message: ''
-      });
-    }, 4000);
+// Avatar component with fallback skeleton placeholder
+function MemberAvatar({ image, name, size = "md" }) {
+  const [imgError, setImgError] = React.useState(false);
+
+  const sizeClasses = {
+    sm: "w-14 h-14",
+    md: "w-16 h-16 sm:w-20 sm:h-20",
+    lg: "w-24 h-24 sm:w-28 sm:h-28"
   };
 
   return (
-    <div className="min-h-screen bg-[#f8fafc] text-slate-800">
+    <div className={`relative ${sizeClasses[size]} rounded-full p-1 patron-gold-ring shrink-0 group-hover:scale-105 transition-transform duration-300`}>
+      <div className="w-full h-full rounded-full overflow-hidden border-2 border-white bg-slate-100 flex items-center justify-center shadow-inner">
+        {image && !imgError ? (
+          <img
+            src={image}
+            alt={name}
+            onError={() => setImgError(true)}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          />
+        ) : (
+          /* Neutral Academic Skeleton Placeholder */
+          <div className="w-full h-full bg-slate-100 flex items-center justify-center relative overflow-hidden">
+            {/* Subtle animated shimmer */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent -translate-x-full animate-[shimmer_2s_infinite]"></div>
+            
+            {/* Minimalist Profile Silhouette */}
+            <svg
+              className="w-full h-full text-slate-300 fill-current translate-y-2 scale-110"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+            </svg>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
+export default function EditorialBorad() {
+  // Exact data from Editorial Board.docx
+  const patrons = [
+    {
+      name: "Er. Pankaj Agarwal",
+      designation: "Chancellor",
+      affiliation: "SRMU, Barabanki-India",
+      image: pankajImg
+    },
+    {
+      name: "Er. Pooja Agarwal",
+      designation: "Pro Chancellor",
+      affiliation: "SRMU, Barabanki-India",
+      image: poojaImg
+    }
+  ];
+
+  const editorInChief = {
+    name: "Prof. (Dr.) Vijay Tiwari",
+    designation: "Vice Chancellor",
+    affiliation: "SRMU, Barabanki-India",
+    email: "vc@srmu.ac.in",
+    image: vijayTiwariImg
+  };
+
+  const deputyEditorsInChief = [
+    {
+      name: "Prof. (Dr.) Nabeel Ahmad",
+      designation: "Director (Research)",
+      affiliation: "SRMU, Barabanki-India",
+      email: "director.research@srmu.ac.in",
+      image: nabeelAhmadImg
+    },
+    {
+      name: "Prof. (Dr.) Alkesh Agrawal",
+      designation: "Deputy Director (Research)",
+      affiliation: "SRMU, Barabanki-India",
+      email: "dd.research@srmu.ac.in",
+      image: alkeshAgrawalImg
+    }
+  ];
+
+  const associateEditors = [
+    { name: "Dr. Jay Kumar Pandey" },
+    { name: "Dr. Md. Saaquib Bin Reyaz" },
+    { name: "Dr. Mriyunjay Rai" },
+    { name: "Dr. Md. Zain" },
+    { name: "Dr. Devendra Singh" },
+    { name: "Dr. Garima Gupta" },
+    { name: "Dr. Rajeev Kumar" },
+    { name: "Dr. Sunil K Singh" },
+    { name: "Prof. (Dr.) Dilip Jaiswal" },
+    { name: "Dr. Md. Nadeem" },
+    { name: "Dr. Nitish Singh " },
+    { name: "Dr. Rahul K Vishwakarma" }
+  ];
+
+  const advisoryCommittee = [
+    { name: "Prof. (Dr.) B. M. Dixit" },
+    { name: "Prof. (Dr.) Apurva Anand" },
+    { name: "Prof. (Dr.) Tabish Kidwai" },
+    { name: "Prof. (Dr.) R.S. Bajpai" },
+    { name: "Prof. (Dr.) Abhishek Saxena" },
+    { name: "Prof. (Dr.) Rajesh Porval" },
+    { name: "Prof. (Dr.) V. N. Pathak" },
+    { name: "Prof. (Dr.) R. G. Singh" },
+    { name: "Dr. Shobhit  Sinha" },
+    { name: "Dr. Sadhana Singh" }
+  ];
+
+  return (
+    <div className="min-h-screen bg-[#f8fafc] text-slate-800">
       {/* Page Hero */}
       <PageHero
-        title="Contact Editorial Office & Editorial Board"
-        subtitle="Get in touch with the editorial team of the International Journal of Scientific Progress in Applied Science and Technology (IJSPAST)."
-        badge="Editorial Office & Support"
+        title="Editorial Board"
+        subtitle="Editorial leadership, editors, and advisory committee members of the journal."
+        badge="Editorial Board"
         breadcrumbs={[
           { name: "About", path: "/about" },
-          { name: "Contact Us" }
+          { name: "Editorial Board" }
         ]}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-left space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-16 text-left">
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        {/* ================= SECTION: PATRONS ================= */}
+        <section className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
+            <div className="flex items-center space-x-2">
+              <Crown className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
+                Patrons:
+              </h2>
+            </div>
+            <div className="h-px bg-slate-300 flex-1"></div>
+          </div>
 
-          {/* Contact Details & Editorial Desk (5 cols) */}
-          <div className="lg:col-span-5 space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto items-stretch">
+            {patrons.map((patron, idx) => (
+              <div
+                key={idx}
+                className="academic-card rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-5 bg-white relative overflow-hidden group"
+              >
+                <MemberAvatar image={patron.image} name={patron.name} size="lg" />
 
-            <div className="academic-card p-6 rounded-3xl bg-white space-y-4">
-              <h3 className="text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-2.5">
-                Editorial Office Address
-              </h3>
-
-              <div className="space-y-3.5 text-xs text-slate-600">
-                <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 rounded-xl bg-blue-50 text-[#0f4a85] flex items-center justify-center shrink-0 border border-blue-100">
-                    <Building2 className="w-4 h-4" />
+                <div className="space-y-2 z-10 flex-1">
+                  <h3 className="text-lg font-bold text-[#0f4a85] group-hover:text-blue-700 transition-colors">
+                    {patron.name}
+                  </h3>
+                  <div className="text-xs font-semibold text-slate-700">
+                    {patron.designation}
                   </div>
-                  <div>
-                    <span className="font-bold text-slate-800 block">Published by:</span>
-                    <span>{journalInfo.publisher}</span>
-                    <p className="text-slate-500 mt-0.5">Lucknow-Deva Road, Barabanki, Uttar Pradesh - 225003, India</p>
+                  <div className="flex items-center justify-center sm:justify-start text-xs text-slate-500 font-medium pt-1">
+                    <Building2 className="w-3.5 h-3.5 mr-1.5 text-slate-400 shrink-0" />
+                    <span>{patron.affiliation}</span>
                   </div>
                 </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 rounded-xl bg-amber-50 text-amber-800 flex items-center justify-center shrink-0 border border-amber-200">
-                    <Mail className="w-4 h-4 text-amber-600" />
+        {/* ================= SECTION: EDITOR-IN-CHIEF ================= */}
+        <section className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
+            <div className="flex items-center space-x-2">
+              <Award className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
+                Editor-in-Chief
+              </h2>
+            </div>
+            <div className="h-px bg-slate-300 flex-1"></div>
+          </div>
+
+          <div className="max-w-3xl mx-auto">
+            <div className="academic-card rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6 bg-white relative overflow-hidden group border-2 border-blue-100 hover:border-amber-400/80">
+              <MemberAvatar image={editorInChief.image} name={editorInChief.name} size="lg" />
+
+              <div className="space-y-2.5 z-10 flex-1">
+                <h3 className="text-xl font-bold text-[#0f4a85] group-hover:text-blue-700 transition-colors">
+                  {editorInChief.name}
+                </h3>
+                <div className="text-xs font-semibold text-slate-800">
+                  {editorInChief.designation}
+                </div>
+                <div className="flex items-center justify-center sm:justify-start text-xs text-slate-500 font-medium">
+                  <Building2 className="w-3.5 h-3.5 mr-1.5 text-slate-400 shrink-0" />
+                  <span>{editorInChief.affiliation}</span>
+                </div>
+                <div className="pt-2">
+                  <a
+                    href={`mailto:${editorInChief.email}`}
+                    className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-blue-50/80 hover:bg-blue-100 text-[#0f4a85] text-xs font-semibold border border-blue-200/80 transition-colors"
+                  >
+                    <Mail className="w-3.5 h-3.5 text-amber-600" />
+                    <span>{editorInChief.email}</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= SECTION: DEPUTY EDITORS-IN-CHIEF ================= */}
+        <section className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
+            <div className="flex items-center space-x-2">
+              <ShieldCheck className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
+                Deputy Editors-in-Chief
+              </h2>
+            </div>
+            <div className="h-px bg-slate-300 flex-1"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto items-stretch">
+            {deputyEditorsInChief.map((deputy, idx) => (
+              <div
+                key={idx}
+                className="academic-card rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-5 bg-white relative overflow-hidden group"
+              >
+                <MemberAvatar image={deputy.image} name={deputy.name} size="lg" />
+
+                <div className="space-y-2 z-10 flex-1">
+                  <h3 className="text-base sm:text-lg font-bold text-[#0f4a85] group-hover:text-blue-700 transition-colors">
+                    {deputy.name}
+                  </h3>
+                  <div className="text-xs font-semibold text-slate-700">
+                    {deputy.designation}
                   </div>
-                  <div>
-                    <span className="font-bold text-slate-800 block">Editorial Queries:</span>
-                    <a href="mailto:editorial.office@ijspast.org" className="text-blue-700 hover:underline">
-                      editorial.office@ijspast.org
+                  <div className="flex items-center justify-center sm:justify-start text-xs text-slate-500 font-medium">
+                    <Building2 className="w-3.5 h-3.5 mr-1.5 text-slate-400 shrink-0" />
+                    <span>{deputy.affiliation}</span>
+                  </div>
+                  <div className="pt-2">
+                    <a
+                      href={`mailto:${deputy.email}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-blue-50/80 hover:bg-blue-100 text-[#0f4a85] text-xs font-semibold border border-blue-200/80 transition-colors"
+                    >
+                      <Mail className="w-3 h-3 text-amber-600" />
+                      <span>{deputy.email}</span>
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 rounded-xl bg-emerald-50 text-emerald-800 flex items-center justify-center shrink-0 border border-emerald-200">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                  </div>
-                  <div>
-                    <span className="font-bold text-slate-800 block">Peer Review Desk:</span>
-                    <span>Double-blind review communication desk</span>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center shrink-0 border border-slate-200">
-                    <Clock className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <span className="font-bold text-slate-800 block">Office Hours:</span>
-                    <span>Monday – Friday: 9:30 AM – 5:30 PM IST</span>
-                  </div>
-                </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </section>
 
-            {/* Quick Note from Doc */}
-            <div className="p-5 rounded-2xl bg-amber-50/80 border border-amber-200/90 text-xs text-amber-950 space-y-1.5">
-              <span className="font-bold block text-amber-900">Official Correspondence Protocol:</span>
-              <p className="leading-relaxed">
-                All correspondence regarding manuscript submission, peer review, and publication should be addressed to the Editorial Office of the International Journal of Scientific Progress in Applied Science and Technology through the official submission system.
-              </p>
+        {/* ================= SECTION: ASSOCIATE EDITORS ================= */}
+        <section className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
+            <div className="flex items-center space-x-2">
+              <Users className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
+                Associate Editors
+              </h2>
             </div>
-
+            <div className="h-px bg-slate-300 flex-1"></div>
           </div>
 
-          {/* Contact Inquiry Form (7 cols) */}
-          <div className="lg:col-span-7">
-            <div className="academic-card p-6 sm:p-8 rounded-3xl bg-white space-y-6">
-              <div className="space-y-1">
-                <h3 className="text-xl font-bold text-[#0f4a85]">
-                  Send a Message to the Editorial Office
-                </h3>
-                <p className="text-xs text-slate-500">
-                  Fill in the form below and our editorial secretariat will respond within 1-2 business days.
-                </p>
-              </div>
-
-              {submitted ? (
-                <div className="p-8 rounded-2xl bg-emerald-50 border border-emerald-200 text-center space-y-2 animate-in zoom-in-95 duration-200">
-                  <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
-                    <CheckCircle2 className="w-6 h-6" />
-                  </div>
-                  <h4 className="font-bold text-emerald-950 text-base">Message Sent Successfully!</h4>
-                  <p className="text-xs text-emerald-800">Thank you for reaching out. The editorial desk will respond shortly.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            {associateEditors.map((member, idx) => (
+              <div
+                key={idx}
+                className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-[#0f4a85]/40"
+              >
+                <MemberAvatar image={member.image} name={member.name} size="md" />
+                <div className="min-w-0 w-full">
+                  <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
+                    {member.name}
+                  </h3>
                 </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-4 text-xs">
+              </div>
+            ))}
+          </div>
+        </section>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-1">
-                      <label className="font-bold text-slate-700">Full Name *</label>
-                      <input
-                        type="text"
-                        required
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder="Dr. John Doe"
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white"
-                      />
-                    </div>
-
-                    <div className="space-y-1">
-                      <label className="font-bold text-slate-700">Email Address *</label>
-                      <input
-                        type="email"
-                        required
-                        value={formData.email}
-                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="johndoe@university.edu"
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-1">
-                      <label className="font-bold text-slate-700">Institutional Affiliation</label>
-                      <input
-                        type="text"
-                        value={formData.affiliation}
-                        onChange={(e) => setFormData({ ...formData, affiliation: e.target.value })}
-                        placeholder="Department / University"
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white"
-                      />
-                    </div>
-
-                    <div className="space-y-1">
-                      <label className="font-bold text-slate-700">Subject / Nature of Inquiry</label>
-                      <select
-                        value={formData.subject}
-                        onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white text-slate-700 font-medium"
-                      >
-                        <option>General Inquiry</option>
-                        <option>Manuscript Status Check</option>
-                        <option>Reviewer Invitation</option>
-                        <option>Special Track Proposal</option>
-                        <option>Copyright & Licensing</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="space-y-1">
-                    <label className="font-bold text-slate-700">Your Message *</label>
-                    <textarea
-                      rows={5}
-                      required
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Please write your query with full manuscript ID if applicable..."
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white leading-relaxed"
-                    ></textarea>
-                  </div>
-
-                  <div className="pt-2">
-                    <button
-                      type="submit"
-                      className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-8 py-3 rounded-xl text-xs font-bold text-slate-950 bg-gradient-to-r from-amber-400 to-amber-300 hover:from-amber-300 hover:to-amber-500 btn-gold-shadow transition-all cursor-pointer"
-                    >
-                      <Send className="w-4 h-4 text-slate-950" />
-                      <span>Send Message to Editorial Desk</span>
-                    </button>
-                  </div>
-
-                </form>
-              )}
-
+        {/* ================= SECTION: ADVISORY COMMITTEE ================= */}
+        <section className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
+            <div className="flex items-center space-x-2">
+              <GraduationCap className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
+                Advisory Committee
+              </h2>
             </div>
+            <div className="h-px bg-slate-300 flex-1"></div>
           </div>
 
-        </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            {advisoryCommittee.map((member, idx) => (
+              <div
+                key={idx}
+                className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-amber-400/60"
+              >
+                <MemberAvatar image={member.image} name={member.name} size="md" />
+                <div className="min-w-0 w-full">
+                  <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
+                    {member.name}
+                  </h3>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
       </div>
     </div>
