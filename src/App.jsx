@@ -17,8 +17,9 @@ import ReferencingStyle from './pages/ReferencingStyle';
 import EthicsPolicy from './pages/EthicsPolicy';
 import Papers from './pages/Papers';
 import ArticleDetail from './pages/ArticleDetail';
-import Contact from './pages/Contact';
 import Submit from './pages/Submit';
+import EditorialBorad from './pages/EditorialBorad';
+
 
 // Scroll to top on route change component
 function ScrollToTop() {
@@ -67,7 +68,7 @@ function MainLayout() {
           <Route path="/ethics-policy" element={<EthicsPolicy />} />
           <Route path="/papers" element={<Papers />} />
           <Route path="/articles/:id" element={<ArticleDetail />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/editorial-borad" element={<EditorialBorad />} />
           <Route path="/submit" element={<Submit />} />
           {/* Catch-all fallback */}
           <Route path="*" element={<Home />} />
@@ -78,8 +79,8 @@ function MainLayout() {
       <Footer />
 
       {/* Global Search Dialog */}
-      <SearchModal 
-        isOpen={isSearchOpen} 
+      <SearchModal
+        isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
         onSelectArticle={(article) => {
           setIsSearchOpen(false);

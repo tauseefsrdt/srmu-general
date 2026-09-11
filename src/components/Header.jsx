@@ -28,7 +28,7 @@ export default function Header({ onOpenSearch }) {
         { title: "Vision & Scope", href: "/vision-scope", desc: "Interdisciplinary scientific domains" },
         { title: "Publication Details", href: "/publication-details", desc: "Full page journal specs, frequency & peer review" },
         { title: "Patrons & Advisory", href: "/patrons-advisory", desc: "University leadership & honorary patrons" },
-        { title: "Contact Editorial Office", href: "/contact", desc: "Direct communication with editorial desk" }
+        { title: "Editorial Borad", href: "/editorial-borad", desc: "Direct communication with editorial desk" }
       ]
     },
     {
@@ -144,11 +144,7 @@ export default function Header({ onOpenSearch }) {
                               </span>
                               <ArrowRight className="w-3 h-3 opacity-0 -translate-x-1 group-hover/item:opacity-100 group-hover/item:translate-x-0 transition-all text-amber-500" />
                             </div>
-                            {sub.desc && (
-                              <span className="text-[10px] text-slate-500 mt-0.5">
-                                {sub.desc}
-                              </span>
-                            )}
+
                           </Link>
                         ))}
                       </div>

@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  Mail, 
-  MapPin, 
-  Phone, 
-  Send, 
-  CheckCircle2, 
-  Building2, 
-  ShieldCheck, 
-  Clock, 
-  Sparkles 
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Send,
+  CheckCircle2,
+  Building2,
+  ShieldCheck,
+  Clock,
+  Sparkles
 } from 'lucide-react';
 import PageHero from '../components/PageHero';
 import { journalInfo } from '../data/journalDocData';
 
-export default function Contact() {
+export default function EditorialBorad() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -41,7 +41,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
-      
+
       {/* Page Hero */}
       <PageHero
         title="Contact Editorial Office & Editorial Board"
@@ -54,17 +54,17 @@ export default function Contact() {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-left space-y-12">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           {/* Contact Details & Editorial Desk (5 cols) */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             <div className="academic-card p-6 rounded-3xl bg-white space-y-4">
               <h3 className="text-lg font-bold text-[#0f4a85] border-b border-slate-100 pb-2.5">
                 Editorial Office Address
               </h3>
-              
+
               <div className="space-y-3.5 text-xs text-slate-600">
                 <div className="flex items-start space-x-3">
                   <div className="w-8 h-8 rounded-xl bg-blue-50 text-[#0f4a85] flex items-center justify-center shrink-0 border border-blue-100">
@@ -143,7 +143,7 @@ export default function Contact() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4 text-xs">
-                  
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-1">
                       <label className="font-bold text-slate-700">Full Name *</label>
@@ -151,7 +151,7 @@ export default function Contact() {
                         type="text"
                         required
                         value={formData.name}
-                        onChange={(e) => setFormData({...formData, name: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         placeholder="Dr. John Doe"
                         className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white"
                       />
@@ -163,7 +163,7 @@ export default function Contact() {
                         type="email"
                         required
                         value={formData.email}
-                        onChange={(e) => setFormData({...formData, email: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         placeholder="johndoe@university.edu"
                         className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white"
                       />
@@ -176,7 +176,7 @@ export default function Contact() {
                       <input
                         type="text"
                         value={formData.affiliation}
-                        onChange={(e) => setFormData({...formData, affiliation: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, affiliation: e.target.value })}
                         placeholder="Department / University"
                         className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white"
                       />
@@ -186,7 +186,7 @@ export default function Contact() {
                       <label className="font-bold text-slate-700">Subject / Nature of Inquiry</label>
                       <select
                         value={formData.subject}
-                        onChange={(e) => setFormData({...formData, subject: e.target.value})}
+                        onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                         className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white text-slate-700 font-medium"
                       >
                         <option>General Inquiry</option>
@@ -204,7 +204,7 @@ export default function Contact() {
                       rows={5}
                       required
                       value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       placeholder="Please write your query with full manuscript ID if applicable..."
                       className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:border-blue-600 bg-white leading-relaxed"
                     ></textarea>
