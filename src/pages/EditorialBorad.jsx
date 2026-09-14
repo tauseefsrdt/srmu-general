@@ -102,18 +102,18 @@ export default function EditorialBorad() {
   ];
 
   const associateEditors = [
-    { name: "Dr. Jay Kumar Pandey" },
-    { name: "Dr. Md. Saaquib Bin Reyaz" },
-    { name: "Dr. Mriyunjay Rai" },
-    { name: "Dr. Md. Zain" },
-    { name: "Dr. Devendra Singh" },
-    { name: "Dr. Garima Gupta" },
-    { name: "Dr. Rajeev Kumar" },
-    { name: "Dr. Sunil K Singh" },
-    { name: "Prof. (Dr.) Dilip Jaiswal" },
-    { name: "Dr. Md. Nadeem" },
-    { name: "Dr. Nitish Singh " },
-    { name: "Dr. Rahul K Vishwakarma" }
+    { name: "Dr. Jay Kumar Pandey", affiliation: "DEE, SRMU" },
+    { name: "Dr. Md. Saaquib Bin Reyaz", affiliation: "FOME" },
+    { name: "Dr. Mriyunjay Rai", affiliation: "DEE" },
+    { name: "Dr. Md. Zain", affiliation: "FOCE" },
+    { name: "Dr. Devendra Singh", affiliation: "IBST" },
+    { name: "Dr. Garima Gupta", affiliation: "IBST" },
+    { name: "Dr. Rajeev Kumar", affiliation: "DCSIS" },
+    { name: "Dr. Sunil K Singh", affiliation: "DEEE" },
+    { name: "Prof. (Dr.) Dilip Jaiswal", affiliation: "FOMSS" },
+    { name: "Dr. Md. Nadeem", affiliation: "FOCSE" },
+    { name: "Dr. Nitish Singh ", affiliation: "FOPS" },
+    { name: "Dr. Rahul K Vishwakarma", affiliation: "FOCS" }
   ];
 
   const advisoryCommitteeNational = [
@@ -298,10 +298,15 @@ export default function EditorialBorad() {
                 className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-[#0f4a85]/40"
               >
                 <MemberAvatar image={member.image} name={member.name} size="md" />
-                <div className="min-w-0 w-full">
+                <div className="min-w-0 w-full space-y-1">
                   <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {member.name}
                   </h3>
+                  {member.affiliation && (
+                    <div className="text-[11px] font-semibold text-slate-600">
+                      {member.affiliation}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
