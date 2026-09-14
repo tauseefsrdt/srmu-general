@@ -7,7 +7,8 @@ import {
   Building2,
   ShieldCheck,
   GraduationCap,
-  User
+  User,
+  Globe
 } from 'lucide-react';
 import PageHero from '../components/PageHero';
 
@@ -115,17 +116,24 @@ export default function EditorialBorad() {
     { name: "Dr. Rahul K Vishwakarma" }
   ];
 
-  const advisoryCommittee = [
-    { name: "Prof. (Dr.) B. M. Dixit" },
-    { name: "Prof. (Dr.) Apurva Anand" },
-    { name: "Prof. (Dr.) Tabish Kidwai" },
-    { name: "Prof. (Dr.) R.S. Bajpai" },
-    { name: "Prof. (Dr.) Abhishek Saxena" },
-    { name: "Prof. (Dr.) Rajesh Porval" },
-    { name: "Prof. (Dr.) V. N. Pathak" },
-    { name: "Prof. (Dr.) R. G. Singh" },
-    { name: "Dr. Shobhit  Sinha" },
-    { name: "Dr. Sadhana Singh" }
+  const advisoryCommitteeNational = [
+    { name: "Prof. (Dr.) B. M. Dixit", designation: "Dir. (INSH)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) Apurva Anand", designation: "Dir. (IoT)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) Tabish Kidwai", designation: "Dir. (IBST)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) R.S. Bajpai", designation: "HoD (DEEE)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) Abhishek Saxena", designation: "Dean (FoCE)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) Rajesh Porval", designation: "Dean (FoME)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) V. N. Pathak", designation: "Dean (FoMSS)", affiliation: "SRMU" },
+    { name: "Prof. (Dr.) R. G. Singh", designation: "Dean (FoPS)", affiliation: "SRMU" },
+    { name: "Dr. Shobhit Sinha", designation: "HoD (DCSIS)", affiliation: "SRMU" },
+    { name: "Dr. Sadhana Singh", designation: "HoD (FoCS)", affiliation: "SRMU" },
+    { name: "Dr. Kavita Sahu", designation: "Asstt. Prof. (DoCSE)", affiliation: "Dr. Harsingh Gour Vishwavidyalaya, Sagar, M.P." }
+  ];
+
+  const advisoryCommitteeInternational = [
+    { name: "Dr. Saifullah Khalid", designation: "Principal Scientist", affiliation: "IBMM Research, Khartoum, Sudan" },
+    { name: "Dr. Rashad Abaszade", designation: "Turan International Research Institute", affiliation: "Azerbaijan" },
+    { name: "Dr. Shri Krishna Pandey", designation: "Head, Quality Assurance", affiliation: "Symbiosis International University, Dubai, UAE" }
   ];
 
   return (
@@ -300,30 +308,80 @@ export default function EditorialBorad() {
           </div>
         </section>
 
-        {/* ================= SECTION: ADVISORY COMMITTEE ================= */}
+        {/* ================= SECTION: ADVISORY COMMITTEE (NATIONAL) ================= */}
         <section className="space-y-6">
           <div className="flex items-center space-x-4">
             <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
             <div className="flex items-center space-x-2">
               <GraduationCap className="w-5 h-5 text-amber-500" />
               <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
-                Advisory Committee
+                Advisory Committee (National)
               </h2>
             </div>
             <div className="h-px bg-slate-300 flex-1"></div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-            {advisoryCommittee.map((member, idx) => (
+            {advisoryCommitteeNational.map((member, idx) => (
               <div
                 key={idx}
                 className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-amber-400/60"
               >
                 <MemberAvatar image={member.image} name={member.name} size="md" />
-                <div className="min-w-0 w-full">
+                <div className="min-w-0 w-full space-y-1">
                   <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {member.name}
                   </h3>
+                  {member.designation && (
+                    <div className="text-[11px] font-semibold text-slate-600">
+                      {member.designation}
+                    </div>
+                  )}
+                  {member.affiliation && (
+                    <div className="text-[10px] text-slate-500 leading-tight">
+                      {member.affiliation}
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ================= SECTION: ADVISORY COMMITTEE (INTERNATIONAL) ================= */}
+        <section className="space-y-6">
+          <div className="flex items-center space-x-4">
+            <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
+            <div className="flex items-center space-x-2">
+              <Globe className="w-5 h-5 text-amber-500" />
+              <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
+                Advisory Committee (International)
+              </h2>
+            </div>
+            <div className="h-px bg-slate-300 flex-1"></div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            {advisoryCommitteeInternational.map((member, idx) => (
+              <div
+                key={idx}
+                className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-blue-400/60"
+              >
+                <MemberAvatar image={member.image} name={member.name} size="md" />
+                <div className="min-w-0 w-full space-y-1">
+                  <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
+                    {member.name}
+                  </h3>
+                  {member.designation && (
+                    <div className="text-[11px] font-semibold text-slate-600">
+                      {member.designation}
+                    </div>
+                  )}
+                  {member.affiliation && (
+                    <div className="text-[10px] text-slate-500 leading-tight">
+                      {member.affiliation}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
