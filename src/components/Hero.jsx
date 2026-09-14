@@ -25,7 +25,7 @@ const sliderSlides = [
     title: "International Journal of Microwave & Optical Technology",
     subtitle: "A Publication of the International Academy of Microwave and Optical Technology",
     tagline: "Metamaterial Absorber & 5G Resonator Innovations",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
     badge: "Special Track · 2026",
     badgeColor: "bg-blue-100 text-blue-900 border-blue-300",
     stats: "28 Citations · IEEE Referencing",
@@ -37,7 +37,7 @@ const sliderSlides = [
     title: "Deep Neural Optimization for Real-Time Edge Processing",
     subtitle: "High-Throughput Machine Learning Frameworks for Autonomous Systems",
     tagline: "Ultra-low latency inference on embedded silicon",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
     badge: "AI & Data Science",
     badgeColor: "bg-amber-100 text-amber-900 border-amber-300",
     stats: "34 Citations · Open Access",
@@ -49,7 +49,7 @@ const sliderSlides = [
     title: "Ultra-Broadband Solar Energy Harvesting & Nanophotonics",
     subtitle: "High-Efficiency Photovoltaic Monolayers & Thin-Film Absorbers",
     tagline: "Surrogate modeling exceeding 97.4% solar spectrum efficiency",
-    image: "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1509391365360-2e959784a276?w=800&q=80",
     badge: "Materials Science",
     badgeColor: "bg-emerald-100 text-emerald-900 border-emerald-300",
     stats: "42 Citations · CrossRef DOI",
@@ -61,7 +61,7 @@ const sliderSlides = [
     title: "Dual-Band EMI Wave Shielding for 5G & Wireless Networks",
     subtitle: "Polarization-Insensitive Symmetrical Metamaterial Resonators",
     tagline: "Continuous online publishing with rapid DOI assignment",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
     badge: "5G/6G Networks",
     badgeColor: "bg-purple-100 text-purple-900 border-purple-300",
     stats: "19 Citations · Double-Blind",
@@ -141,22 +141,25 @@ export default function Hero() {
             {/* Main Journal Title */}
             <div className="hero-headline space-y-2">
               <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] font-extrabold text-[#0f4a85] tracking-tight leading-[1.2]">
-                International Journal of Scientific Progress in Applied Science & Technology
+                International Journal of Scientific Progress in Applied Science &amp; Technology
               </h1>
-              <p className="text-sm sm:text-base font-medium text-slate-600">
-                A multidisciplinary platform dedicated to publishing high-impact discoveries in Applied Science and Modern Engineering.
+              <p className="text-sm sm:text-base font-medium text-slate-600 italic mt-2">
+                "Advancing Innovation through Interdisciplinary Engineering Research"
               </p>
             </div>
 
             {/* Institutional Mandate Card */}
             <div className="hero-desc space-y-3 max-w-2xl text-slate-700 text-sm leading-relaxed">
-              <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-2xs space-y-1">
+              <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-2xs space-y-2">
                 <div className="text-[11px] font-bold text-[#0f4a85] uppercase tracking-wider">
                   Official Publication Mandate
                 </div>
                 <p className="text-xs sm:text-sm text-slate-700 leading-normal">
-                  Published under the auspices of <strong>Shri Ramswaroop Memorial University</strong>, IJSPAST accepts original research, experimental validations, review papers, and short communications across 23+ core disciplines.
+                  IJSPAST, published by <strong>Shri Ramswaroop Memorial University</strong>, is a multidisciplinary journal with an aim to publish high-quality, original and innovative research work in Applied Science and Technology.
                 </p>
+                {/* <p className="text-xs text-slate-500 leading-normal">
+                  Accepts original research, experimental validations, review papers, and short communications across 23+ core disciplines.
+                </p> */}
               </div>
             </div>
 
@@ -242,6 +245,8 @@ export default function Hero() {
                     <img 
                       src={activeSlideData.image} 
                       alt={activeSlideData.title}
+                      referrerPolicy="no-referrer"
+                      loading="eager"
                       className="w-full h-full object-cover transform group-hover/slide:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent flex flex-col justify-between p-4 text-left">

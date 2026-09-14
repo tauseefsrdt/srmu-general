@@ -19,6 +19,7 @@ import Papers from './pages/Papers';
 import ArticleDetail from './pages/ArticleDetail';
 import Submit from './pages/Submit';
 import EditorialBorad from './pages/EditorialBorad';
+import PeerReviewPolicy from './pages/PeerReviewPolicy';
 
 
 // Scroll to top on route change component
@@ -70,6 +71,7 @@ function MainLayout() {
           <Route path="/articles/:id" element={<ArticleDetail />} />
           <Route path="/editorial-borad" element={<EditorialBorad />} />
           <Route path="/submit" element={<Submit />} />
+          <Route path="/peer-review-policy" element={<PeerReviewPolicy />} />
           {/* Catch-all fallback */}
           <Route path="*" element={<Home />} />
         </Routes>

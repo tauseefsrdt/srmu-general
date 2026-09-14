@@ -21,7 +21,7 @@ export default function Footer() {
         { name: "Vision & Scope", href: "/vision-scope" },
         { name: "Publication Details", href: "/publication-details" },
         { name: "Patrons & Advisory", href: "/patrons-advisory" },
-        { name: "Peer Review Workflow", href: "/publication-details" },
+        { name: "Peer Review Workflow", href: "/peer-review-policy" },
         { name: "Contact Editorial Office", href: "/contact" }
       ]
     },

@@ -5,7 +5,6 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Hero from '../components/Hero';
 import GeneralInfo from '../components/GeneralInfo';
-import PatronsSection from '../components/PatronsSection';
 import FeaturedArticles from '../components/FeaturedArticles';
 import CtaSection from '../components/CtaSection';
 
@@ -51,10 +50,7 @@ export default function Home() {
         onOpenGuidelines={() => {}}
       />
 
-      {/* 3. Patrons & Co-Patrons Leadership Section */}
-      <PatronsSection />
-
-      {/* 4. Featured Articles Section */}
+      {/* 3. Featured Articles Section */}
       <FeaturedArticles 
         onSelectArticle={() => {}}
         onOpenGuidelines={() => {}}

@@ -1,34 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   Target,
-  Layers,
   Compass,
   CheckCircle2,
-  ArrowRight,
-  Send,
   Sparkles,
-  Search,
-  Filter
 } from 'lucide-react';
 import PageHero from '../components/PageHero';
-import { journalScopeTopics, generalInfoCards } from '../data/journalDocData';
+import { generalInfoCards } from '../data/journalDocData';
 
 export default function VisionScope() {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [searchQuery, setSearchQuery] = useState('');
-
   const missionCard = generalInfoCards.find(c => c.id === 'mission') || generalInfoCards[0];
   const visionCard = generalInfoCards.find(c => c.id === 'vision') || generalInfoCards[2];
 
-  const categories = ['All', 'Computing & AI', 'Electronics & Comm', 'Core Engineering', 'Energy & Materials', 'Applied Sciences', 'Automation & Robotics', 'Interdisciplinary'];
-
-  const filteredTopics = journalScopeTopics.filter(topic => {
-    const matchesCat = selectedCategory === 'All' || topic.category === selectedCategory;
-    const matchesSearch = topic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      topic.category.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCat && matchesSearch;
-  });
+  const peerReviewSteps = [
+    { step: 1, title: "Manuscript Submission", desc: "Author submits the manuscript through the official submission portal." },
+    { step: 2, title: "Initial Editorial Screening", desc: "Editor-in-Chief reviews the manuscript for scope, formatting, and completeness." },
+    { step: 3, title: "Plagiarism Check", desc: "Manuscript is screened using plagiarism detection software; similarity must be below 10%." },
+    { step: 4, title: "Assignment to Associate Editor", desc: "Manuscript is assigned to a relevant Associate Editor based on the subject domain." },
+    { step: 5, title: "Double-Blind Peer Review", desc: "At least two independent expert reviewers evaluate the manuscript anonymously." },
+    { step: 6, title: "Editorial Decision", desc: "Editorial decision is communicated: Accept, Minor Revision, Major Revision, or Reject." },
+    { step: 7, title: "Author Revision", desc: "Authors address reviewer comments and submit a revised manuscript with a response letter." },
+    { step: 8, title: "Final Acceptance", desc: "Revised manuscript is reviewed and formally accepted for publication." },
+    { step: 9, title: "Copyediting", desc: "Accepted manuscript undergoes professional copyediting for language and formatting." },
+    { step: 10, title: "Proofreading", desc: "Final proofreading is carried out; authors review the galley proof for approval." },
+    { step: 11, title: "Online Publication", desc: "Manuscript is published online and made available as open access globally." },
+    { step: 12, title: "DOI Assignment", desc: "A unique Digital Object Identifier (DOI) is assigned for permanent citation and indexing." },
+  ];
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
@@ -36,7 +34,7 @@ export default function VisionScope() {
       {/* Page Hero */}
       <PageHero
         title="Vision & Scope of the Journal"
-        subtitle="Explore the 23+ interdisciplinary scientific, engineering, and technological domains covered by the International Journal of Scientific Progress in Applied Science and Technology."
+        subtitle="Discover the mission, vision, and editorial workflow of the International Journal of Scientific Progress in Applied Science and Technology."
         badge="Academic Scope & Mandate"
         breadcrumbs={[
           { name: "About", path: "/about" },
@@ -46,40 +44,8 @@ export default function VisionScope() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 space-y-16 text-left">
 
-        {/* Mission & Vision 2-Column Split */}
+        {/* Vision & Mission 2-Column Split */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-
-          {/* Mission Card */}
-          <div className="academic-card rounded-3xl p-6 sm:p-8 space-y-5 relative overflow-hidden bg-white">
-            <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full bg-gradient-to-r from-amber-400 to-amber-600"></div>
-
-            <div className="flex items-center space-x-3">
-              <div className="w-11 h-11 rounded-2xl bg-amber-50 border border-amber-200 text-amber-700 flex items-center justify-center font-bold">
-                <Target className="w-6 h-6" />
-              </div>
-              <div>
-                <span className="text-xs font-mono font-bold text-slate-400 block">OUR PURPOSE</span>
-                <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">{missionCard.title}</h3>
-              </div>
-            </div>
-
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              {missionCard.summary}
-            </p>
-
-            <div className="space-y-2.5 pt-2 border-t border-slate-100">
-              {missionCard.points.map((pt, i) => (
-                <div key={i} className="flex items-start space-x-2.5 text-xs sm:text-sm text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 shrink-0" />
-                  <span>{pt}</span>
-                </div>
-              ))}
-            </div>
-
-            <p className="text-xs text-slate-500 italic pt-2">
-              {missionCard.details}
-            </p>
-          </div>
 
           {/* Vision Card */}
           <div className="academic-card rounded-3xl p-6 sm:p-8 space-y-5 relative overflow-hidden bg-white">
@@ -113,82 +79,75 @@ export default function VisionScope() {
             </p>
           </div>
 
+          {/* Mission Card */}
+          <div className="academic-card rounded-3xl p-6 sm:p-8 space-y-5 relative overflow-hidden bg-white">
+            <div className="absolute top-0 left-6 right-6 h-1 rounded-b-full bg-gradient-to-r from-amber-400 to-amber-600"></div>
+
+            <div className="flex items-center space-x-3">
+              <div className="w-11 h-11 rounded-2xl bg-amber-50 border border-amber-200 text-amber-700 flex items-center justify-center font-bold">
+                <Target className="w-6 h-6" />
+              </div>
+              <div>
+                <span className="text-xs font-mono font-bold text-slate-400 block">OUR PURPOSE</span>
+                <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">{missionCard.title}</h3>
+              </div>
+            </div>
+
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              {missionCard.summary}
+            </p>
+
+            <div className="space-y-2.5 pt-2 border-t border-slate-100">
+              {missionCard.points.map((pt, i) => (
+                <div key={i} className="flex items-start space-x-2.5 text-xs sm:text-sm text-slate-700">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 shrink-0" />
+                  <span>{pt}</span>
+                </div>
+              ))}
+            </div>
+
+            <p className="text-xs text-slate-500 italic pt-2">
+              {missionCard.details}
+            </p>
+          </div>
+
         </div>
 
-        {/* 23+ Submission Scope Interactive Section */}
+        {/* Peer Review Process Section */}
         <div className="space-y-8">
-
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-200 pb-4">
-            <div>
-              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f4a85] text-xs font-bold border border-blue-200 mb-2">
-                <Layers className="w-3.5 h-3.5 text-amber-500" />
-                <span>Extracted from Scope of the Journal.docx</span>
-              </div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85]">
-                23+ Interdisciplinary Submission Areas
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-600 mt-1">
-                IJSPAST welcomes submissions in, but not limited to, the following core and emerging engineering & applied science areas:
-              </p>
+          <div className="border-b border-slate-200 pb-4">
+            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#0f4a85] text-xs font-bold border border-blue-200 mb-2">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+              <span>Editorial Workflow</span>
             </div>
-
-            {/* Live Search Filter */}
-            <div className="relative w-full sm:w-72 shrink-0">
-              <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search research topics..."
-                className="w-full pl-10 pr-4 py-2 text-xs rounded-xl bg-white border border-slate-300 focus:outline-none focus:border-blue-600 text-slate-800"
-              />
-            </div>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85]">
+              Peer Review Process
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl">
+              IJSPAST follows a rigorous, structured editorial process to ensure the highest standards of scholarly integrity and scientific quality.
+            </p>
           </div>
 
-          {/* Category Filter Pills */}
-          <div className="flex flex-wrap items-center gap-1.5 p-1.5 bg-slate-100 rounded-2xl border border-slate-200">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${selectedCategory === cat
-                    ? 'bg-[#0f4a85] text-white shadow-2xs'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white'
-                  }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-
-          {/* Topics Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {filteredTopics.map((topic) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {peerReviewSteps.map((item) => (
               <div
-                key={topic.id}
-                className="academic-card bg-white p-4 rounded-2xl flex items-start space-x-3 group"
+                key={item.step}
+                className="academic-card bg-white rounded-2xl p-5 flex items-start space-x-4 group hover:border-blue-200 transition-all"
               >
-                <div className="w-8 h-8 rounded-xl bg-blue-50 group-hover:bg-amber-100 text-[#0f4a85] group-hover:text-amber-800 flex items-center justify-center shrink-0 transition-colors">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                <div className="shrink-0 w-9 h-9 rounded-xl bg-gradient-to-br from-[#0f4a85] to-blue-500 text-white flex items-center justify-center text-xs font-extrabold shadow-sm group-hover:from-amber-500 group-hover:to-amber-400 transition-all">
+                  {item.step}
                 </div>
-                <div>
+                <div className="space-y-1">
                   <h4 className="text-xs font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
-                    {topic.title}
+                    {item.title}
                   </h4>
-                  <span className="text-[10px] text-slate-400 font-medium block mt-0.5">
-                    {topic.category}
-                  </span>
+                  <p className="text-[11px] text-slate-500 leading-relaxed">
+                    {item.desc}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
-
-          {filteredTopics.length === 0 && (
-            <div className="text-center py-12 bg-white rounded-2xl border border-slate-200">
-              <p className="text-sm text-slate-500">No research topics match your search.</p>
-            </div>
-          )}
-
         </div>
 
         {/* CTA Strip */}

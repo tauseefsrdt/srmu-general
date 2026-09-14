@@ -59,9 +59,11 @@ export const generalInfoCards = [
     badge: "Publication Purpose",
     summary: "Dedicated to publishing high-quality original research and comprehensive review articles across all dimensions of science, engineering, and emerging technologies.",
     points: [
-      "Disseminate novel theoretical contributions, experimental findings, and practical applications.",
-      "Uphold rigorous double-blind peer-review with a panel of global subject experts.",
-      "Accelerate rapid indexing and seamless open-access delivery worldwide."
+      "Publish original and innovative research.",
+      "Encourage interdisciplinary collaboration.",
+      "Promote ethical research and scientific integrity.",
+      "Bridge academia and industry.",
+      "Support emerging technologies with societal impact."
     ],
     details: "IJSPAST fosters an encouraging ecosystem where researchers, engineers, and academicians publish innovative methodologies that bridge fundamental inquiry and transformative technological progress."
   },
@@ -84,11 +86,11 @@ export const generalInfoCards = [
     num: "03",
     title: "Our Vision",
     badge: "Future Scope",
-    summary: "To serve as a premier international open-access hub that connects multidisciplinary breakthroughs with real-world industry adoption and sustainable technological development.",
+    summary: "To become a globally recognized journal that publishes high-impact research contributing to technological advancement and sustainable engineering solutions.",
     points: [
-      "Cultivate global collaborations across academia, research institutions, and industry.",
-      "Provide immediate, barrier-free open access to promote the global sharing of scientific knowledge.",
-      "Champion ethical research integrity, transparent AI disclosure, and sustainable innovation."
+      "Globally recognized for high-impact research publication.",
+      "Contributing to technological advancement worldwide.",
+      "Advancing sustainable engineering solutions for society."
     ],
     details: "IJSPAST envisions an open scholarly future where every impactful idea finds a rigorous, fair, and prompt medium for peer-reviewed publication."
   }
