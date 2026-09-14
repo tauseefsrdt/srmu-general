@@ -151,9 +151,9 @@ export default function Hero() {
             {/* Institutional Mandate Card */}
             <div className="hero-desc space-y-3 max-w-2xl text-slate-700 text-sm leading-relaxed">
               <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-2xs space-y-2">
-                <div className="text-[11px] font-bold text-[#0f4a85] uppercase tracking-wider">
+                {/* <div className="text-[11px] font-bold text-[#0f4a85] uppercase tracking-wider">
                   Official Publication Mandate
-                </div>
+                </div> */}
                 <p className="text-xs sm:text-sm text-slate-700 leading-normal">
                   IJSPAST, published by <strong>Shri Ramswaroop Memorial University</strong>, is a multidisciplinary journal with an aim to publish high-quality, original and innovative research work in Applied Science and Technology.
                 </p>
