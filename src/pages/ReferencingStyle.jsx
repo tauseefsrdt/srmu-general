@@ -27,7 +27,7 @@ export default function ReferencingStyle() {
       {/* Page Hero */}
       <PageHero
         title="IEEE Referencing Style & Citation Standards"
-        subtitle="Official citation rules, numbering formats, and bibliographic templates specified for IJSPAST manuscript submissions."
+        subtitle="Official citation rules, numbering formats, and bibliographic templates specified for IJMAR manuscript submissions."
         badge="Standard IEEE Format"
         breadcrumbs={[
           { name: "Guidelines", path: "/guidelines" },

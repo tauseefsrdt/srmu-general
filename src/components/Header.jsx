@@ -101,7 +101,7 @@ export default function Header({ onOpenSearch }) {
                 </span>
               </div>
               <span className="text-[11px] font-medium text-slate-500 line-clamp-1 max-w-xs sm:max-w-sm md:max-w-md">
-                International Journal of Scientific Progress in Applied Science & Technology
+                International Journal of Multidisciplinary Advanced Research
               </span>
             </div>
           </Link>

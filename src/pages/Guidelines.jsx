@@ -20,7 +20,7 @@ export default function Guidelines() {
   const handleDownloadTemplate = () => {
     const link = document.createElement('a');
     link.href = '/13. Template.doc';
-    link.download = 'IJSPAST_Manuscript_Template.doc';
+    link.download = 'IJMAR_Manuscript_Template.doc';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -31,7 +31,7 @@ export default function Guidelines() {
       {/* Page Hero */}
       <PageHero
         title="Authors Guidelines"
-        subtitle="Complete guidelines and instructions for preparing and submitting manuscripts to the International Journal of Scientific Progress in Applied Science and Technology (IJSPAST)."
+        subtitle="Complete guidelines and instructions for preparing and submitting manuscripts to the International Journal of Multidisciplinary Advanced Research (IJMAR)."
         badge="Official Author Instructions"
         breadcrumbs={[
           { name: "Home", path: "/" },
@@ -49,7 +49,7 @@ export default function Guidelines() {
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-            International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is an international, peer-reviewed, open-access journal dedicated to publishing high-quality original research, review articles, in all areas of science, engineering, and emerging technologies.
+            International Journal of Multidisciplinary Advanced Research (IJMAR) is an international, peer-reviewed, open-access journal dedicated to publishing high-quality original research, review articles, in all areas of science, engineering, and emerging technologies.
           </p>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
             Authors are encouraged to submit manuscripts that present novel contributions, practical applications, innovative methodologies, and interdisciplinary research.
@@ -208,7 +208,7 @@ export default function Guidelines() {
           </div>
 
           <p className="text-sm sm:text-base text-slate-700">
-            IJSPAST recommends the IEEE Referencing Style.
+            IJMAR recommends the IEEE Referencing Style.
           </p>
 
           <div className="space-y-3 pt-1">
@@ -318,7 +318,7 @@ export default function Guidelines() {
           </div>
 
           <p className="text-sm text-slate-700">
-            IJSPAST follows a Double-Blind Peer Review process.
+            IJMAR follows a Double-Blind Peer Review process.
           </p>
           <p className="text-sm text-slate-700">
             Each manuscript is evaluated by at least two independent reviewers.
@@ -415,7 +415,7 @@ export default function Guidelines() {
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-            IJSPAST provides immediate open access to published articles to promote the global dissemination of scientific knowledge.
+            IJMAR provides immediate open access to published articles to promote the global dissemination of scientific knowledge.
           </p>
         </section>
 
@@ -439,7 +439,7 @@ export default function Guidelines() {
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-            All correspondence regarding manuscript submission, peer review, and publication should be addressed to the Editorial Office of the International Journal of Scientific Progress in Applied Science and Technology (IJSPSAT) through the journal's official submission system or designated editorial email.
+            All correspondence regarding manuscript submission, peer review, and publication should be addressed to the Editorial Office of the International Journal of Multidisciplinary Advanced Research (IJSPSAT) through the journal's official submission system or designated editorial email.
           </p>
         </section>
 

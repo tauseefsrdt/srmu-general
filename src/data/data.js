@@ -1,13 +1,13 @@
 export const journalInfo = {
-  acronym: "IJSPAST",
-  fullName: "International Journal of Scientific Progress in Applied Science & Technology",
+  acronym: "IJMAR",
+  fullName: "International Journal of Multidisciplinary Advanced Research",
   issn: "E-ISSN: 2582-8800 | Print ISSN: 2582-8797",
   eIssn: "2582-8800",
   publisher: "Shri Ramswaroop Memorial University (SRMU)",
   universityLocation: "Lucknow-Deva Road, Barabanki, Uttar Pradesh, India",
   indexing: ["Scopus Indexed Companion", "Google Scholar", "CrossRef (DOI)", "DOAJ Approved", "UGC-CARE Listed Guidelines"],
   tagline: "Advancing Global Scientific Discovery, Technological Innovation & Multidisciplinary Research",
-  shortDesc: "IJSPAST, published by Shri Ramswaroop Memorial University, is a premier peer-reviewed multidisciplinary journal committed to disseminating groundbreaking, original, and innovative research in Applied Sciences, Engineering, and Cutting-Edge Technologies.",
+  shortDesc: "IJMAR, published by Shri Ramswaroop Memorial University, is a premier peer-reviewed multidisciplinary journal committed to disseminating groundbreaking, original, and innovative research in Applied Sciences, Engineering, and Cutting-Edge Technologies.",
   stats: [
     { label: "Research Publications", value: "195+", icon: "FileText" },
     { label: "Patents Published", value: "47", icon: "Lightbulb" },
@@ -74,7 +74,7 @@ export const generalInfoData = [
     accentColor: "from-blue-600 to-brand-900",
     badge: "Overview & Indexing",
     isPrimary: true,
-    summary: "IJSPAST is the official flagship research journal published under the auspices of Shri Ramswaroop Memorial University. It operates quarterly with continuous online publishing, ensuring immediate global indexing and DOI attribution.",
+    summary: "IJMAR is the official flagship research journal published under the auspices of Shri Ramswaroop Memorial University. It operates quarterly with continuous online publishing, ensuring immediate global indexing and DOI attribution.",
     points: [
       "Publication Frequency: Quarterly (4 Issues / Year) with Continuous Online Fast-Track.",
       "Access Model: Fully Diamond Open Access (Freely accessible globally to researchers).",
