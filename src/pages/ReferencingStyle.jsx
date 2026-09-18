@@ -10,7 +10,7 @@ import {
   Info
 } from 'lucide-react';
 import PageHero from '../components/PageHero';
-import { authorGuidelinesData } from '../data/journalDocData';
+import { referencingStyleData } from '../data/journalDocData';
 
 export default function ReferencingStyle() {
   const [copiedFormat, setCopiedFormat] = useState(null);
@@ -44,10 +44,10 @@ export default function ReferencingStyle() {
             <span>Citation & Bibliography Rules</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
-            {authorGuidelinesData.referencingStyle.name}
+            {referencingStyleData.name}
           </h3>
           <p className="text-xs sm:text-sm text-slate-700 leading-relaxed max-w-3xl">
-            {authorGuidelinesData.referencingStyle.desc} In-text citations must be numbered sequentially inside square brackets, e.g., [1], [2], [3]–[5].
+            {referencingStyleData.desc} In-text citations must be numbered sequentially inside square brackets, e.g., [1], [2], [3]–[5].
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export default function ReferencingStyle() {
             Reference Citation Templates & Examples
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {authorGuidelinesData.referencingStyle.examples.map((eg, idx) => (
+            {referencingStyleData.examples.map((eg, idx) => (
               <div key={idx} className="academic-card p-5 rounded-2xl bg-white space-y-2.5">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold uppercase tracking-wider text-blue-700">

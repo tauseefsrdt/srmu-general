@@ -103,12 +103,12 @@ export default function FeaturedArticles() {
           </div>
         </div>
 
-        {/* 4 Cards Grid with Direct Routing to Dedicated Article Pages */}
+        {/* 4 Cards Grid with Direct Routing to Papers */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
           {filteredArticles.map((article) => (
             <Link
               key={article.id}
-              to={`/articles/${article.id}`}
+              to="/papers"
               className="block"
             >
               <ArticleCard

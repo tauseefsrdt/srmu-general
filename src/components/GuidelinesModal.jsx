@@ -16,7 +16,13 @@ import {
   Copy,
   Check
 } from 'lucide-react';
-import { authorGuidelinesData, templateSpecs } from '../data/journalDocData';
+import {
+  authorGuidelinesData,
+  templateSpecs,
+  referencingStyleData,
+  ethicsAndPoliciesData,
+  submissionChecklistData,
+} from '../data/journalDocData';
 
 export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guidelines' }) {
   const [activeTab, setActiveTab] = useState(initialTab);
@@ -189,15 +195,15 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
             <div className="space-y-6 animate-in fade-in duration-200">
               <div className="space-y-2">
                 <h4 className="font-bold text-[#0f4a85] text-base">
-                  {authorGuidelinesData.referencingStyle.name}
+                  {referencingStyleData.name}
                 </h4>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  {authorGuidelinesData.referencingStyle.desc}
+                  {referencingStyleData.desc}
                 </p>
               </div>
 
               <div className="space-y-4">
-                {authorGuidelinesData.referencingStyle.examples.map((eg, idx) => (
+                {referencingStyleData.examples.map((eg, idx) => (
                   <div key={idx} className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold uppercase tracking-wider text-blue-700">
@@ -223,7 +229,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
           {/* TAB 4: Ethics & AI Policy */}
           {activeTab === 'ethics' && (
             <div className="space-y-6 animate-in fade-in duration-200">
-              {authorGuidelinesData.ethicsAndPolicies.map((pol, idx) => (
+              {ethicsAndPoliciesData.map((pol, idx) => (
                 <div key={idx} className="p-5 rounded-2xl bg-slate-50/80 border border-slate-200 space-y-3">
                   <div className="flex items-center space-x-2">
                     <div className="w-6 h-6 rounded-md bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xs">
@@ -257,7 +263,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
               </div>
 
               <div className="space-y-2.5">
-                {authorGuidelinesData.checklist.map((item, idx) => (
+                {submissionChecklistData.map((item, idx) => (
                   <div key={idx} className="flex items-start space-x-3 p-3 rounded-xl bg-slate-50 border border-slate-200">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                     <span className="text-xs text-slate-700 font-medium">{item}</span>

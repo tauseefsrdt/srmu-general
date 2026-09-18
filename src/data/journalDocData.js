@@ -137,117 +137,115 @@ export const authorGuidelinesData = {
       section: "Equations & Units",
       desc: "Number equations consecutively using standard mathematical notation; define all symbols at first use. Use the International System of Units (SI Units)."
     }
-  ],
-  referencingStyle: {
-    name: "IEEE Referencing Style",
-    desc: "IJSPAST strictly recommends the IEEE Referencing Style. Authors are responsible for ensuring the accuracy and completeness of all references.",
-    examples: [
-      {
-        type: "Journal Article",
-        format: 'Author(s), "Title," Journal Name, vol. x, no. x, pp. xx–xx, Year.'
-      },
-      {
-        type: "Conference Paper",
-        format: 'Author(s), "Paper Title," Conference Name, Location, Year, pp. xx–xx.'
-      },
-      {
-        type: "Book",
-        format: 'Author(s), Book Title. Publisher, Year.'
-      },
-      {
-        type: "Website",
-        format: 'Author, "Title," Website, URL, Accessed Month Year.'
-      }
-    ]
-  },
-  ethicsAndPolicies: [
-    {
-      title: "Ethical Requirements",
-      points: [
-        "The manuscript must be original and not published elsewhere.",
-        "The manuscript must not be under consideration by another journal.",
-        "All sources must be properly cited with necessary permissions obtained.",
-        "Human and animal studies must include appropriate ethical approval, where applicable."
-      ]
-    },
-    {
-      title: "Plagiarism Policy",
-      points: [
-        "All manuscripts are screened using plagiarism detection software.",
-        "Similarity below 10% is normally acceptable after editorial assessment.",
-        "Higher similarity may require revision or rejection depending on the source and nature of the overlap.",
-        "Plagiarism, duplicate publication, fabricated data, and falsification are considered serious ethical violations."
-      ]
-    },
-    {
-      title: "Artificial Intelligence (AI) Policy",
-      points: [
-        "Authors may use AI tools for language editing or drafting assistance provided authors remain fully responsible for the manuscript.",
-        "AI tools cannot be listed as authors.",
-        "Any required disclosure of AI use must be provided in accordance with journal policy.",
-        "All AI-generated content must be carefully verified."
-      ]
-    },
-    {
-      title: "Peer Review Workflow",
-      points: [
-        "IJSPAST follows a rigorous Double-Blind Peer Review process.",
-        "Each manuscript is evaluated by at least two independent reviewers.",
-        "Editorial decisions include: Accept, Minor Revision, Major Revision, or Reject.",
-        "The Editor-in-Chief makes the final editorial decision."
-      ]
-    },
-    {
-      title: "Open Access, Copyright & APC",
-      points: [
-        "Immediate Open Access: IJSPAST provides immediate open access to promote the global dissemination of scientific knowledge.",
-        "Copyright: Upon acceptance, authors complete the journal's copyright/licensing agreement.",
-        "Publication Charges: Applicable Article Processing Charges (APCs) will be applicable as per journal policy."
-      ]
-    }
-  ],
-  checklist: [
-    "Manuscript follows the official journal template.",
-    "Title page is complete with all author affiliations and corresponding author identified.",
-    "Abstract (150–250 words) and 4–8 keywords are included.",
-    "References are complete and correctly formatted in IEEE style.",
-    "Figures (min 300 dpi) and tables are properly numbered with descriptive captions.",
-    "All citations are in-text and verified.",
-    "Conflict of interest statement is provided.",
-    "Funding information is disclosed.",
-    "Authors have approved the final submitted manuscript.",
-    "Similarity/plagiarism has been checked (under 10% benchmark)."
   ]
 };
+
+export const referencingStyleData = {
+  name: "IEEE Referencing Style",
+  desc: "IJSPAST strictly recommends the IEEE Referencing Style. Authors are responsible for ensuring the accuracy and completeness of all references.",
+  examples: [
+    {
+      type: "Journal Article",
+      format: 'Author(s), "Title," Journal Name, vol. x, no. x, pp. xx–xx, Year.'
+    },
+    {
+      type: "Conference Paper",
+      format: 'Author(s), "Paper Title," Conference Name, Location, Year, pp. xx–xx.'
+    },
+    {
+      type: "Book",
+      format: 'Author(s), Book Title. Publisher, Year.'
+    },
+    {
+      type: "Website",
+      format: 'Author, "Title," Website, URL, Accessed Month Year.'
+    }
+  ]
+};
+
+export const ethicsAndPoliciesData = [
+  {
+    title: "Ethical Requirements",
+    points: [
+      "The manuscript must be original and not published elsewhere.",
+      "The manuscript must not be under consideration by another journal.",
+      "All sources must be properly cited with necessary permissions obtained.",
+      "Human and animal studies must include appropriate ethical approval, where applicable."
+    ]
+  },
+  {
+    title: "Plagiarism Policy",
+    points: [
+      "All manuscripts are screened using plagiarism detection software.",
+      "Similarity below 10% is normally acceptable after editorial assessment.",
+      "Higher similarity may require revision or rejection depending on the source and nature of the overlap.",
+      "Plagiarism, duplicate publication, fabricated data, and falsification are considered serious ethical violations."
+    ]
+  },
+  {
+    title: "Artificial Intelligence (AI) Policy",
+    points: [
+      "Authors may use AI tools for language editing or drafting assistance provided authors remain fully responsible for the manuscript.",
+      "AI tools cannot be listed as authors.",
+      "Any required disclosure of AI use must be provided in accordance with journal policy.",
+      "All AI-generated content must be carefully verified."
+    ]
+  },
+  {
+    title: "Peer Review Workflow",
+    points: [
+      "IJSPAST follows a rigorous Double-Blind Peer Review process.",
+      "Each manuscript is evaluated by at least two independent reviewers.",
+      "Editorial decisions include: Accept, Minor Revision, Major Revision, or Reject.",
+      "The Editor-in-Chief makes the final editorial decision."
+    ]
+  },
+  {
+    title: "Open Access, Copyright & APC",
+    points: [
+      "Immediate Open Access: IJSPAST provides immediate open access to promote the global dissemination of scientific knowledge.",
+      "Copyright: Upon acceptance, authors complete the journal's copyright/licensing agreement.",
+      "Publication Charges: Applicable Article Processing Charges (APCs) will be applicable as per journal policy."
+    ]
+  }
+];
+
+export const submissionChecklistData = [
+  "Manuscript follows the official journal template.",
+  "Title page is complete with all author affiliations and corresponding author identified.",
+  "Abstract (150–250 words) and 4–8 keywords are included.",
+  "References are complete and correctly formatted in IEEE style.",
+  "Figures (min 300 dpi) and tables are properly numbered with descriptive captions.",
+  "All citations are in-text and verified.",
+  "Conflict of interest statement is provided.",
+  "Funding information is disclosed.",
+  "Authors have approved the final submitted manuscript.",
+  "Similarity/plagiarism has been checked (under 10% benchmark)."
+];
 
 // Real Featured Articles from the Official Template & Metamaterials / Applied Research
 export const featuredTemplateArticles = [
   {
     id: "art-1",
-    title: "Design and Analysis of Multi-Band Miniaturized Metamaterial Absorber for Wireless Communication Applications",
-    category: "Wireless & 5G/6G",
-    categoryColor: "bg-blue-100 text-blue-900 border-blue-300",
-    doi: "10.1007/s11082-023-05813-6",
-    date: "Vol. 1, Issue 1",
+    title:
+      "Dual-Band Concentric Split Square Resonators Based Metamaterial Absorber for X-Band Applications",
     authors: [
-      { name: "K. Errajraji", affiliation: "Dept. of Electronics & Communication" },
-      { name: "N. Jebbor", affiliation: "Applied Physics Lab" },
-      { name: "S. Das", affiliation: "Wireless Systems Research" },
-      { name: "T. Islam", affiliation: "Microwave Engineering" }
+      { name: "Supriya" },
+      { name: "Alkesh Agrawal" },
+      { name: "Bhagwant Singh" },
     ],
-    abstract: "Artificially engineered materials known as metamaterials have extraordinary capabilities to regulate and modify the behavior of incoming electromagnetic waves. This paper presents the numerical synthesis and stage-wise optimization of a dual-band miniaturized split-ring resonator unit cell for high-frequency wireless absorption.",
-    keywords: ["Metamaterial Absorber", "Miniaturization", "Split-Ring Resonators", "5G Communication", "Wireless Systems"],
-    readTime: "12 min read",
-    pages: "pp. 1–14",
-    volume: "Vol. 01 · 2026",
-    citations: 28,
+    keywords: [
+      "Absorber",
+      "Absorptance",
+      "Dual-Band",
+      "Broad-Band",
+    ],
+    paperId: "IJSPAST150926",
+    citation:
+      'Supriya, Alkesh Agrawal, Bhagwant Singh, “Dual-Band Concentric Split Square Resonators Based Metamaterial Absorber for X-Band Applications”, International Journal of Scientific Research in Applied Science and Technology, Vol. 1, 1-6, Dec., 2026',
     path: research,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
   },
-
-
 ];
-
 // Official Template Format Specifications from "13. Template.doc"
 export const templateSpecs = {
   title: "Official Camera-Ready Manuscript Template",

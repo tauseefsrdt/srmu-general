@@ -45,7 +45,7 @@ export default function Guidelines() {
         <div className="academic-card p-6 sm:p-8 rounded-2xl bg-white border border-slate-200/90 space-y-4">
           <div className="border-b border-slate-200 pb-3">
             <h2 className="text-xl sm:text-2xl font-bold text-[#0f4a85]">
-              Note: This information to be posted under Authors Guidelines
+              Publication Scope & Overview
             </h2>
           </div>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">

@@ -16,7 +16,6 @@ import Template from './pages/Template';
 import ReferencingStyle from './pages/ReferencingStyle';
 import EthicsPolicy from './pages/EthicsPolicy';
 import Papers from './pages/Papers';
-import ArticleDetail from './pages/ArticleDetail';
 import Submit from './pages/Submit';
 import EditorialBorad from './pages/EditorialBorad';
 import PeerReviewPolicy from './pages/PeerReviewPolicy';
@@ -56,7 +55,7 @@ function MainLayout() {
       <Header onOpenSearch={() => setIsSearchOpen(true)} />
 
       {/* Main Routed Content Area */}
-      <main className="relative z-10 flex-grow">
+      <main className="relative flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -68,7 +67,6 @@ function MainLayout() {
           <Route path="/referencing-style" element={<ReferencingStyle />} />
           <Route path="/ethics-policy" element={<EthicsPolicy />} />
           <Route path="/papers" element={<Papers />} />
-          <Route path="/articles/:id" element={<ArticleDetail />} />
           <Route path="/editorial-borad" element={<EditorialBorad />} />
           <Route path="/submit" element={<Submit />} />
           <Route path="/peer-review-policy" element={<PeerReviewPolicy />} />
@@ -86,7 +84,7 @@ function MainLayout() {
         onClose={() => setIsSearchOpen(false)}
         onSelectArticle={(article) => {
           setIsSearchOpen(false);
-          window.location.href = `/articles/${article.id}`;
+          window.location.href = '/papers';
         }}
         onOpenGuidelines={() => {
           setIsSearchOpen(false);

@@ -29,7 +29,7 @@ const sliderSlides = [
     badge: "Special Track · 2026",
     badgeColor: "bg-blue-100 text-blue-900 border-blue-300",
     stats: "28 Citations · IEEE Referencing",
-    link: "/articles/art-1"
+    link: "/papers"
   },
   {
     id: 2,
@@ -41,7 +41,7 @@ const sliderSlides = [
     badge: "AI & Data Science",
     badgeColor: "bg-amber-100 text-amber-900 border-amber-300",
     stats: "34 Citations · Open Access",
-    link: "/articles/art-2"
+    link: "/papers"
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const sliderSlides = [
     badge: "Materials Science",
     badgeColor: "bg-emerald-100 text-emerald-900 border-emerald-300",
     stats: "42 Citations · CrossRef DOI",
-    link: "/articles/art-2"
+    link: "/papers"
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ const sliderSlides = [
     badge: "5G/6G Networks",
     badgeColor: "bg-purple-100 text-purple-900 border-purple-300",
     stats: "19 Citations · Double-Blind",
-    link: "/articles/art-3"
+    link: "/papers"
   }
 ];
 
