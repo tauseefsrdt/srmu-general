@@ -397,7 +397,7 @@ export default function Papers() {
 
             <div>
               <h4 className="text-sm sm:text-base font-bold text-slate-900">
-                Publishing in IJSPAST
+                Publishing in IJMAR
               </h4>
 
               <p className="text-xs text-slate-500 mt-1">

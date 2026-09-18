@@ -34,7 +34,7 @@ export default function VisionScope() {
       {/* Page Hero */}
       <PageHero
         title="Vision & Scope of the Journal"
-        subtitle="Discover the mission, vision, and editorial workflow of the International Journal of Scientific Progress in Applied Science and Technology."
+        subtitle="Discover the mission, vision, and editorial workflow of the International Journal of Multidisciplinary Advanced Research."
         badge="Academic Scope & Mandate"
         breadcrumbs={[
           { name: "About", path: "/about" },
@@ -124,7 +124,7 @@ export default function VisionScope() {
               Peer Review Process
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl">
-              IJSPAST follows a rigorous, structured editorial process to ensure the highest standards of scholarly integrity and scientific quality.
+              IJMAR follows a rigorous, structured editorial process to ensure the highest standards of scholarly integrity and scientific quality.
             </p>
           </div>
 

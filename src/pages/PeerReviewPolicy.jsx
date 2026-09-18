@@ -27,7 +27,7 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed">
-          International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is committed to publishing high-quality, original, and scientifically sound research. The peer review process is a cornerstone of the journal's editorial system and is designed to ensure the quality, originality, validity, and significance of all published manuscripts.
+          International Journal of Multidisciplinary Advanced Research (IJMAR) is committed to publishing high-quality, original, and scientifically sound research. The peer review process is a cornerstone of the journal's editorial system and is designed to ensure the quality, originality, validity, and significance of all published manuscripts.
         </p>
         <p className="text-sm text-slate-600 leading-relaxed mt-3">
           The journal follows a <span className="font-semibold text-[#0f4a85]">fair, transparent, confidential, and unbiased</span> peer review process in accordance with internationally accepted standards of publication ethics.
@@ -43,7 +43,7 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed mb-4">
-          IJSPAST follows a <span className="font-bold text-[#0f4a85]">Double-Blind Peer Review</span> process. Under this model:
+          IJMAR follows a <span className="font-bold text-[#0f4a85]">Double-Blind Peer Review</span> process. Under this model:
         </p>
         <div className="space-y-2.5">
           {[
@@ -75,7 +75,7 @@ const sections = [
         </p>
         <div className="space-y-2.5">
           {[
-            'Falls within the scope of IJSPAST.',
+            'Falls within the scope of IJMAR.',
             'Complies with the Author Guidelines.',
             'Meets basic standards of scientific quality.',
             'Is written in acceptable English.',
@@ -373,7 +373,7 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed mb-4">
-          IJSPAST does not tolerate:
+          IJMAR does not tolerate:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           {[
@@ -413,7 +413,7 @@ export default function PeerReviewPolicy() {
 
       <PageHero
         title="Peer Review Policy"
-        subtitle="IJSPAST's complete peer review framework — covering the double-blind model, editorial workflow, reviewer responsibilities, ethical standards, and timelines."
+        subtitle="IJMAR's complete peer review framework — covering the double-blind model, editorial workflow, reviewer responsibilities, ethical standards, and timelines."
         badge="Editorial Standards & Policy"
         breadcrumbs={[
           { name: 'Peer Review Policy' },
@@ -544,7 +544,7 @@ export default function PeerReviewPolicy() {
           </div>
           <div className="pl-0 sm:pl-14 space-y-3">
             <p className="text-sm text-slate-600 leading-relaxed">
-              If credible concerns arise after publication regarding the validity, ethics, or integrity of a published article, IJSPAST may initiate a post-publication review. Depending on the outcome, the journal may issue:
+              If credible concerns arise after publication regarding the validity, ethics, or integrity of a published article, IJMAR may initiate a post-publication review. Depending on the outcome, the journal may issue:
             </p>
             <div className="space-y-2">
               {[
@@ -581,7 +581,7 @@ export default function PeerReviewPolicy() {
             </div>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed pl-0 sm:pl-14">
-            IJSPAST is committed to continuously improving its peer review process through periodic review of editorial policies, reviewer guidance, and ethical practices. The journal encourages constructive feedback from authors, reviewers, and readers to strengthen the quality, fairness, and efficiency of peer review.
+            IJMAR is committed to continuously improving its peer review process through periodic review of editorial policies, reviewer guidance, and ethical practices. The journal encourages constructive feedback from authors, reviewers, and readers to strengthen the quality, fairness, and efficiency of peer review.
           </p>
         </div>
 

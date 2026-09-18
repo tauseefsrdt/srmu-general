@@ -1,5 +1,5 @@
 ﻿w:rsidR="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Note: This information to be posted under Authors Guidelines
-w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is an international, peer-reviewed, open-access journal dedicated to publishing high-quality original research, review articles, in all areas of science, engineering, and emerging technologies.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> International Journal of Multidisciplinary Advanced Research (IJMAR) is an international, peer-reviewed, open-access journal dedicated to publishing high-quality original research, review articles, in all areas of science, engineering, and emerging technologies.
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Authors are encouraged to submit manuscripts that present novel contributions, practical applications, innovative methodologies, and interdisciplinary research.
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120">
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Manuscript Preparation
@@ -65,7 +65,7 @@ w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Units
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Use the International System of Units (SI Units).
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> References
-w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> IJSPAST recommends the IEEE Referencing Style .
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> IJMAR recommends the IEEE Referencing Style .
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Journal Article
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Author(s), "Title," Journal Name , vol. x, no. x, pp. xx–xx, Year.
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="00E16059" w:rsidP="000C4120"> Conference Paper
@@ -97,7 +97,7 @@ w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Any required disclosure of AI use is provided in accordance with journal policy.
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> All AI-generated content is carefully verified.
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Peer Review
-w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> IJSPAST follows a Double-Blind Peer Review process.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> IJMAR follows a Double-Blind Peer Review process.
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> Each manuscript is evaluated by at least two independent reviewers.
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Editorial decisions include:
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Accept
@@ -120,9 +120,9 @@ w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Copyright
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> Upon acceptance, authors may be required to complete the journal's copyright or licensing agreement before publication.
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Open Access Policy
-w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> IJSPAST provides immediate open access to published articles to promote the global dissemination of scientific knowledge.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> IJMAR provides immediate open access to published articles to promote the global dissemination of scientific knowledge.
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Publication Charges
 w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> The applicable Article Processing Charges (APCs) will be applicable as per journal Policy.
 w:rsidR="000C4120" w:rsidRPr="000C4120" w:rsidRDefault="000C4120" w:rsidP="000C4120"> Correspondence
-w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> All correspondence regarding manuscript submission, peer review, and publication should be addressed to the Editorial Office of the International Journal of Scientific Progress in Applied Science and Technology (IJSPSAT) through the journal's official submission system or designated editorial email.
+w:rsidR="000C4120" w:rsidRPr="009D3FCC" w:rsidRDefault="009B4E9F" w:rsidP="000C4120"> All correspondence regarding manuscript submission, peer review, and publication should be addressed to the Editorial Office of the International Journal of Multidisciplinary Advanced Research (IJSPSAT) through the journal's official submission system or designated editorial email.
 w:rsidR="00F85453" w:rsidRDefault="00F85453"/>

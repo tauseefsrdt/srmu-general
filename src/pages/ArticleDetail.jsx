@@ -133,7 +133,7 @@ export default function ArticleDetail() {
               <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600 space-y-2">
                 <p className="font-semibold text-slate-800">Citing this paper in IEEE standard:</p>
                 <code className="block bg-white p-3 rounded-xl border border-slate-200 text-[#0f4a85] font-mono">
-                  {article.authors.map(a => a.name).join(', ')}, "{article.title}," IJSPAST, {article.volume}, {article.pages}, 2026. DOI: {article.doi}
+                  {article.authors.map(a => a.name).join(', ')}, "{article.title}," IJMAR, {article.volume}, {article.pages}, 2026. DOI: {article.doi}
                 </code>
               </div>
             </div>

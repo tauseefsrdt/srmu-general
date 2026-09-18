@@ -34,7 +34,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
     // Trigger download of Template file
     const link = document.createElement('a');
     link.href = '/13. Template.doc';
-    link.download = 'IJSPAST_Manuscript_Template.doc';
+    link.download = 'IJMAR_Manuscript_Template.doc';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -57,7 +57,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
                 Authors & Editorial Guidelines
               </h3>
               <p className="text-xs text-slate-500">
-                Official Submission & Preparation Protocols (IJSPAST)
+                Official Submission & Preparation Protocols (IJMAR)
               </p>
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function GuidelinesModal({ isOpen, onClose, initialTab = 'guideli
         {/* Footer */}
         <div className="p-4 sm:px-8 border-t border-slate-100 flex items-center justify-between bg-slate-50 shrink-0">
           <span className="text-xs text-slate-500 font-medium">
-            IJSPAST Editorial Office • Double-Blind Review
+            IJMAR Editorial Office • Double-Blind Review
           </span>
           <button
             onClick={onClose}

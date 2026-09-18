@@ -71,7 +71,7 @@ export default function PublicationDetails() {
       {/* Page Hero */}
       <PageHero
         title="Publication Details & Journal Specifications"
-        subtitle="Complete institutional publication framework, review mechanisms, publication frequency, and academic mandate of IJSPAST."
+        subtitle="Complete institutional publication framework, review mechanisms, publication frequency, and academic mandate of IJMAR."
         badge="Official Journal Details"
         breadcrumbs={[
           { name: "About", path: "/about" },
@@ -143,7 +143,7 @@ export default function PublicationDetails() {
               Official Publication Specifications
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 mt-1">
-              Standardized metadata and operational parameters governing IJSPAST issues and articles.
+              Standardized metadata and operational parameters governing IJMAR issues and articles.
             </p>
           </div>
 
@@ -220,7 +220,7 @@ export default function PublicationDetails() {
               <span>Open Access & Copyright Policy</span>
             </div>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              IJSPAST provides immediate open access to published research papers under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Readers worldwide are permitted to read, download, copy, distribute, print, search, or link to full texts of all articles without prior subscription barriers.
+              IJMAR provides immediate open access to published research papers under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Readers worldwide are permitted to read, download, copy, distribute, print, search, or link to full texts of all articles without prior subscription barriers.
             </p>
           </div>
 
@@ -230,7 +230,7 @@ export default function PublicationDetails() {
               <span>Editorial Office & Institutional Governance</span>
             </div>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              All correspondence regarding manuscript submission, reviewer assignment, special issues, and publication certifications is managed through the Editorial Office of IJSPAST at Shri Ramswaroop Memorial University, Lucknow-Deva Road, Barabanki, Uttar Pradesh, India.
+              All correspondence regarding manuscript submission, reviewer assignment, special issues, and publication certifications is managed through the Editorial Office of IJMAR at Shri Ramswaroop Memorial University, Lucknow-Deva Road, Barabanki, Uttar Pradesh, India.
             </p>
           </div>
 
