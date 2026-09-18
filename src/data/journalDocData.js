@@ -3,6 +3,8 @@
 // 2. Authors Guidelines for Webpage.docx
 // 3. 13. Template.doc
 
+import research from "../assets/research-paper/IJSPAST150926.pdf"
+
 export const journalInfo = {
   acronym: "IJSPAST",
   fullName: "International Journal of Scientific Progress in Applied Science and Technology",
@@ -239,68 +241,11 @@ export const featuredTemplateArticles = [
     pages: "pp. 1–14",
     volume: "Vol. 01 · 2026",
     citations: 28,
+    path: research,
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
   },
-  {
-    id: "art-2",
-    title: "Deep Learning Optimization of Ultra-Broadband Perfect Metamaterial Absorber for Solar Energy Harvesting",
-    category: "Energy & Materials",
-    categoryColor: "bg-amber-100 text-amber-900 border-amber-300",
-    doi: "10.1007/s11468-024-02711-9",
-    date: "Vol. 1, Issue 1",
-    authors: [
-      { name: "Y. Gai", affiliation: "Institute of Materials Science" },
-      { name: "S. Zhou", affiliation: "Renewable Energy Systems" },
-      { name: "G. Lan", affiliation: "Artificial Intelligence Lab" }
-    ],
-    abstract: "We report the design of an ultra-broadband solar absorber spanning UV to near-infrared spectra. Using neural network surrogate modeling and continuous parameter optimization, the multi-layered nanostructured cell achieves over 97.4% average absorption efficiency across the solar spectrum.",
-    keywords: ["Solar Energy", "Deep Learning", "Nanotechnology", "Broadband Absorption", "Renewable Power"],
-    readTime: "15 min read",
-    pages: "pp. 15–30",
-    volume: "Vol. 01 · 2026",
-    citations: 34,
-    image: "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: "art-3",
-    title: "Dual Band Polarization Insensitive Metamaterial Absorber for EMI Shielding from GSM and 5G Communication Systems",
-    category: "Cyber & Networks",
-    categoryColor: "bg-emerald-100 text-emerald-900 border-emerald-300",
-    doi: "10.1038/s41598-025-96507-4",
-    date: "Vol. 1, Issue 1",
-    authors: [
-      { name: "M. Moniruzzaman", affiliation: "Applied Electromagnetics Institute" },
-      { name: "M. T. Islam", affiliation: "Faculty of Engineering" },
-      { name: "S. S. Al-Bawri", affiliation: "Telecommunication Engineering" }
-    ],
-    abstract: "Electromagnetic interference (EMI) presents critical risks in modern high-density wireless infrastructures. This study demonstrates a symmetrical stub-loaded resonator cell providing dual-band polarization-insensitive attenuation at 2.45 GHz and 28 GHz with >99% shielding efficacy.",
-    keywords: ["EMI Shielding", "5G Networks", "Polarization Insensitive", "Electromagnetics", "Cybersecurity"],
-    readTime: "11 min read",
-    pages: "pp. 31–46",
-    volume: "Vol. 01 · 2026",
-    citations: 19,
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: "art-4",
-    title: "Optically Transparent Dual-Band Metamaterial Absorber Using Ag Nanowire Screen-Printed Fractal Structures",
-    category: "Applied Physics",
-    categoryColor: "bg-purple-100 text-purple-900 border-purple-300",
-    doi: "10.3390/fractalfract8030153",
-    date: "Vol. 1, Issue 1",
-    authors: [
-      { name: "S. Bark", affiliation: "Applied Physics & Nanomaterials" },
-      { name: "K. Junghyeon", affiliation: "Smart Sensors Lab" },
-      { name: "L. Sungjoon", affiliation: "Materials Science Dept." }
-    ],
-    abstract: "We fabricate an optically transparent metamaterial absorber utilizing silver nanowire inks on flexible PET substrate. The second-order cross-fractal geometry delivers high optical transmittance (>82%) while absorbing microwave bands for stealth and smart window integration.",
-    keywords: ["Ag Nanowires", "Optical Transparency", "Fractal Structures", "Applied Physics", "Smart Materials"],
-    readTime: "14 min read",
-    pages: "pp. 47–64",
-    volume: "Vol. 01 · 2026",
-    citations: 22,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=800&q=80"
-  }
+
+
 ];
 
 // Official Template Format Specifications from "13. Template.doc"

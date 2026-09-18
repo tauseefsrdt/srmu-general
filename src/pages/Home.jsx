@@ -40,26 +40,26 @@ export default function Home() {
   return (
     <div className="space-y-0">
       {/* 1. Hero Section */}
-      <Hero 
-        onOpenContact={() => {}}
-        onOpenGuidelines={() => {}}
+      <Hero
+        onOpenContact={() => { }}
+        onOpenGuidelines={() => { }}
       />
 
       {/* 2. General Information Section (Mission, Scope, Vision) */}
-      <GeneralInfo 
-        onOpenGuidelines={() => {}}
+      <GeneralInfo
+        onOpenGuidelines={() => { }}
       />
 
       {/* 3. Featured Articles Section */}
-      <FeaturedArticles 
+      {/* <FeaturedArticles 
         onSelectArticle={() => {}}
         onOpenGuidelines={() => {}}
-      />
+      /> */}
 
       {/* 5. Submission Callout Section */}
-      <CtaSection 
-        onOpenContact={() => {}}
-        onOpenGuidelines={() => {}}
+      <CtaSection
+        onOpenContact={() => { }}
+        onOpenGuidelines={() => { }}
       />
     </div>
   );
