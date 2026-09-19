@@ -28,8 +28,8 @@ export default function About() {
       {/* Page Hero */}
       <PageHero
         title="About the Journal & Institutional Mandate"
-        subtitle="Discover the mission, editorial governance, open-access principles, and scientific vision of the International Journal of Multidisciplinary Advanced Research."
-        badge="About IJMAR"
+        subtitle="Discover the mission, editorial governance, open-access principles, and scientific vision of the International Journal of Scientific Progress in Applied Science and Technology."
+        badge="About IJSPAST"
         breadcrumbs={[
           { name: "About", path: "/about" },
           { name: "Overview" }

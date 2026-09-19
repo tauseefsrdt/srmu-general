@@ -21,7 +21,7 @@ export default function ArticleModal({ article, onClose }) {
   if (!article) return null;
 
   const handleCopyCitation = () => {
-    const citation = `${article.authors.map(a => a.name).join(', ')} (${article.date}). "${article.title}." International Journal of Multidisciplinary Advanced Research, ${article.volume}, ${article.pages}. https://doi.org/${article.doi}`;
+    const citation = `${article.authors.map(a => a.name).join(', ')} (${article.date}). "${article.title}." International Journal of Scientific Progress in Applied Science & Technology, ${article.volume}, ${article.pages}. https://doi.org/${article.doi}`;
     navigator.clipboard.writeText(citation);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);

@@ -76,7 +76,7 @@ export default function PageHero({
               IJ
             </div>
             <div>
-              <span className="font-bold text-amber-300 block">IJMAR</span>
+              <span className="font-bold text-amber-300 block">IJSPAST</span>
               <span className="text-[10px] text-slate-300 font-mono">E-ISSN: 2582-8800</span>
             </div>
           </div>

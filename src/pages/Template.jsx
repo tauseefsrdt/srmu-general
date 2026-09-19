@@ -16,7 +16,7 @@ export default function Template() {
   const handleDownloadDoc = () => {
     const link = document.createElement('a');
     link.href = '/13. Template.doc';
-    link.download = 'IJMAR_Manuscript_Template.doc';
+    link.download = 'IJSPAST_Manuscript_Template.doc';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

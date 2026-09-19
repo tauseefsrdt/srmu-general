@@ -82,7 +82,7 @@ export default function FeaturedArticles() {
               Featured Research Publications
             </h2>
             <p className="text-xs sm:text-sm text-slate-600">
-              Peer-reviewed high-impact papers formatted according to official IJMAR template specifications. Published under open-access IEEE referencing standards.
+              Peer-reviewed high-impact papers formatted according to official IJSPAST template specifications. Published under open-access IEEE referencing standards.
             </p>
           </div>
 

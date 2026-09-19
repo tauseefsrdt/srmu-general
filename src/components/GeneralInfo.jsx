@@ -102,7 +102,7 @@ export default function GeneralInfo() {
               General Information, Mission & Vision
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Official institutional framework and scholarly publishing mission of the International Journal of Multidisciplinary Advanced Research (IJMAR).
+              Official institutional framework and scholarly publishing mission of the International Journal of Scientific Progress in Applied Science and Technology (IJSPAST).
             </p>
           </div>
 
@@ -195,7 +195,7 @@ export default function GeneralInfo() {
               23+ Interdisciplinary Submission Areas
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              IJMAR welcomes submissions in, but not limited to, the following core and emerging engineering & applied science areas:
+              IJSPAST welcomes submissions in, but not limited to, the following core and emerging engineering & applied science areas:
             </p>
 
             {/* Category Filter Pills */}

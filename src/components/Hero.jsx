@@ -155,7 +155,7 @@ export default function Hero() {
                   Official Publication Mandate
                 </div> */}
                 <p className="text-xs sm:text-sm text-slate-700 leading-normal">
-                  IJMAR, published by <strong>Shri Ramswaroop Memorial University</strong>, is a multidisciplinary journal with an aim to publish high-quality, original and innovative research work in Applied Science and Technology.
+                  IJSPAST, published by <strong>Shri Ramswaroop Memorial University</strong>, is a multidisciplinary journal with an aim to publish high-quality, original and innovative research work in Applied Science and Technology.
                 </p>
                 {/* <p className="text-xs text-slate-500 leading-normal">
                   Accepts original research, experimental validations, review papers, and short communications across 23+ core disciplines.
@@ -328,7 +328,7 @@ export default function Hero() {
                   <Award className="w-3.5 h-3.5" />
                 </div>
                 <div className="text-left">
-                  <div className="text-[11px] font-bold text-slate-900">28+ Domains</div>
+                  <div className="text-[11px] font-bold text-slate-900">23+ Domains</div>
                   <div className="text-[9px] text-slate-500 font-medium">Peer Reviewed</div>
                 </div>
               </div>

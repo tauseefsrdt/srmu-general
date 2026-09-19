@@ -94,7 +94,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
             </div>
             <div>
               <h3 className="text-base sm:text-lg font-bold text-[#0f4a85]">
-                Submit Manuscript to IJMAR
+                Submit Manuscript to IJSPAST
               </h3>
               <p className="text-[11px] text-slate-400">
                 Online Peer-Review Portal • Shri Ramswaroop Memorial University
@@ -126,7 +126,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
               <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-left max-w-md mx-auto text-xs space-y-1.5 text-slate-700">
                 <div className="flex justify-between font-mono">
                   <span className="text-slate-500">Tracking Reference:</span>
-                  <span className="font-bold text-blue-700">IJMAR-2026-MS-8429</span>
+                  <span className="font-bold text-blue-700">IJSPAST-2026-MS-8429</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-500">Review Process:</span>
@@ -335,7 +335,7 @@ export default function SubmitModal({ isOpen, onClose, onOpenGuidelines }) {
                         )}
                       </p>
                       <p className="text-[10px] text-slate-400 mt-1">
-                        Must follow IJMAR Template Format (Max file size: 25MB)
+                        Must follow IJSPAST Template Format (Max file size: 25MB)
                       </p>
                       <input 
                         type="file" 

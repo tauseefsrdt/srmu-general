@@ -19,20 +19,6 @@ import vijayTiwariImg from '../assets/vijaytiwari-DtLhXa4L.webp';
 import nabeelAhmadImg from '../assets/Nabeel-Ahmad.jpeg';
 import alkeshAgrawalImg from '../assets/Alkesh_Agrawal.webp';
 
-// New images
-import ramPratapImg from '../assets/new_images/Ram Pratap Yadav.jpg';
-import anilKumarImg from '../assets/new_images/Anil Kumar.png';
-import shwetaShuklaImg from '../assets/new_images/Shweta.jpg';
-import shilpaShuklaImg from '../assets/new_images/Shilpa.png';
-import prakashMishraImg from '../assets/new_images/Prakash.png';
-import shashankSinghImg from '../assets/new_images/Shashank.png';
-import vibhavSharmaImg from '../assets/new_images/Vaibhav.jpg';
-import syedAsifImg from '../assets/new_images/Syed.jpg';
-import bmDixitImg from '../assets/new_images/BMDixit.png';
-import narendraSinghImg from '../assets/new_images/Narendra.png';
-import veenaSinghImg from '../assets/new_images/Veena.png';
-import madhuDixitImg from '../assets/new_images/Madhu.png';
-
 // Avatar component with fallback skeleton placeholder
 function MemberAvatar({ image, name, size = "md" }) {
   const [imgError, setImgError] = React.useState(false);
@@ -112,12 +98,6 @@ export default function EditorialBorad() {
       affiliation: "SRMU, Barabanki-India",
       email: "dd.research@srmu.ac.in",
       image: alkeshAgrawalImg
-    },
-    {
-      name: "Dr. Ram Pratap Yadav",
-      designation: "Deputy Editor-in-Chief",
-      affiliation: "SRMU, Barabanki-India",
-      image: ramPratapImg
     }
   ];
 
@@ -133,19 +113,11 @@ export default function EditorialBorad() {
     { name: "Prof. (Dr.) Dilip Jaiswal", affiliation: "FoMSS", email: "dilipkr.maths@srmu.ac.in" },
     { name: "Dr. Md. Nadeem", affiliation: "DCSE", email: "mdnadeem.cse@srmu.ac.in" },
     { name: "Dr. Nitish Singh", affiliation: "FoPS", email: "nitish.phy@srmu.ac.in" },
-    { name: "Dr. Rahul K Vishwakarma", affiliation: "FoCS", email: "rahulk.vishwakarma@srmu.ac.in" },
-    { name: "Dr. Anil Kumar", image: anilKumarImg },
-    { name: "Dr. Shweta Shukla", image: shwetaShuklaImg },
-    { name: "Dr. Shilpa Shukla", image: shilpaShuklaImg },
-    { name: "Dr. Prakash Chandra Mishra", image: prakashMishraImg },
-    { name: "Dr. Shashank Shekhar Singh", image: shashankSinghImg },
-    { name: "Dr. Vibhav Sharma", image: vibhavSharmaImg },
-    { name: "Dr. Syed Asif Mehdi", image: syedAsifImg },
-    { name: "Dr. Seema Tripathi" }
+    { name: "Dr. Rahul K Vishwakarma", affiliation: "FoCS", email: "rahulk.vishwakarma@srmu.ac.in" }
   ];
 
   const advisoryCommitteeNational = [
-    { name: "Prof. (Dr.) B. M. Dixit", designation: "Dir. (INSH)", affiliation: "SRMU", email: "director.insh@srmu.ac.in", image: bmDixitImg },
+    { name: "Prof. (Dr.) B. M. Dixit", designation: "Dir. (INSH)", affiliation: "SRMU", email: "director.insh@srmu.ac.in" },
     { name: "Prof. (Dr.) Apurva Anand", designation: "Dir. (IoT)", affiliation: "SRMU", email: "director.engg@srmu.ac.in" },
     { name: "Prof. (Dr.) Tabish Kidwai", designation: "Dir. (IBST)", affiliation: "SRMU", email: "director.ibst@srmu.ac.in" },
     { name: "Prof. (Dr.) R.S. Bajpai", designation: "HoD. (DEEE)", affiliation: "SRMU", email: "dean.ee@srmu.ac.in" },
@@ -155,10 +127,7 @@ export default function EditorialBorad() {
     { name: "Prof. (Dr.) R. G. Singh", designation: "Dean (FoPS)", affiliation: "SRMU", email: "dean.phy@srmu.ac.in" },
     { name: "Dr. Shobhit Sinha", designation: "HoD (DCSIS)", affiliation: "SRMU", email: "hod.cse@srmu.ac.in" },
     { name: "Dr. Sadhana Singh", designation: "HoD (FoCS)", affiliation: "SRMU", email: "dean.cy@srmu.ac.in" },
-    { name: "Dr. Kavita Sahu", designation: "Asstt. Prof. (DoCSE)", affiliation: "Dr. Harsingh Gour Vishwavidyalaya, Sagar, M.P." },
-    { name: "Prof. Narendra Bahadur Singh", image: narendraSinghImg },
-    { name: "Prof. Veena Singh", image: veenaSinghImg },
-    { name: "Prof. Madhu Dixit", image: madhuDixitImg }
+    { name: "Dr. Kavita Sahu", designation: "Asstt. Prof. (DoCSE)", affiliation: "Dr. Harsingh Gour Vishwavidyalaya, Sagar, M.P." }
   ];
 
   const advisoryCommitteeInternational = [

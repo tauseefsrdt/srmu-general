@@ -10,7 +10,7 @@ export default function PatronsAdvisory() {
       {/* Page Hero */}
       <PageHero
         title="Patrons & Advisory Leadership"
-        subtitle="Institutional leadership and honorary patrons guiding the scholarly vision of the International Journal of Multidisciplinary Advanced Research."
+        subtitle="Institutional leadership and honorary patrons guiding the scholarly vision of the International Journal of Scientific Progress in Applied Science and Technology."
         badge="University Leadership"
         breadcrumbs={[
           { name: "About", path: "/about" },

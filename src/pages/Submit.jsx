@@ -70,7 +70,7 @@ export default function Submit() {
               Manuscript Successfully Submitted!
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto leading-relaxed">
-              Your paper <strong>"{formData.title}"</strong> has been logged with manuscript ID <strong>IJMAR-2026-{Math.floor(1000 + Math.random() * 9000)}</strong>. A confirmation email has been dispatched to <strong>{formData.email}</strong>.
+              Your paper <strong>"{formData.title}"</strong> has been logged with manuscript ID <strong>IJSPAST-2026-{Math.floor(1000 + Math.random() * 9000)}</strong>. A confirmation email has been dispatched to <strong>{formData.email}</strong>.
             </p>
             <div className="pt-4 flex justify-center space-x-3">
               <Link
@@ -272,7 +272,7 @@ export default function Submit() {
                   className="mt-1 w-4 h-4 rounded text-blue-600 focus:ring-blue-500"
                 />
                 <span className="text-slate-700 leading-relaxed font-medium">
-                  I confirm that this manuscript is original, not published elsewhere, formatted according to IJMAR IEEE guidelines, verified under the 10% similarity benchmark, and approved by all co-authors.
+                  I confirm that this manuscript is original, not published elsewhere, formatted according to IJSPAST IEEE guidelines, verified under the 10% similarity benchmark, and approved by all co-authors.
                 </span>
               </label>
             </div>

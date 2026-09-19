@@ -24,10 +24,10 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed">
-          <span className="font-bold text-slate-800">International Journal of Multidisciplinary Advanced Research (IJMAR)</span> is committed to maintaining the highest standards of academic integrity and publication ethics. The journal publishes only original research that has not been plagiarized, fabricated, falsified, or previously published without proper acknowledgment.
+          <span className="font-bold text-slate-800">International Journal of Scientific Progress in Applied Science and Technology (IJSPAST)</span> is committed to maintaining the highest standards of academic integrity and publication ethics. The journal publishes only original research that has not been plagiarized, fabricated, falsified, or previously published without proper acknowledgment.
         </p>
         <p className="text-sm text-slate-600 leading-relaxed mt-3">
-          IJMAR follows internationally accepted publication ethics and editorial best practices. All submitted manuscripts are screened for plagiarism before they are considered for peer review. Suspected cases of plagiarism are handled in accordance with internationally recognized publication ethics guidelines.
+          IJSPAST follows internationally accepted publication ethics and editorial best practices. All submitted manuscripts are screened for plagiarism before they are considered for peer review. Suspected cases of plagiarism are handled in accordance with internationally recognized publication ethics guidelines.
         </p>
       </>
     ),
@@ -71,7 +71,7 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed mb-4">
-          Authors submitting manuscripts to IJMAR certify that:
+          Authors submitting manuscripts to IJSPAST certify that:
         </p>
         <div className="space-y-2.5">
           {[
@@ -122,7 +122,7 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed mb-5">
-          IJMAR generally applies the following guidelines:
+          IJSPAST generally applies the following guidelines:
         </p>
         <div className="overflow-x-auto rounded-2xl border border-slate-200">
           <table className="w-full text-sm border-collapse">
@@ -247,7 +247,7 @@ const sections = [
     content: (
       <>
         <p className="text-sm text-slate-600 leading-relaxed mb-4">
-          If plagiarism is identified after publication, IJMAR may:
+          If plagiarism is identified after publication, IJSPAST may:
         </p>
         <div className="space-y-2">
           {[
@@ -411,7 +411,7 @@ export default function EthicsPolicy() {
 
       <PageHero
         title="Plagiarism Policy"
-        subtitle="IJMAR's complete plagiarism policy — covering similarity thresholds, screening tools, author responsibilities, editorial procedures, and consequences of misconduct."
+        subtitle="IJSPAST's complete plagiarism policy — covering similarity thresholds, screening tools, author responsibilities, editorial procedures, and consequences of misconduct."
         badge="Publication Ethics & Integrity"
         breadcrumbs={[
           { name: 'Plagiarism Policy' },
