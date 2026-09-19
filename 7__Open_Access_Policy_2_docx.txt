@@ -1,0 +1,84 @@
+﻿w:rsidR="00A17ADA" w:rsidRPr="00B11528" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Open Access Policy
+w:rsidR="00B11528" w:rsidRPr="009D3FCC" w:rsidRDefault="00B11528" w:rsidP="00B11528"> International Journal of Scientific Progress in Applied Science and Technology (IJ SPAST )
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 1. Policy Statement
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00B11528" w:rsidP="000C252B"> International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is committed to the free and unrestricted dissemination of scholarly research. The journal operates under an Open Access publishing model, ensuring that all published articles are freely available online immediately upon publication without subscription or paywall barriers.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> The objective of the journal is to maximize the visibility, accessibility, and impact of high-quality research in science, engineering, and emerging technologies by enabling unrestricted access to published content for researchers, educators, students, industry professionals, policymakers, and the general public.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 2. Open Access Principles
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00E93BA0" w:rsidP="00A17ADA"> IJSPAST adheres to the following Open Access principles:
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Immediate and permanent free access to all published articles.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> No registration or subscription required to read published content.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Equal access to research for readers worldwide.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Promotion of knowledge sharing and scientific collaboration.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Increased visibility, discoverability, and citation potential of published research.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 3. Reader Rights
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> All users may access published articles without charge and may:
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Read full-text articles.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Download articles for personal or academic use.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Print copies of articles.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Share links to published articles.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Search and browse all journal content.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Cite published work in accordance with accepted academic practices.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Any reuse beyond the permissions granted under the journal's copyright or licensing terms must comply with the applicable license and copyright policy.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 4. Author Rights
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Authors retain the rights specified in the journal's Copyright and Licensing Policy .
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Subject to the applicable license, authors may:
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Share the published version of their article.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Deposit the accepted or published version in institutional or subject repositories, where permitted.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Include the article in theses, dissertations, books, or teaching materials with appropriate acknowledgment of the original publication.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Share the article through personal or institutional websites.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Authors are encouraged to cite the final published version when sharing their work.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 5. Licensing
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> All articles published by IJSPAST are distributed under the license specified by the journal at the time of publication.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> If the journal adopts a Creative Commons license (for example, CC BY 4.0 ), the applicable license terms will be displayed on each published article and on the journal website.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> The selected license will clearly define the permissions for copying, distribution, adaptation, and reuse of published content.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 6. Copyright
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Copyright ownership and licensing arrangements are governed by the journal's Copyright and Licensing Policy .
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Authors are responsible for ensuring that all material included in their manuscripts complies with applicable copyright laws and that any necessary permissions have been obtained before publication.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00C568D1" w:rsidRDefault="00A17ADA" w:rsidP="00C568D1"> 7. Article Processing Charges (APCs)
+w:rsidR="00A17ADA" w:rsidRPr="00C568D1" w:rsidRDefault="00C568D1" w:rsidP="00C568D1"> For APC charges , the amount, payment procedures, and any waiver or discount will be clearly stated on the journal website before manuscript submission.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> No hidden publication charges will be imposed on authors.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 8. Permanent Availability
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> All published articles are intended to remain permanently accessible through the journal's official website.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Where possible, the journal will support long-term digital preservation through recognized archiving or preservation services and institutional repositories to ensure continued access to the scholarly record.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 9. Repository Policy
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Authors are encouraged to deposit their published work in:
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Institutional repositories.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Subject-specific repositories.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Personal academic webpages.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Research networking platforms, where permitted by the journal's licensing terms.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Deposited versions should include appropriate citation to the original publication in IJSPAST .
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 10. Indexing and Discoverability
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00E93BA0" w:rsidP="00A17ADA"> IJSPAST seeks to maximize the discoverability of published research by pursuing inclusion in reputable abstracting and indexing databases and by using standard metadata, persistent identifiers (such as DOIs where available), and search engine optimization practices.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 11. Benefits of Open Access
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> The Open Access model adopted by IJSPAST provides several benefits, including:
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Greater global visibility for authors.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Increased readership and dissemination.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Faster transfer of scientific knowledge.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Enhanced opportunities for collaboration.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Improved accessibility for researchers in developing regions.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Potential for increased citation and research impact.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 12. Ethical Commitment
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Open Access does not alter the journal's editorial standards.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Every manuscript submitted to IJSPAST undergoes the same rigorous editorial screening and double-blind peer review regardless of the authors' institution, nationality, funding source, or publication funding.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Editorial decisions are based solely on:
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Scientific quality.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Originality.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Technical merit.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Relevance to the journal's scope.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> Compliance with publication ethics.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00A17ADA" w:rsidRPr="00E93BA0" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> 13. Policy Updates
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="00A17ADA" w:rsidP="00A17ADA"> This Open Access Policy may be reviewed and updated periodically to reflect developments in scholarly publishing, copyright, licensing, and digital preservation. Any revisions will be published on the journal's official website.
+w:rsidR="00A17ADA" w:rsidRPr="00A17ADA" w:rsidRDefault="008730D7" w:rsidP="00A17ADA">
+w:rsidR="00D75077" w:rsidRDefault="00D75077"/>

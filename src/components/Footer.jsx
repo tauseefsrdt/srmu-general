@@ -47,11 +47,12 @@ export default function Footer() {
     {
       title: "Ethics & Policies",
       links: [
-        { name: "Publication Ethics (COPE)", href: "/ethics-policy" },
-        { name: "Plagiarism Policy", href: "/ethics-policy" },
-        { name: "AI Tool Use & Disclosure", href: "/ethics-policy" },
-        { name: "Open Access (CC BY 4.0)", href: "/publication-details" },
-        { name: "Copyright & Licensing", href: "/ethics-policy" }
+        { name: "Publication Ethics Policy", href: "/publication-ethics-policy" },
+        { name: "Peer Review Policy", href: "/peer-review-policy" },
+        { name: "Editorial Policy", href: "/editorial-policy" },
+        { name: "Conflict of Interest Policy", href: "/conflict-of-interest-policy" },
+        { name: "Open Access Policy", href: "/open-access-policy" },
+        { name: "Plagiarism Policy", href: "/ethics-policy" }
       ]
     }
   ];

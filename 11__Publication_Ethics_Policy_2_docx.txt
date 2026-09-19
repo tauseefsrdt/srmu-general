@@ -1,0 +1,205 @@
+﻿w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> Publication Ethics Policy
+w:rsidR="008B19FE" w:rsidRPr="009D3FCC" w:rsidRDefault="008B19FE" w:rsidP="008B19FE"> International Journal of Scientific Progress in Applied Science and Technology (IJ SPAST )
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 1. Introduction
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008B19FE" w:rsidP="008B19FE"> International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is committed to maintaining the highest standards of integrity, transparency, fairness, and ethical conduct in scholarly publishing. The journal expects all participants in the publication process—including authors, editors, reviewers, and publishers—to adhere to internationally recognized ethical principles.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008B19FE" w:rsidP="004259E2"> IJSPAST follows the ethical standards and best practices recommended by the Committee on Publication Ethics (COPE) , the International Committee of Medical Journal Editors (ICMJE) (where applicable), and the Core Practices of scholarly publishing ethics .
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 2. Ethical Principles
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008B19FE" w:rsidP="004259E2"> IJSPAST is committed to:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Promoting originality and innovation in research.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Ensuring a fair, unbiased, and confidential peer-review process.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Preventing plagiarism and academic misconduct.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Maintaining editorial independence.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Protecting intellectual property rights.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Publishing corrections, retractions, or expressions of concern whenever necessary.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Encouraging transparency and reproducibility of research.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 3. Responsibilities of Authors
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors submitting manuscripts to IJSPAST must ensure that:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.1 Originality
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Submitted work is original.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> The manuscript has not been published elsewhere.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> The manuscript is not under consideration by another journal.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Proper citations are provided for all borrowed ideas, figures, tables, and data.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.2 Authorship
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Only individuals who have made significant scholarly contributions should be listed as authors.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> All authors should have contributed substantially to:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Research conception or design
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Data collection
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Analysis or interpretation
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Manuscript preparation
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Approval of the final version
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Individuals providing technical or financial support should be acknowledged but not listed as authors unless they meet authorship criteria.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.3 Corresponding Author
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> The corresponding author is responsible for:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Ensuring all authors approve the submission.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Managing communication with the editorial office.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Coordinating revisions.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Confirming the accuracy of author information.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="008B19FE" w:rsidRDefault="008B19FE" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.4 Data Integrity
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors must:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Present data honestly and accurately.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Avoid fabrication, falsification, or manipulation.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Retain research data for a reasonable period after publication.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Provide data when requested by editors, where feasible.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.5 Multiple, Duplicate, or Redundant Publication
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors must not submit the same or substantially similar manuscripts simultaneously to multiple journals.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Duplicate publication constitutes unethical publishing behavior.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.6 Plagiarism
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors must avoid:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Direct plagiarism
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Self-plagiarism
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Mosaic plagiarism
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Translation plagiarism
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Improper paraphrasing
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> All manuscripts may be screened using plagiarism detection software before peer review.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.7 Citation Practices
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors should:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Cite relevant prior work accurately.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Avoid excessive self-citation.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Avoid citation manipulation intended to inflate citation metrics.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.8 Conflicts of Interest
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors must disclose any financial, institutional, or personal relationships that could influence the research or its interpretation.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Examples include:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Research funding
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Employment
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Consultancy
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Patent ownership
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Stock ownership
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Personal relationships
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> 3.9 Ethical Approval
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Research involving:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Human participants
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Animals
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Sensitive datasets
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> must include evidence of approval from the appropriate ethics committee or institutional review board (IRB), where applicable.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 4. Responsibilities of Editors
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editors are responsible for maintaining the quality and integrity of IJSPAST .
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editors shall:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Evaluate manuscripts solely on scholarly merit.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Ensure fair and unbiased peer review.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Maintain confidentiality.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Avoid conflicts of interest.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Make independent editorial decisions.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Protect reviewer anonymity (where applicable).
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Investigate ethical complaints promptly.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editors shall not discriminate based on:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Nationality
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Gender
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Race
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Religion
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Institutional affiliation
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Political beliefs
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 5. Responsibilities of Reviewers
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Peer reviewers play a critical role in maintaining publication quality.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Reviewers should:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Review objectively and constructively.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Maintain confidentiality.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Declare conflicts of interest.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Complete reviews within the requested timeframe.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Identify relevant uncited literature.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Report suspected plagiarism, duplicate publication, or ethical concerns.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Reviewers must not:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Use unpublished information for personal benefit.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Share manuscripts with others without editorial permission.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Contact authors directly.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 6. Peer Review Process
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008B19FE" w:rsidP="004259E2"> IJSPAST employs a Double-Blind Peer Review process in which:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Reviewers do not know the identities of authors.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors do not know the identities of reviewers.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Each manuscript is generally reviewed by at least two independent experts .
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editorial decisions may include:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Accept
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Minor Revision
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Major Revision
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Reject
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> The Editor-in-Chief makes the final publication decision.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 7. Editorial Independence
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editorial decisions are based solely on:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Scientific quality
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Originality
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Technical merit
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Relevance to the journal scope
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Ethical compliance
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Commercial interests, sponsorship, or advertising shall not influence editorial decisions.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 8. Confidentiality
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editors and reviewers must not disclose:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Manuscript content
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Reviewer identities
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Author identities (in double-blind review)
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editorial discussions
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Information obtained during review must not be used for personal advantage.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 9. Conflicts of Interest
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editors, reviewers, and authors must disclose any actual or potential conflicts of interest.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Individuals with conflicts may be recused from handling or reviewing the manuscript.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 10. Research Misconduct
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Research misconduct includes:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Plagiarism
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Data fabrication
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Data falsification
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Duplicate publication
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Image manipulation
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Citation manipulation
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Undisclosed conflicts of interest
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Fake peer review
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Inappropriate authorship practices
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Allegations of misconduct will be investigated fairly and confidentially.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 11. Corrections and Retractions
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> When significant errors or misconduct are identified, IJSPAST may publish:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Corrections (Errata)
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Corrigenda
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Expressions of Concern
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Retractions
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Retractions will clearly explain the reason while preserving the scholarly record.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 12. Artificial Intelligence (AI) Policy
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors may use AI-assisted tools for language editing or formatting, provided that:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors remain fully responsible for all submitted content.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> AI-generated content is verified for accuracy.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> AI tools are not credited as authors.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Any AI use is disclosed when required by the journal's author guidelines.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> AI tools must not replace human responsibility for the originality, integrity, or scientific validity of the work.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 13. Copyright and Intellectual Property
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors must ensure that:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> All copyrighted material has appropriate permission.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Third-party content is properly acknowledged.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Copyright laws are respected.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Authors remain responsible for any copyright infringement.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 14. Complaints and Appeals
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008B19FE" w:rsidP="004259E2"> IJSPAST welcomes complaints regarding:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Editorial decisions
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Publication ethics
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Peer review
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Research misconduct
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Complaints should be submitted in writing to the Editor-in-Chief with supporting evidence.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Appeals will be reviewed impartially by the Editorial Board, and decisions will be communicated to the complainant in a timely manner.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 15. Archiving and Record Integrity
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008B19FE" w:rsidP="004259E2"> IJSPAST is committed to preserving the scholarly record by:
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Maintaining permanent publication records.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Clearly marking corrected or retracted articles.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> Ensuring published content remains accessible in accordance with the journal's archiving policy.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="004259E2" w:rsidRPr="008B19FE" w:rsidRDefault="004259E2" w:rsidP="008B19FE"> 16. Policy Review
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="004259E2" w:rsidP="004259E2"> This Publication Ethics Policy will be reviewed periodically and updated as necessary to reflect evolving international standards in scholarly publishing and research integrity.
+w:rsidR="004259E2" w:rsidRPr="004259E2" w:rsidRDefault="008158D3" w:rsidP="004259E2">
+w:rsidR="003B138B" w:rsidRDefault="003B138B"/>

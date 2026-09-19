@@ -10,7 +10,7 @@ export default function PageHero({
   image = "https://images.unsplash.com/photo-1507842229451-7f01be837453?auto=format&fit=crop&w=1600&q=80"
 }) {
   return (
-    <div className="relative min-h-[500px] flex items-center pt-32 pb-20 bg-[#0f4a85] text-white border-b border-amber-500/40 overflow-hidden">
+    <div className="relative min-h-[380px] flex items-center pt-42 pb-20 bg-[#0f4a85] text-white border-b border-amber-500/40 overflow-hidden">
 
       {/* Background Hero Image with Academic Overlay */}
       <div className="absolute inset-0 z-0">
@@ -70,16 +70,7 @@ export default function PageHero({
             )}
           </div>
 
-          {/* Quick Journal ID Badge */}
-          <div className="hidden lg:flex items-center space-x-3 bg-black/40 px-4 py-2 rounded-2xl border border-white/15 backdrop-blur-md shrink-0 text-xs text-slate-200">
-            <div className="w-7 h-7 rounded-lg bg-amber-400 text-slate-950 font-black flex items-center justify-center text-xs">
-              IJ
-            </div>
-            <div>
-              <span className="font-bold text-amber-300 block">IJSPAST</span>
-              <span className="text-[10px] text-slate-300 font-mono">E-ISSN: 2582-8800</span>
-            </div>
-          </div>
+
         </div>
 
       </div>

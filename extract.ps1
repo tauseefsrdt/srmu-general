@@ -37,13 +37,24 @@ function Read-Doc($p) {
 
 $dir = Get-Location
 
-$scope = Read-Docx "$dir\Scope of the Journal.docx"
-Set-Content -Path "$dir\extracted_scope.txt" -Value $scope -Encoding UTF8
+$files = @(
+    "11. Publication Ethics Policy_2.docx",
+    "3. Conflict of Interest Policy_2.docx",
+    "6. Editorial Policy_2.docx",
+    "7. Open Access Policy_2.docx"
+)
 
-$authors = Read-Docx "$dir\Authors Guidelines for Webpage.docx"
-Set-Content -Path "$dir\extracted_authors.txt" -Value $authors -Encoding UTF8
-
-$template = Read-Doc "$dir\13. Template.doc"
-Set-Content -Path "$dir\extracted_template.txt" -Value $template -Encoding UTF8
+foreach ($f in $files) {
+    $fullPath = Join-Path $dir $f
+    if (Test-Path $fullPath) {
+        $content = Read-Docx $fullPath
+        $outName = ($f -replace '[^\w\d_]', '_') + '.txt'
+        $outPath = Join-Path $dir $outName
+        Set-Content -Path $outPath -Value $content -Encoding UTF8
+        Write-Host "Extracted $f to $outName"
+    } else {
+        Write-Host "File not found: $f"
+    }
+}
 
 Write-Host "Extraction complete!"

@@ -19,6 +19,10 @@ import Papers from './pages/Papers';
 import Submit from './pages/Submit';
 import EditorialBorad from './pages/EditorialBorad';
 import PeerReviewPolicy from './pages/PeerReviewPolicy';
+import EditorialPolicy from './pages/EditorialPolicy';
+import ConflictOfInterestPolicy from './pages/ConflictOfInterestPolicy';
+import OpenAccessPolicy from './pages/OpenAccessPolicy';
+import PublicationEthicsPolicy from './pages/PublicationEthicsPolicy';
 
 
 // Scroll to top on route change component
@@ -70,6 +74,10 @@ function MainLayout() {
           <Route path="/editorial-borad" element={<EditorialBorad />} />
           <Route path="/submit" element={<Submit />} />
           <Route path="/peer-review-policy" element={<PeerReviewPolicy />} />
+          <Route path="/editorial-policy" element={<EditorialPolicy />} />
+          <Route path="/conflict-of-interest-policy" element={<ConflictOfInterestPolicy />} />
+          <Route path="/open-access-policy" element={<OpenAccessPolicy />} />
+          <Route path="/publication-ethics-policy" element={<PublicationEthicsPolicy />} />
           {/* Catch-all fallback */}
           <Route path="*" element={<Home />} />
         </Routes>

@@ -39,11 +39,15 @@ export default function Header({ onOpenSearch }) {
       ]
     },
     {
-      name: "Poilicies",
+      name: "Policies",
       href: "/peer-review-policy",
       dropdown: [
+        { title: "Publication Ethics Policy", href: "/publication-ethics-policy", desc: "COPE standards, research integrity & author duties" },
         { title: "Peer Review Policy", href: "/peer-review-policy", desc: "Double-blind evaluation process & standards" },
-        { title: "Plagiarism Policy", href: "/ethics-policy", desc: "Similarity thresholds & publication ethics" }
+        { title: "Editorial Policy", href: "/editorial-policy", desc: "Governance, review timelines & decision rules" },
+        { title: "Conflict of Interest Policy", href: "/conflict-of-interest-policy", desc: "Transparency & disclosure protocols" },
+        { title: "Open Access Policy", href: "/open-access-policy", desc: "CC BY 4.0 licensing & global access" },
+        { title: "Plagiarism Policy", href: "/ethics-policy", desc: "Similarity thresholds & originality check" }
       ]
     },
     {
