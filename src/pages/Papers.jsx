@@ -491,7 +491,37 @@ export default function Papers() {
 
                     View Article
                   </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (article.path) {
+                        setSelectedPdf({
+                          path: article.path,
+                          title: article.title,
+                          doi: article.doi,
+                        });
+                      }
+                    }}
+                    className="
+                      inline-flex
+                      items-center
+                      gap-2
+                      px-4
+                      py-2
+                      rounded-lg
+                      bg-[#0f4a85]
+                      text-white
+                      text-sm
+                      font-semibold
+                      hover:bg-blue-800
+                      transition-colors
+                      cursor-pointer
+                    "
+                  >
+                    <Eye className="w-4 h-4" />
 
+                    Cite Article
+                  </button>
                 </div>
 
               </article>
