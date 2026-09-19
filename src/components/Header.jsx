@@ -39,7 +39,7 @@ export default function Header({ onOpenSearch }) {
       ]
     },
     {
-      name: "poilicies",
+      name: "Poilicies",
       href: "/peer-review-policy",
       dropdown: [
         { title: "Peer Review Policy", href: "/peer-review-policy", desc: "Double-blind evaluation process & standards" },
