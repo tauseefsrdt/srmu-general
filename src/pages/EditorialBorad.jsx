@@ -133,7 +133,9 @@ export default function EditorialBorad() {
   const advisoryCommitteeInternational = [
     { name: "Dr. Saifullah Khalid", designation: "Principal Scientist", affiliation: "IBMM Research, Khartoum, Sudan", email: "skhalid@ibmmacl.org" },
     { name: "Dr. Rashad Abaszade", designation: "Turan International Research Institute", affiliation: "Azerbaijan" },
-    { name: "Dr. Shri Krishna Pandey", designation: "Head, Quality Assurance", affiliation: "Symbiosis International University, Dubai, UAE", email: "skpandey@siu-dubai.ac.ae" }
+    { name: "Dr. Shri Krishna Pandey", designation: "Head, Quality Assurance", affiliation: "Symbiosis International University, Dubai, UAE", email: "skpandey@siu-dubai.ac.ae" },
+    { name: "Dr. Shruti Pandey", affiliation: "Missouri University of Science and Technology Rolla, Missouri, USA", email: "spz8c@mst.edu" },
+    { name: "Prof (Dr.) Shamimul Qamar", affiliation: "Faculty of Sciences & Managements, King Khalid University, Abha, KSA", email: "Sqamar@kku.edu.sa" }
   ];
 
   return (
