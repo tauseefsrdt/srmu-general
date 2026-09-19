@@ -35,6 +35,13 @@ export default function Header({ onOpenSearch }) {
       href: "/guidelines",
       dropdown: [
         { title: "Authors Guidelines", href: "/guidelines", desc: "Preparation rules & requirements" },
+
+      ]
+    },
+    {
+      name: "poilicies",
+      href: "/peer-review-policy",
+      dropdown: [
         { title: "Peer Review Policy", href: "/peer-review-policy", desc: "Double-blind evaluation process & standards" },
         { title: "Plagiarism Policy", href: "/ethics-policy", desc: "Similarity thresholds & publication ethics" }
       ]
