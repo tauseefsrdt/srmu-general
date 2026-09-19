@@ -4,10 +4,14 @@ import {
   Search,
   FileText,
   UserRound,
+  Users,
   Eye,
   X,
   Download,
   ExternalLink,
+  Quote,
+  Copy,
+  Check,
 } from 'lucide-react';
 
 import PageHero from '../components/PageHero';
@@ -16,10 +20,12 @@ import { featuredTemplateArticles } from '../data/journalDocData';
 export default function Papers() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPdf, setSelectedPdf] = useState(null);
+  const [citeModalArticle, setCiteModalArticle] = useState(null);
+  const [copied, setCopied] = useState(false);
 
-  // Disable background scrolling when PDF modal is open
+  // Disable background scrolling when PDF or Cite modal is open
   useEffect(() => {
-    if (selectedPdf) {
+    if (selectedPdf || citeModalArticle) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
@@ -28,24 +34,32 @@ export default function Papers() {
     return () => {
       document.body.style.overflow = '';
     };
-  }, [selectedPdf]);
+  }, [selectedPdf, citeModalArticle]);
 
-  // Close modal with Escape key
+  // Close modals with Escape key
   useEffect(() => {
     const handleEscape = (event) => {
       if (event.key === 'Escape') {
         setSelectedPdf(null);
+        setCiteModalArticle(null);
       }
     };
 
-    if (selectedPdf) {
+    if (selectedPdf || citeModalArticle) {
       document.addEventListener('keydown', handleEscape);
     }
 
     return () => {
       document.removeEventListener('keydown', handleEscape);
     };
-  }, [selectedPdf]);
+  }, [selectedPdf, citeModalArticle]);
+
+  const handleCopyCitation = (text) => {
+    if (!text) return;
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   const filteredArticles = featuredTemplateArticles.filter((art) => {
     const query = searchQuery.toLowerCase().trim();
@@ -135,8 +149,12 @@ export default function Papers() {
         <div className="space-y-6">
 
           {filteredArticles.map((article) => {
-            const firstAuthor =
-              article.authors?.[0]?.name || 'Author';
+            const allAuthors = Array.isArray(article.authors)
+              ? article.authors
+                  .map((a) => (typeof a === 'string' ? a : a.name))
+                  .filter(Boolean)
+                  .join(', ')
+              : article.authors || 'Author';
 
             return (
               <article
@@ -263,14 +281,15 @@ export default function Papers() {
                       {article.title}
                     </button>
 
-                    {/* Author */}
-                    <div className="flex items-center gap-2 mt-4">
+                    {/* Authors (Show all authors) */}
+                    <div className="flex items-center gap-2 mt-4 flex-wrap">
 
-                      <UserRound
+                      <Users
                         className="
-                          w-5
-                          h-5
+                          w-4
+                          h-4
                           text-slate-500
+                          shrink-0
                         "
                       />
 
@@ -281,7 +300,7 @@ export default function Papers() {
                           text-slate-800
                         "
                       >
-                        {firstAuthor}
+                        {allAuthors}
                       </span>
 
                     </div>
@@ -456,6 +475,33 @@ export default function Papers() {
 
                     Abstract
                   </button>
+                  <button
+                    type="button"
+                    onClick={() => setCiteModalArticle(article)}
+                    className="
+                      inline-flex
+                      items-center
+                      gap-2
+                      px-4
+                      py-2
+                      rounded-lg
+                      border
+                      border-slate-300
+                      bg-white
+                      text-sm
+                      font-medium
+                      text-slate-700
+                      hover:bg-slate-50
+                      hover:text-[#0f4a85]
+                      hover:border-[#0f4a85]
+                      transition-colors
+                      cursor-pointer
+                    "
+                  >
+                    <Quote className="w-4 h-4" />
+
+                    Cite Article
+                  </button>
 
                   {/* =================================================
                       VIEW ARTICLE
@@ -491,37 +537,8 @@ export default function Papers() {
 
                     View Article
                   </button>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      if (article.path) {
-                        setSelectedPdf({
-                          path: article.path,
-                          title: article.title,
-                          doi: article.doi,
-                        });
-                      }
-                    }}
-                    className="
-                      inline-flex
-                      items-center
-                      gap-2
-                      px-4
-                      py-2
-                      rounded-lg
-                      bg-[#0f4a85]
-                      text-white
-                      text-sm
-                      font-semibold
-                      hover:bg-blue-800
-                      transition-colors
-                      cursor-pointer
-                    "
-                  >
-                    <Eye className="w-4 h-4" />
 
-                    Cite Article
-                  </button>
+
                 </div>
 
               </article>
@@ -865,6 +882,192 @@ export default function Papers() {
                     block
                   "
                 />
+              </div>
+            </div>
+          </div>,
+          document.body
+        )}
+
+      {/* =========================================================
+          CITATION MODAL (PORTAL TO DOCUMENT.BODY)
+      ========================================================= */}
+      {citeModalArticle &&
+        createPortal(
+          <div
+            className="
+              fixed
+              inset-0
+              z-[999999]
+              flex
+              items-center
+              justify-center
+              bg-slate-950/75
+              backdrop-blur-sm
+              p-4
+              sm:p-6
+              animate-in
+              fade-in
+              duration-200
+            "
+            onMouseDown={(e) => {
+              if (e.target === e.currentTarget) {
+                setCiteModalArticle(null);
+              }
+            }}
+          >
+            <div
+              className="
+                relative
+                w-full
+                max-w-xl
+                bg-white
+                rounded-2xl
+                overflow-hidden
+                shadow-[0_25px_70px_rgba(0,0,0,0.45)]
+                border
+                border-slate-200
+                flex
+                flex-col
+                animate-in
+                zoom-in-95
+                duration-200
+              "
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Header */}
+              <div
+                className="
+                  flex
+                  items-center
+                  justify-between
+                  px-6
+                  py-4
+                  bg-white
+                  border-b
+                  border-slate-200
+                "
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-blue-50 text-[#0f4a85] flex items-center justify-center border border-blue-100 shrink-0">
+                    <Quote className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-base font-bold text-slate-900">
+                      Citation
+                    </h3>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => setCiteModalArticle(null)}
+                  className="
+                    w-8
+                    h-8
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-slate-100
+                    text-slate-500
+                    hover:bg-red-50
+                    hover:text-red-600
+                    transition-colors
+                    cursor-pointer
+                  "
+                  aria-label="Close Cite Modal"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+
+              {/* Body: Only Citation Content */}
+              <div className="p-6">
+                <div
+                  className="
+                    p-4
+                    rounded-xl
+                    bg-slate-50
+                    border
+                    border-slate-200
+                    text-sm
+                    text-slate-800
+                    leading-relaxed
+                    break-words
+                    select-all
+                  "
+                >
+                  {citeModalArticle.citation}
+                </div>
+              </div>
+
+              {/* Footer */}
+              <div
+                className="
+                  px-6
+                  py-4
+                  bg-slate-50/80
+                  border-t
+                  border-slate-200
+                  flex
+                  items-center
+                  justify-end
+                  gap-3
+                "
+              >
+                <button
+                  type="button"
+                  onClick={() => setCiteModalArticle(null)}
+                  className="
+                    px-4
+                    py-2
+                    rounded-xl
+                    border
+                    border-slate-300
+                    bg-white
+                    text-xs
+                    font-bold
+                    text-slate-700
+                    hover:bg-slate-100
+                    transition-colors
+                    cursor-pointer
+                  "
+                >
+                  Close
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => handleCopyCitation(citeModalArticle.citation)}
+                  className="
+                    inline-flex
+                    items-center
+                    gap-2
+                    px-5
+                    py-2
+                    rounded-xl
+                    bg-[#0f4a85]
+                    hover:bg-blue-800
+                    text-white
+                    text-xs
+                    font-bold
+                    transition-all
+                    cursor-pointer
+                    shadow-sm
+                  "
+                >
+                  {copied ? (
+                    <>
+                      <Check className="w-4 h-4 text-emerald-300" />
+                      <span>Copied!</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-4 h-4" />
+                      <span>Copy Citation</span>
+                    </>
+                  )}
+                </button>
               </div>
             </div>
           </div>,
