@@ -38,10 +38,9 @@ function Read-Doc($p) {
 $dir = Get-Location
 
 $files = @(
-    "11. Publication Ethics Policy_2.docx",
-    "3. Conflict of Interest Policy_2.docx",
-    "6. Editorial Policy_2.docx",
-    "7. Open Access Policy_2.docx"
+    "10. Privacy Policy.docx",
+    "12. Retraction and Correction Policy.docx",
+    "5. Data Availability Policy.docx"
 )
 
 foreach ($f in $files) {

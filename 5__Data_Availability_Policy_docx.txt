@@ -1,0 +1,140 @@
+﻿w:rsidR="00937C18" w:rsidRPr="001E4369" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data Availability Policy
+w:rsidR="001E4369" w:rsidRPr="009D3FCC" w:rsidRDefault="001E4369" w:rsidP="001E4369"> International Journal of Scientific Progress in Applied Science and Technology (IJ SPAST )
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 1. Policy Statement
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="001E4369" w:rsidP="006F0052"> International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is committed to promoting transparency, reproducibility, and integrity in scientific research. Authors are encouraged to make the data supporting the findings of their research available to readers whenever possible, while respecting legal, ethical, privacy, confidentiality, and intellectual property obligations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> The availability of research data enhances the verification, validation, and reuse of published research and contributes to scientific progress.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 2. Scope
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> This policy applies to all manuscripts submitted to IJSPAST , including but not limited to:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Original Research Articles
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Review Articles (where supporting datasets are generated)
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Technical Notes
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Case Studies
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Short Communications
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Interdisciplinary Research Papers
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> The policy applies to all data necessary to understand, verify, and reproduce the reported results, where appropriate.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 3. Definition of Research Data
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> For the purposes of this policy, research data may include:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Experimental data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Observational data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Survey data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Simulation data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Computational outputs.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Statistical datasets.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Software code and scripts.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Algorithms.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Machine learning models.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Images and multimedia files.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Protocols and workflows.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Supplementary tables and figures.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Metadata necessary to interpret the research.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 4. Data Availability Statement
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> All submitted manuscripts should include a Data Availability Statement placed before the References or in a designated section of the manuscript.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> The statement should clearly describe how the supporting data can be accessed.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Examples include:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Example 1 – Openly Available Data
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data Availability Statement: The datasets generated and analyzed during this study are publicly available in the [Repository Name] repository at: DOI/URL.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Example 2 – Available Upon Reasonable Request
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data Availability Statement: The datasets generated during this study are available from the corresponding author upon reasonable request.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Example 3 – Included in the Article
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data Availability Statement: All data supporting the findings of this study are included within the article and its supplementary materials.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Example 4 – Restricted Data
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data Availability Statement: The data are not publicly available because they contain confidential or proprietary information. Access may be granted upon reasonable request, subject to applicable legal, ethical, or contractual restrictions.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 5. Data Sharing
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors are encouraged to deposit research data in recognized repositories before or at the time of publication.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Examples include:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Institutional repositories.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Subject-specific repositories.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> General-purpose research repositories.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> National data repositories.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Where available, authors should provide:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Digital Object Identifier (DOI).
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Persistent URL.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Repository accession number.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 6. Software and Source Code
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Where software, computer code, scripts, or algorithms are essential to reproduce the reported findings, authors are encouraged to make them publicly available through recognized repositories or provide them as supplementary material, subject to licensing, security, or proprietary considerations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> The programming language, software version, and computational environment should be identified where relevant.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 7. Reproducibility
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors should provide sufficient information to allow qualified researchers to reproduce the reported work, including:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Experimental procedures.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data collection methods.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Statistical methods.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Computational workflows.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Software versions.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Model parameters.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Hardware specifications, where relevant.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 8. Ethical, Legal, and Privacy Considerations
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Research data should not be shared where disclosure would:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Violate participant privacy or confidentiality.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Breach ethical approval conditions.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Reveal personally identifiable information.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Violate legal or regulatory requirements.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Infringe contractual obligations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Compromise national security.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Disclose commercially confidential information.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Infringe intellectual property rights.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors should explain any restrictions in the Data Availability Statement.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 9. Human Participant Data
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Where research involves human participants, authors must ensure that:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Personal information is anonymized or de-identified before sharing.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data sharing complies with informed consent.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Institutional ethics approval requirements are respected.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Applicable data protection laws are followed.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Where data cannot be shared, the reasons should be clearly stated.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 10. Third-Party Data
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors using data obtained from third parties must ensure that:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> They have the legal right to use the data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Necessary permissions have been obtained.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Licensing conditions are respected.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Appropriate acknowledgements are included.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Third-party restrictions should be disclosed in the manuscript.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 11. Editorial Review
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Editors and reviewers may request access to supporting data where necessary to evaluate the validity or integrity of a manuscript.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors should cooperate with reasonable requests while maintaining applicable confidentiality obligations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Failure to provide supporting data without adequate justification may affect editorial decisions.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 12. Data Citation
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Datasets used in the research should be cited in the reference list whenever possible.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> A data citation should include, where applicable:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Author(s).
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Dataset title.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Repository.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Version.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Year.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Persistent identifier (DOI or accession number).
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 13. Long-Term Preservation
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors are encouraged to use repositories that support long-term preservation and persistent access to research data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Where feasible, datasets should remain accessible for an appropriate period after publication to facilitate verification and reuse.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 14. Research Integrity
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Authors are responsible for ensuring that:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data are accurate and complete.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Data have not been fabricated, falsified, or manipulated.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Reported results faithfully represent the underlying data.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Any modifications to datasets are documented where appropriate.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> The journal reserves the right to investigate concerns regarding data integrity in accordance with its Publication Ethics Policy.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 15. Exceptions
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Exceptions to public data sharing may be permitted where justified by:
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Confidentiality obligations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Privacy protection.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> National security considerations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Intellectual property protection.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Commercial sensitivity.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Legal or regulatory restrictions.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Ethical limitations.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> Any exception should be clearly explained in the Data Availability Statement.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">
+w:rsidR="00937C18" w:rsidRPr="00E93580" w:rsidRDefault="00937C18" w:rsidP="00937C18"> 16. Policy Review
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00937C18" w:rsidP="00937C18"> This Data Availability Policy will be reviewed periodically to ensure alignment with evolving international standards, research integrity practices, and open science initiatives.
+w:rsidR="00937C18" w:rsidRPr="00937C18" w:rsidRDefault="00020D3F" w:rsidP="00937C18">

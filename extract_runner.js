@@ -2,11 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-// Let's create a powershell script to read docx or use word automation for .doc
 const psScript = `
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 function Read-Docx($p) {
+    if (-not (Test-Path $p)) { return "File not found: $p" }
     $zip = [System.IO.Compression.ZipFile]::OpenRead($p)
     $entry = $zip.GetEntry('word/document.xml')
     if ($entry) {
@@ -26,34 +26,26 @@ function Read-Docx($p) {
     return ''
 }
 
-function Read-Doc($p) {
-    try {
-        $word = New-Object -ComObject Word.Application
-        $word.Visible = $false
-        $doc = $word.Documents.Open($p)
-        $text = $doc.Content.Text
-        $doc.Close()
-        $word.Quit()
-        [System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null
-        return $text
-    } catch {
-        return "Word COM error: " + $_.Exception.Message
-    }
-}
-
 $dir = Get-Location
 
-$scope = Read-Docx "$dir\\Scope of the Journal.docx"
-Set-Content -Path "$dir\\extracted_scope.txt" -Value $scope -Encoding UTF8
+$privacy = Read-Docx "$dir\\10. Privacy Policy.docx"
+Set-Content -Path "$dir\\extracted_privacy.txt" -Value $privacy -Encoding UTF8
 
-$authors = Read-Docx "$dir\\Authors Guidelines for Webpage.docx"
-Set-Content -Path "$dir\\extracted_authors.txt" -Value $authors -Encoding UTF8
+$retraction = Read-Docx "$dir\\12. Retraction and Correction Policy.docx"
+Set-Content -Path "$dir\\extracted_retraction.txt" -Value $retraction -Encoding UTF8
 
-$template = Read-Doc "$dir\\13. Template.doc"
-Set-Content -Path "$dir\\extracted_template.txt" -Value $template -Encoding UTF8
+$dataAvail = Read-Docx "$dir\\5. Data Availability Policy.docx"
+Set-Content -Path "$dir\\extracted_data_availability.txt" -Value $dataAvail -Encoding UTF8
 
 Write-Host "Extraction complete!"
 `;
 
 fs.writeFileSync(path.join(__dirname, 'extract.ps1'), psScript, 'utf8');
 console.log('Wrote extract.ps1');
+try {
+  const out = execSync('powershell -ExecutionPolicy Bypass -File extract.ps1', { encoding: 'utf8' });
+  console.log(out);
+} catch (e) {
+  console.error(e);
+}
+

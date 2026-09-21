@@ -1,0 +1,175 @@
+﻿w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Privacy Policy
+w:rsidR="000D2A3F" w:rsidRPr="009D3FCC" w:rsidRDefault="000D2A3F" w:rsidP="000D2A3F"> International Journal of Scientific Progress in Applied Science and Technology (IJ SPAST )
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="000D2A3F" w:rsidP="000D2A3F"> International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) is committed to protecting the privacy and confidentiality of authors, reviewers, editors, readers, and website visitors.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> This Privacy Policy explains how personal information is collected, used, stored, disclosed, and protected when individuals interact with the journal's website, manuscript submission system, peer-review process, and related editorial services.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> By using the IJSPAST website or submitting a manuscript, users acknowledge that they have read and understood this Privacy Policy.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 1. Scope
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> This Privacy Policy applies to:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Website visitors.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Authors.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Corresponding authors.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Co-authors.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Reviewers.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Editors.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Editorial Board members.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Readers.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Subscribers (if applicable).
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Individuals communicating with the Editorial Office.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 2. Information We Collect
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> The journal may collect the following information:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Personal Information
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Full name.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Institutional affiliation.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Department.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Professional designation.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Email address.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Postal address (where required).
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Telephone number (optional).
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> ORCID iD (if provided).
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Country of residence.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Academic profile information voluntarily provided.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Manuscript Information
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Manuscript title.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Abstract.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Keywords.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Author information.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Reviewer comments.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Editorial correspondence.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Publication history.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Funding information.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Conflict of interest disclosures.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Technical Information
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> When visiting the website, certain technical information may be collected automatically, including:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> IP address.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Browser type.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Device information.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Operating system.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Referring pages.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Date and time of access.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Website usage statistics.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 3. Purpose of Data Collection
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Personal information is collected only for legitimate publishing and administrative purposes, including:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Processing manuscript submissions.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Conducting peer review.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Communicating editorial decisions.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Publishing accepted articles.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Maintaining publication records.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Managing reviewer assignments.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Responding to inquiries.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Improving journal services.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Ensuring website security.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Complying with legal and ethical obligations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 4. Legal Basis for Processing
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Where applicable, personal information is processed on one or more of the following grounds:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> User consent.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Performance of publishing and editorial services.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Compliance with legal obligations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Legitimate interests in operating and improving the journal.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Protection of research integrity and publication ethics.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="000D2A3F" w:rsidRDefault="000D2A3F" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 5. Use of Personal Information
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Personal information will be used solely for purposes directly related to the operation of IJSPAST .
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> The journal does not sell, rent, or trade personal information to third parties.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Information may be shared only where necessary for:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Editorial processing.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Peer review.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Production and publication.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> DOI registration.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Abstracting and indexing.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Digital archiving.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Compliance with legal obligations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Only the minimum information necessary for these purposes will be disclosed.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 6. Peer Review Confidentiality
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="000D2A3F" w:rsidP="00D405DE"> IJSPAST follows a Double-Blind Peer Review process.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Accordingly:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Reviewer identities are kept confidential.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Author identities are concealed from reviewers during review.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Editors and reviewers must maintain the confidentiality of manuscripts and related communications.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Unpublished manuscripts and review materials must not be used for personal or commercial purposes.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="000D2A3F" w:rsidRDefault="000D2A3F" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 7. Publication of Author Information
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Upon publication, the following information may appear as part of the scholarly record:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Author names.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Institutional affiliations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Corresponding author email address (if the journal's publication format includes it).
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> ORCID iD (where provided and agreed).
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Funding information.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Conflict of interest declarations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Author contribution statements, where applicable.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Only information relevant to the publication will be made publicly available.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="000D2A3F" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 8. Cookies and Website Analytics
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> The journal website may use cookies or similar technologies to:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Improve website functionality.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Maintain user sessions.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Analyze website usage.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Enhance user experience.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Improve website performance.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Users may disable cookies through their browser settings; however, some website features may not function properly.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 9. Data Security
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="000D2A3F" w:rsidP="00D405DE"> IJSPAST implements reasonable administrative, technical, and organizational safeguards to protect personal information against:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Unauthorized access.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Loss.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Misuse.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Alteration.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Disclosure.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Destruction.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> While reasonable security measures are employed, no internet-based system can guarantee absolute security.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 10. Data Retention
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Personal information will be retained only for as long as necessary to:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Maintain the scholarly record.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Manage editorial processes.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Meet legal obligations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Resolve disputes.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Enforce journal policies.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Published article metadata may be retained permanently as part of the academic record.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 11. Third-Party Services
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> The journal may use trusted third-party service providers for functions such as:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Manuscript submission systems.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> DOI registration.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Digital preservation.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Website hosting.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Email communication.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Plagiarism detection.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Abstracting and indexing.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Such providers are expected to process information only for authorized purposes and to implement appropriate security measures.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 12. User Rights
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Subject to applicable law, users may have the right to:
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Access their personal information.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Request correction of inaccurate information.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Request deletion of personal information where appropriate.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Request restriction of processing.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Object to certain processing activities.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Withdraw consent where processing is based on consent.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Request information regarding the handling of their personal data.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Requests should be submitted to the Editorial Office.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 13. Children's Privacy
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="000D2A3F" w:rsidP="00D405DE"> IJSPAST is intended for researchers, academics, professionals, and higher education communities.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> The journal does not knowingly collect personal information from children. If such information is inadvertently received, reasonable steps will be taken to remove it in accordance with applicable law.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 14. International Data Transfers
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Where editorial processing, hosting, or publication services involve the transfer of personal information across national borders, IJSPAST will take reasonable steps to ensure that such transfers comply with applicable data protection requirements.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="001B629A" w:rsidRDefault="001B629A" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 15. Policy Updates
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> This Privacy Policy may be updated periodically to reflect changes in legal requirements, publishing practices, or journal operations.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> The latest version will be published on the journal's official website with the updated effective date.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 16. Contact Information
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> Questions regarding this Privacy Policy or requests relating to personal information should be directed to the Editorial Office International Journal of Scientific Progress in Applied Science and Technology (IJSPAST) using the official contact details provided on the journal website.
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="009967C2" w:rsidP="00D405DE">
+w:rsidR="00D405DE" w:rsidRPr="00E90824" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> 17. Acceptance of this Policy
+w:rsidR="00D405DE" w:rsidRPr="00D405DE" w:rsidRDefault="00D405DE" w:rsidP="00D405DE"> By using the IJSPAST website, submitting manuscripts, participating in peer review, or communicating with the Editorial Office, users acknowledge that they have read and understood this Privacy Policy and agree to the collection and use of information as described herein.
+w:rsidR="002E6986" w:rsidRDefault="002E6986"/>

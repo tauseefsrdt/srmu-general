@@ -23,6 +23,9 @@ import EditorialPolicy from './pages/EditorialPolicy';
 import ConflictOfInterestPolicy from './pages/ConflictOfInterestPolicy';
 import OpenAccessPolicy from './pages/OpenAccessPolicy';
 import PublicationEthicsPolicy from './pages/PublicationEthicsPolicy';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import RetractionCorrectionPolicy from './pages/RetractionCorrectionPolicy';
+import DataAvailabilityPolicy from './pages/DataAvailabilityPolicy';
 
 
 // Scroll to top on route change component
@@ -78,6 +81,10 @@ function MainLayout() {
           <Route path="/conflict-of-interest-policy" element={<ConflictOfInterestPolicy />} />
           <Route path="/open-access-policy" element={<OpenAccessPolicy />} />
           <Route path="/publication-ethics-policy" element={<PublicationEthicsPolicy />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/retraction-and-correction-policy" element={<RetractionCorrectionPolicy />} />
+          <Route path="/retraction-correction-policy" element={<RetractionCorrectionPolicy />} />
+          <Route path="/data-availability-policy" element={<DataAvailabilityPolicy />} />
           {/* Catch-all fallback */}
           <Route path="*" element={<Home />} />
         </Routes>

@@ -51,7 +51,10 @@ export default function Footer() {
         { name: "Peer Review Policy", href: "/peer-review-policy" },
         { name: "Editorial Policy", href: "/editorial-policy" },
         { name: "Conflict of Interest Policy", href: "/conflict-of-interest-policy" },
+        { name: "Data Availability Policy", href: "/data-availability-policy" },
         { name: "Open Access Policy", href: "/open-access-policy" },
+        { name: "Retraction & Correction Policy", href: "/retraction-and-correction-policy" },
+        { name: "Privacy Policy", href: "/privacy-policy" },
         { name: "Plagiarism Policy", href: "/ethics-policy" }
       ]
     }
