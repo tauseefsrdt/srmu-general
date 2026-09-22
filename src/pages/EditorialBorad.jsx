@@ -64,13 +64,13 @@ export default function EditorialBorad() {
   const patrons = [
     {
       name: "Er. Pankaj Agarwal",
-      designation: "Chancellor",
+      designation: "Hon'ble Chancellor",
       affiliation: "SRMU, Barabanki-India",
       image: pankajImg
     },
     {
       name: "Er. Pooja Agarwal",
-      designation: "Pro Chancellor",
+      designation: "Hon'ble Pro-Chancellor",
       affiliation: "SRMU, Barabanki-India",
       image: poojaImg
     }
@@ -78,7 +78,7 @@ export default function EditorialBorad() {
 
   const editorInChief = {
     name: "Prof. (Dr.) Vijay Tiwari",
-    designation: "Vice Chancellor",
+    designation: "Hon'ble Vice-Chancellor",
     affiliation: "SRMU, Barabanki-India",
     email: "vc@srmu.ac.in",
     image: vijayTiwariImg

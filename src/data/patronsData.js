@@ -11,19 +11,19 @@ export const patronsData = {
     {
       id: "patron-1",
       name: "Er. Pankaj Agarwal",
-      designation: "CHANCELLOR",
+      designation: "Hon'ble Chancellor",
       image: pankajImg
     },
     {
       id: "patron-2",
       name: "Er. Pooja Agarwal",
-      designation: "PRO CHANCELLOR",
+      designation: "Hon'ble Pro-Chancellor",
       image: poojaImg
     },
     {
       id: "patron-3",
       name: "Prof. (Dr.) Vijay Tiwari",
-      designation: "VICE CHANCELLOR",
+      designation: "Hon'ble Vice-Chancellor",
       image: vijayTiwariImg
     }
   ],
@@ -31,19 +31,19 @@ export const patronsData = {
     {
       id: "copatron-1",
       name: "Prof. (Dr.) Hemendra Sharma",
-      designation: "REGISTRAR",
+      designation: "Registrar",
       image: hemendraSharmaImg
     },
     {
       id: "copatron-2",
       name: "Prof. (Dr.) Nabeel Ahmad",
-      designation: "DIRECTOR (RESEARCH)",
+      designation: "Director (Research)",
       image: nabeelAhmadImg
     },
     {
       id: "copatron-3",
       name: "Prof. (Dr.) Alkesh Agrawal",
-      designation: "DEPUTY DIRECTOR (RESEARCH)",
+      designation: "Deputy Director (Research)",
       image: alkeshAgrawalImg
     }
   ]

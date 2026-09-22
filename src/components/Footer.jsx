@@ -20,7 +20,7 @@ export default function Footer() {
       links: [
         { name: "Vision & Scope", href: "/vision-scope" },
         { name: "Publication Details", href: "/publication-details" },
-        { name: "Patrons & Advisory", href: "/patrons-advisory" },
+        { name: "Patrons & Advisory", href: "/editorial-borad" },
         { name: "Peer Review Policy", href: "/peer-review-policy" },
         { name: "Contact Editorial Office", href: "/contact" }
       ]

@@ -48,7 +48,7 @@ export default function PatronsAdvisory() {
                 <h3 className="text-base font-bold text-[#0f4a85] group-hover:text-blue-800 transition-colors leading-snug">
                   {patron.name}
                 </h3>
-                <p className="text-[11px] font-mono font-semibold tracking-wider text-slate-500 uppercase mt-1">
+                <p className="text-xs font-semibold text-slate-600 mt-1">
                   {patron.designation}
                 </p>
               </div>
@@ -84,7 +84,7 @@ export default function PatronsAdvisory() {
                 <h3 className="text-base font-bold text-[#0f4a85] group-hover:text-blue-800 transition-colors leading-snug">
                   {copatron.name}
                 </h3>
-                <p className="text-[11px] font-mono font-semibold tracking-wider text-slate-500 uppercase mt-1">
+                <p className="text-xs font-semibold text-slate-600 mt-1">
                   {copatron.designation}
                 </p>
               </div>
