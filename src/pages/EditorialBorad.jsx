@@ -130,13 +130,83 @@ export default function EditorialBorad() {
     { name: "Dr. Kavita Sahu", designation: "Asstt. Prof. (DoCSE)", affiliation: "Dr. Harsingh Gour Vishwavidyalaya, Sagar, M.P." }
   ];
 
-  const advisoryCommitteeInternational = [
-    { name: "Dr. Saifullah Khalid", designation: "Principal Scientist", affiliation: "IBMM Research, Khartoum, Sudan", email: "skhalid@ibmmacl.org" },
-    { name: "Dr. Rashad Abaszade", designation: "Turan International Research Institute", affiliation: "Azerbaijan" },
-    { name: "Dr. Shri Krishna Pandey", designation: "Head, Quality Assurance", affiliation: "Symbiosis International University, Dubai, UAE", email: "skpandey@siu-dubai.ac.ae" },
-    { name: "Dr. Shruti Pandey", affiliation: "Missouri University of Science and Technology Rolla, Missouri, USA", email: "spz8c@mst.edu" },
-    { name: "Prof (Dr.) Shamimul Qamar", affiliation: "Faculty of Sciences & Managements, King Khalid University, Abha, KSA", email: "Sqamar@kku.edu.sa" }
-  ];
+const advisoryCommitteeInternational = [
+  {
+    name: "Dr. Saifullah Khalid",
+    designation: "Principal Scientist",
+    affiliation: "IBMM Research, Khartoum, Sudan",
+    email: "skhalid@ibmmacl.org",
+  },
+  {
+    name: "Dr. Rashad Abaszade",
+    designation: "Turan International Research Institute",
+    affiliation: "Azerbaijan",
+  },
+  {
+    name: "Dr. Shri Krishna Pandey",
+    designation: "Head, Quality Assurance",
+    affiliation: "Symbiosis International University, Dubai, UAE",
+    email: "skpandey@siu-dubai.ac.ae",
+  },
+  {
+    name: "Dr. Shruti Pandey",
+    affiliation:
+      "Missouri University of Science and Technology, Rolla, Missouri, USA",
+    email: "spz8c@mst.edu",
+  },
+  {
+    name: "Prof (Dr.) Shamimul Qamar",
+    affiliation:
+      "Faculty of Sciences & Managements, King Khalid University, Abha, KSA",
+    email: "Sqamar@kku.edu.sa",
+  },
+  {
+    name: "Rajesh Kumar Srivastava",
+    designation: 'Scientist "SF"',
+    affiliation:
+      "Semi-Conductor Laboratory, Ministry of IT and Information Technology, GOI",
+    email: "rajesh@scl.gov.in",
+  },
+  {
+    name: "Lt. (Dr.) Pragya Gupta",
+    designation: "Assistant Professor",
+    affiliation:
+      "Jaypee University of Information Technology, Waknaghat",
+    email: "pragya.gupta@juitsolan.in",
+  },
+  {
+    name: "Dr. Rahul Kaushik",
+    designation: "Associate Professor",
+    affiliation:
+      "Jaypee Institute of Information Technology, Noida",
+    email: "rahul.kaushik@mail.jiit.ac.in",
+  },
+  {
+    name: "Dr. Sandeep Kumar Ojha",
+    designation: "Associate Professor",
+    affiliation: "Sandipani Technical Campus, Latur",
+    email: "sandeepojhasandeep@gmail.com",
+  },
+  {
+    name: "Dr. Sarvesh Dubey",
+    designation: "Assistant Professor (Senior Scale)",
+    affiliation:
+      "University Department of Physics, B. R. Ambedkar Bihar University, Muzaffarpur",
+    email: "sarvesh.dubey@brabu.ac.in",
+  },
+  {
+    name: "Dr. Ruchi Varshney",
+    designation: "Associate Professor",
+    affiliation: "AKTU, Lucknow",
+    email: "ruchi25varshney@gmail.com",
+  },
+  {
+    name: "Dr. Shailendra Kumar",
+    designation: "Associate Professor",
+    affiliation: "Department of ECE, Integral University, Lucknow",
+    email: "shailhbtu@gmail.com",
+  },
+];
 
   return (
     <div className="min-h-screen bg-[#f8fafc] text-slate-800">
@@ -299,7 +369,7 @@ export default function EditorialBorad() {
                 key={idx}
                 className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-[#0f4a85]/40"
               >
-                <MemberAvatar image={member.image} name={member.name} size="md" />
+                {/* <MemberAvatar image={member.image} name={member.name} size="md" /> */}
                 <div className="min-w-0 w-full space-y-1.5">
                   <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {member.name}
@@ -329,7 +399,7 @@ export default function EditorialBorad() {
           <div className="flex items-center space-x-4">
             <div className="h-px bg-slate-300 flex-1 max-w-[100px]"></div>
             <div className="flex items-center space-x-2">
-              <GraduationCap className="w-5 h-5 text-amber-500" />
+              {/* <GraduationCap className="w-5 h-5 text-amber-500" /> */}
               <h2 className="text-xl sm:text-2xl font-extrabold text-[#0f4a85] tracking-tight">
                 Advisory Committee (National)
               </h2>
@@ -343,7 +413,7 @@ export default function EditorialBorad() {
                 key={idx}
                 className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-amber-400/60"
               >
-                <MemberAvatar image={member.image} name={member.name} size="md" />
+                {/* <MemberAvatar image={member.image} name={member.name} size="md" /> */}
                 <div className="min-w-0 w-full space-y-1.5">
                   <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {member.name}
@@ -392,7 +462,7 @@ export default function EditorialBorad() {
                 key={idx}
                 className="academic-card rounded-2xl p-5 bg-white flex flex-col items-center text-center space-y-3 group hover:border-blue-400/60"
               >
-                <MemberAvatar image={member.image} name={member.name} size="md" />
+                {/* <MemberAvatar image={member.image} name={member.name} size="md" /> */}
                 <div className="min-w-0 w-full space-y-1.5">
                   <h3 className="text-sm font-bold text-slate-800 group-hover:text-[#0f4a85] transition-colors leading-snug">
                     {member.name}
