@@ -3,7 +3,32 @@
 // 2. Authors Guidelines for Webpage.docx
 // 3. 13. Template.doc
 
-import research from "../assets/research-paper/IJSPAST150926.pdf"
+import research from "../assets/research-paper/IJSPAST150926.pdf";
+
+// Local Images for all 23 Interdisciplinary Submission Areas (Named after each area)
+import area1Img from "../assets/images/submission-areas/artificial-intelligence-and-machine-learning.jpg";
+import area2Img from "../assets/images/submission-areas/data-science-and-big-data-analytics.jpg";
+import area3Img from "../assets/images/submission-areas/cybersecurity-and-information-security.jpg";
+import area4Img from "../assets/images/submission-areas/internet-of-things-iot.jpg";
+import area5Img from "../assets/images/submission-areas/cloud-and-edge-computing.jpg";
+import area6Img from "../assets/images/submission-areas/wireless-and-mobile-communication.jpg";
+import area7Img from "../assets/images/submission-areas/5g-6g-networks.jpg";
+import area8Img from "../assets/images/submission-areas/computer-science-and-engineering.jpg";
+import area9Img from "../assets/images/submission-areas/electronics-and-communication-engineering.jpg";
+import area10Img from "../assets/images/submission-areas/electrical-engineering.jpg";
+import area11Img from "../assets/images/submission-areas/mechanical-engineering.jpg";
+import area12Img from "../assets/images/submission-areas/civil-engineering.jpg";
+import area13Img from "../assets/images/submission-areas/chemical-engineering.jpg";
+import area14Img from "../assets/images/submission-areas/environmental-engineering.jpg";
+import area15Img from "../assets/images/submission-areas/renewable-energy-systems.jpg";
+import area16Img from "../assets/images/submission-areas/robotics-and-automation.jpg";
+import area17Img from "../assets/images/submission-areas/smart-manufacturing.jpg";
+import area18Img from "../assets/images/submission-areas/materials-science.jpg";
+import area19Img from "../assets/images/submission-areas/biomedical-engineering.jpg";
+import area20Img from "../assets/images/submission-areas/nanotechnology.jpg";
+import area21Img from "../assets/images/submission-areas/applied-physics.jpg";
+import area22Img from "../assets/images/submission-areas/applied-mathematics.jpg";
+import area23Img from "../assets/images/submission-areas/interdisciplinary-science-and-engineering.jpg";
 
 export const journalInfo = {
   acronym: "IJSPAST",
@@ -25,7 +50,7 @@ export const journalInfo = {
   ]
 };
 
-// 22 Scope Topics faithfully extracted from "Scope of the Journal.docx"
+// 23 Scope Topics faithfully extracted from "Scope of the Journal.docx"
 export const journalScopeTopics = [
   { id: 1, title: "Artificial Intelligence and Machine Learning", category: "Computing & AI" },
   { id: 2, title: "Data Science and Big Data Analytics", category: "Computing & AI" },
@@ -50,6 +75,286 @@ export const journalScopeTopics = [
   { id: 21, title: "Applied Physics", category: "Applied Sciences" },
   { id: 22, title: "Applied Mathematics", category: "Applied Sciences" },
   { id: 23, title: "Interdisciplinary Science and Engineering", category: "Interdisciplinary" }
+];
+
+// Complete 23 Interdisciplinary Submission Areas with individual high-resolution research imagery
+export const submissionAreaSlides = [
+  {
+    id: 1,
+    category: "Computing & AI",
+    title: "Artificial Intelligence and Machine Learning",
+    subtitle: "Deep learning models, natural language processing, computer vision, and neural network optimization.",
+    tagline: "Cognitive Computing & Intelligent Algorithms",
+    image: area1Img,
+    badge: "AI & Neural Systems",
+    badgeColor: "bg-blue-100 text-blue-900 border-blue-300",
+    stats: "Fast-Track · Double-Blind",
+    link: "/submit"
+  },
+  {
+    id: 2,
+    category: "Computing & AI",
+    title: "Data Science and Big Data Analytics",
+    subtitle: "Predictive analytics, large-scale data mining, distributed architectures, and statistical intelligence.",
+    tagline: "Big Data Processing & Predictive Intelligence",
+    image: area2Img,
+    badge: "Big Data & Mining",
+    badgeColor: "bg-indigo-100 text-indigo-900 border-indigo-300",
+    stats: "IEEE Format · Open Access",
+    link: "/submit"
+  },
+  {
+    id: 3,
+    category: "Computing & AI",
+    title: "Cybersecurity and Information Security",
+    subtitle: "Network defense, zero-trust protocols, cryptography, vulnerability mitigation, and cyber forensics.",
+    tagline: "Threat Defense & Cryptographic Integrity",
+    image: area3Img,
+    badge: "Information Security",
+    badgeColor: "bg-rose-100 text-rose-900 border-rose-300",
+    stats: "Strict Peer Review · DOI Assigned",
+    link: "/submit"
+  },
+  {
+    id: 4,
+    category: "Computing & AI",
+    title: "Internet of Things (IoT)",
+    subtitle: "Smart sensors, embedded ecosystems, industrial IoT (IIoT), and edge actuation frameworks.",
+    tagline: "Ubiquitous Sensing & Connected Systems",
+    image: area4Img,
+    badge: "IoT & Smart Systems",
+    badgeColor: "bg-cyan-100 text-cyan-900 border-cyan-300",
+    stats: "Open Access · CC BY 4.0",
+    link: "/submit"
+  },
+  {
+    id: 5,
+    category: "Computing & AI",
+    title: "Cloud and Edge Computing",
+    subtitle: "Distributed cloud infrastructure, serverless compute, microservices, and edge intelligence.",
+    tagline: "Decentralized Compute & Serverless Scale",
+    image: area5Img,
+    badge: "Cloud & Edge",
+    badgeColor: "bg-sky-100 text-sky-900 border-sky-300",
+    stats: "Fast-Track · Plagiarism < 10%",
+    link: "/submit"
+  },
+  {
+    id: 6,
+    category: "Electronics & Comm",
+    title: "Wireless and Mobile Communication",
+    subtitle: "Propagation modeling, massive MIMO, RF transceivers, and next-generation mobile protocols.",
+    tagline: "High-Bandwidth Spectrum & RF Engineering",
+    image: area6Img,
+    badge: "Wireless Systems",
+    badgeColor: "bg-violet-100 text-violet-900 border-violet-300",
+    stats: "Double-Blind · Template Ready",
+    link: "/submit"
+  },
+  {
+    id: 7,
+    category: "Electronics & Comm",
+    title: "5G/6G Networks",
+    subtitle: "Terahertz communication, beamforming, network slicing, and ultra-reliable low latency channels.",
+    tagline: "Next-Gen Ultra-Low Latency Connectivity",
+    image: area7Img,
+    badge: "5G/6G Technology",
+    badgeColor: "bg-purple-100 text-purple-900 border-purple-300",
+    stats: "Rapid Fast-Track · Global Reach",
+    link: "/submit"
+  },
+  {
+    id: 8,
+    category: "Computing & AI",
+    title: "Computer Science and Engineering",
+    subtitle: "Algorithmic computation, distributed operating systems, software engineering, and formal methods.",
+    tagline: "Scalable Architecture & Algorithmic Design",
+    image: area8Img,
+    badge: "Computer Science",
+    badgeColor: "bg-blue-100 text-blue-900 border-blue-300",
+    stats: "IEEE Standard · Peer Reviewed",
+    link: "/submit"
+  },
+  {
+    id: 9,
+    category: "Electronics & Comm",
+    title: "Electronics and Communication Engineering",
+    subtitle: "VLSI design, embedded processors, FPGA architectures, and signal modulation systems.",
+    tagline: "Semiconductor Silicon & VLSI Hardware",
+    image: area9Img,
+    badge: "ECE & Microchips",
+    badgeColor: "bg-teal-100 text-teal-900 border-teal-300",
+    stats: "Double-Blind · Continuous Publish",
+    link: "/submit"
+  },
+  {
+    id: 10,
+    category: "Core Engineering",
+    title: "Electrical Engineering",
+    subtitle: "Power systems, high-voltage engineering, smart grid integration, and electrical drive converters.",
+    tagline: "Grid Optimization & Power Electronics",
+    image: area10Img,
+    badge: "Electrical Systems",
+    badgeColor: "bg-amber-100 text-amber-900 border-amber-300",
+    stats: "Open Access · CrossRef DOI",
+    link: "/submit"
+  },
+  {
+    id: 11,
+    category: "Core Engineering",
+    title: "Mechanical Engineering",
+    subtitle: "Computational fluid dynamics, thermodynamics, turbomachinery, and precision mechanics.",
+    tagline: "Thermodynamics & Precision Kinematics",
+    image: area11Img,
+    badge: "Mechanical Engg",
+    badgeColor: "bg-orange-100 text-orange-900 border-orange-300",
+    stats: "Double-Blind · Fast-Track",
+    link: "/submit"
+  },
+  {
+    id: 12,
+    category: "Core Engineering",
+    title: "Civil Engineering",
+    subtitle: "Structural resilience, earthquake engineering, sustainable building materials, and smart transportation.",
+    tagline: "Resilient Infrastructure & Structural Design",
+    image: area12Img,
+    badge: "Civil & Structural",
+    badgeColor: "bg-stone-100 text-stone-900 border-stone-300",
+    stats: "Standardized Review · DOI",
+    link: "/submit"
+  },
+  {
+    id: 13,
+    category: "Core Engineering",
+    title: "Chemical Engineering",
+    subtitle: "Reaction kinetics, process synthesis, novel catalysis, separation units, and biochemical processing.",
+    tagline: "Catalysis & Sustainable Process Chemistry",
+    image: area13Img,
+    badge: "Chemical Processes",
+    badgeColor: "bg-red-100 text-red-900 border-red-300",
+    stats: "Peer Reviewed · IEEE Format",
+    link: "/submit"
+  },
+  {
+    id: 14,
+    category: "Core Engineering",
+    title: "Environmental Engineering",
+    subtitle: "Effluent treatment, carbon capture, renewable water cycles, and environmental bio-remediation.",
+    tagline: "Ecological Restoration & Carbon Reduction",
+    image: area14Img,
+    badge: "Environmental Tech",
+    badgeColor: "bg-emerald-100 text-emerald-900 border-emerald-300",
+    stats: "Open Access · Global Indexing",
+    link: "/submit"
+  },
+  {
+    id: 15,
+    category: "Energy & Materials",
+    title: "Renewable Energy Systems",
+    subtitle: "Next-gen photovoltaics, wind energy aerodynamics, green hydrogen cells, and battery storage.",
+    tagline: "Clean Energy Transition & Photovoltaics",
+    image: area15Img,
+    badge: "Renewable Energy",
+    badgeColor: "bg-green-100 text-green-900 border-green-300",
+    stats: "Fast-Track · Double-Blind",
+    link: "/submit"
+  },
+  {
+    id: 16,
+    category: "Automation & Robotics",
+    title: "Robotics and Automation",
+    subtitle: "Autonomous mobile robots, robotic kinematics, industrial cobots, teleoperation, and mechatronics.",
+    tagline: "Mechatronics & Autonomous Robotics",
+    image: area16Img,
+    badge: "Robotics & Cobots",
+    badgeColor: "bg-fuchsia-100 text-fuchsia-900 border-fuchsia-300",
+    stats: "Peer Reviewed · High Impact",
+    link: "/submit"
+  },
+  {
+    id: 17,
+    category: "Automation & Robotics",
+    title: "Smart Manufacturing",
+    subtitle: "Industry 4.0, additive manufacturing (3D printing), digital twins, and cyber-physical production.",
+    tagline: "Industry 4.0 & Digital Twin Production",
+    image: area17Img,
+    badge: "Smart Factory",
+    badgeColor: "bg-amber-100 text-amber-900 border-amber-300",
+    stats: "Double-Blind · Fast Review",
+    link: "/submit"
+  },
+  {
+    id: 18,
+    category: "Energy & Materials",
+    title: "Materials Science",
+    subtitle: "Advanced composites, metamaterials, functional biomaterials, crystal lattices, and polymers.",
+    tagline: "Nanocrystals & Advanced Metamaterials",
+    image: area18Img,
+    badge: "Materials Science",
+    badgeColor: "bg-lime-100 text-lime-900 border-lime-300",
+    stats: "IEEE Referencing · DOI",
+    link: "/submit"
+  },
+  {
+    id: 19,
+    category: "Applied Sciences",
+    title: "Biomedical Engineering",
+    subtitle: "Wearable biosensors, biomedical imaging, neural prosthetics, and physiological signal diagnostics.",
+    tagline: "Bio-Sensors & Neural Engineering",
+    image: area19Img,
+    badge: "Biomedical Tech",
+    badgeColor: "bg-pink-100 text-pink-900 border-pink-300",
+    stats: "Double-Blind · Open Access",
+    link: "/submit"
+  },
+  {
+    id: 20,
+    category: "Energy & Materials",
+    title: "Nanotechnology",
+    subtitle: "Carbon nanotubes, 2D graphene sheets, quantum dot synthesis, and molecular engineering.",
+    tagline: "Molecular Synthesis & Quantum Dots",
+    image: area20Img,
+    badge: "Nanotech & Graphene",
+    badgeColor: "bg-indigo-100 text-indigo-900 border-indigo-300",
+    stats: "Rigorous Review · CC BY 4.0",
+    link: "/submit"
+  },
+  {
+    id: 21,
+    category: "Applied Sciences",
+    title: "Applied Physics",
+    subtitle: "Photonics, laser plasma interactions, solid-state semiconductors, and quantum optics.",
+    tagline: "Quantum Optics & Laser Photonics",
+    image: area21Img,
+    badge: "Applied Physics",
+    badgeColor: "bg-cyan-100 text-cyan-900 border-cyan-300",
+    stats: "Fast-Track · DOI Assigned",
+    link: "/submit"
+  },
+  {
+    id: 22,
+    category: "Applied Sciences",
+    title: "Applied Mathematics",
+    subtitle: "Nonlinear dynamical systems, computational optimization, stochastic modeling, and PDEs.",
+    tagline: "Computational Modeling & Optimization",
+    image: area22Img,
+    badge: "Applied Mathematics",
+    badgeColor: "bg-violet-100 text-violet-900 border-violet-300",
+    stats: "Double-Blind · Peer Reviewed",
+    link: "/submit"
+  },
+  {
+    id: 23,
+    category: "Interdisciplinary",
+    title: "Interdisciplinary Science and Engineering",
+    subtitle: "Cross-disciplinary convergence, translational engineering, and multidisciplinary scientific breakthroughs.",
+    tagline: "Cross-Domain Synergy & Novel Breakthroughs",
+    image: area23Img,
+    badge: "Interdisciplinary Core",
+    badgeColor: "bg-amber-100 text-amber-900 border-amber-300",
+    stats: "Priority Review · Open Access",
+    link: "/submit"
+  }
 ];
 
 // General Information, Mission, and Vision matching Wireframe and Journal Mandate

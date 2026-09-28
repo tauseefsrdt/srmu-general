@@ -122,14 +122,14 @@ export default function GeneralInfo() {
                   {/* Header with Icon & Badge */}
                   <div className="flex items-center justify-between">
                     <div className={`w-10 h-10 rounded-xl flex items-center justify-center border shadow-2xs transition-transform duration-300 group-hover:scale-105 ${item.isPrimary
-                        ? 'bg-blue-50 border-blue-200 text-blue-700'
-                        : 'bg-amber-50 border-amber-200 text-amber-700'
+                      ? 'bg-blue-50 border-blue-200 text-blue-700'
+                      : 'bg-amber-50 border-amber-200 text-amber-700'
                       }`}>
                       {getCardIcon(item.id)}
                     </div>
                     <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md border ${item.isPrimary
-                        ? 'bg-blue-100 text-blue-900 border-blue-300'
-                        : 'bg-slate-100 text-slate-700 border-slate-200'
+                      ? 'bg-blue-100 text-blue-900 border-blue-300'
+                      : 'bg-slate-100 text-slate-700 border-slate-200'
                       }`}>
                       {item.badge}
                     </span>
@@ -170,8 +170,8 @@ export default function GeneralInfo() {
                   <Link
                     to={item.id === 'general-info' ? '/publication-details' : '/vision-scope'}
                     className={`w-full flex items-center justify-center space-x-1.5 py-2.5 px-3.5 rounded-xl text-xs font-bold transition-all duration-200 ${item.isPrimary
-                        ? 'bg-[#0f4a85] text-white hover:bg-blue-800 shadow-xs'
-                        : 'bg-slate-50 text-[#0f4a85] hover:bg-amber-50 hover:text-amber-800 hover:border-amber-300 border border-slate-200'
+                      ? 'bg-[#0f4a85] text-white hover:bg-blue-800 shadow-xs'
+                      : 'bg-slate-50 text-[#0f4a85] hover:bg-amber-50 hover:text-amber-800 hover:border-amber-300 border border-slate-200'
                       }`}
                   >
                     <span>Read Full {item.title} Page</span>
@@ -192,11 +192,9 @@ export default function GeneralInfo() {
               <span>Scope of the Journal</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
-              23+ Interdisciplinary Submission Areas
+              Featured Journals
             </h2>
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              IJSPAST welcomes submissions in, but not limited to, the following core and emerging engineering & applied science areas:
-            </p>
+
 
             {/* Category Filter Pills */}
             <div className="flex flex-wrap items-center justify-center gap-1.5 pt-3">
@@ -205,8 +203,8 @@ export default function GeneralInfo() {
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${selectedCategory === cat
-                      ? 'bg-[#0f4a85] text-white shadow-2xs'
-                      : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 hover:border-slate-300'
+                    ? 'bg-[#0f4a85] text-white shadow-2xs'
+                    : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 hover:border-slate-300'
                     }`}
                 >
                   {cat}
