@@ -192,8 +192,11 @@ export default function GeneralInfo() {
               <span>Scope of the Journal</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0f4a85] tracking-tight">
-              Featured Journals
+              23+ Interdisciplinary Submission Areas
             </h2>
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              IJSPAST welcomes submissions in, but not limited to, the following core and emerging engineering & applied science areas:
+            </p>
 
 
             {/* Category Filter Pills */}
