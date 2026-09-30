@@ -85,7 +85,7 @@ export default function EditorialBorad() {
 
   const associateEditors = [
     { name: "Dr. Jay Kumar Pandey", affiliation: "DEEE", email: "jay.pandey@srmu.ac.in" },
-    { name: "Dr. Md. Saaquib Bin Reyaz", affiliation: "FoME", email: "saquibbinreyaz.research@srmu.ac.in" },
+    { name: "Dr. Md Saaquib Bin Reyaz", affiliation: "FoME", email: "saquibreyaz.research.fome@srmu.ac.in" },
     { name: "Dr. Mriyunjay Rai", affiliation: "DEEE", email: "mritunjayrai.foeee@srmu.ac.in" },
     { name: "Dr. Md. Zain", affiliation: "FoCE", email: "mohdzain.ce@srmu.ac.in" },
     { name: "Dr. Devendra Singh", affiliation: "IBST", email: "devendrasingh.ibst@srmu.ac.in" },
@@ -101,7 +101,7 @@ export default function EditorialBorad() {
   const advisoryCommitteeNational = [
     { name: "Prof. (Dr.) B. M. Dixit", designation: "Dir. (INSH)", affiliation: "SRMU", email: "director.insh@srmu.ac.in" },
     { name: "Prof. (Dr.) Apurva Anand", designation: "Dir. (IoT)", affiliation: "SRMU", email: "director.engg@srmu.ac.in" },
-    { name: "Dr. Kavita Sahu", designation: "Asstt. Prof. (DoCSE)", affiliation: "Dr. Harsingh Gour Vishwavidyalaya, Sagar, M.P." },
+    { name: "Dr. Kavita Sahu", designation: "Asstt. Prof. (DoCSE)", affiliation: "Dr. Harsingh Gour Vishwavidyalaya, Sagar, M.P.", email: "kavi9839@gmail.com" },
     {
       name: "Rajesh Kumar Srivastava",
       designation: 'Scientist "SF"',
@@ -123,7 +123,7 @@ export default function EditorialBorad() {
       email: "rahul.kaushik@mail.jiit.ac.in",
     },
     { name: "Prof. (Dr.) Abhishek Saxena", designation: "Dean (FoCE)", affiliation: "SRMU", email: "dean.ce@srmu.ac.in" },
-    { name: "Prof. (Dr.) Rajesh Porval", designation: "Dean (FoME)", affiliation: "SRMU", email: "dean.me@srmu.ac.in" },
+    { name: "Prof. (Dr.) Rajesh Kr Porwal", designation: "Dean (FoME)", affiliation: "SRMU", email: "dean.me@srmu.ac.in" },
     {
       name: "Dr. Sandeep Kumar Ojha",
       designation: "Associate Professor",
@@ -165,6 +165,7 @@ export default function EditorialBorad() {
       name: "Dr. Rashad Abaszade",
       designation: "Turan International Research Institute",
       affiliation: "Azerbaijan",
+      email: "abaszada@gmail.com",
     },
     {
       name: "Dr. Shri Krishna Pandey",
